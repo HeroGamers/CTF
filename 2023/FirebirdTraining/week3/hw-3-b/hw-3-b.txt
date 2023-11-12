@@ -1,0 +1,40 @@
+We have the following CTF crypographic challenge.
+
+# Variables
+
+
+
+
+
+
+
+
+# Both key and flag are 66 chars in length
+# flag starts with flag{ and ends with }
+flag = "flag{" + x*60 + "}"
+
+k, m = bytes_to_long(key), bytes_to_long(flag)
+n = prime
+
+# how c1 and c2 are calculated
+c1 = (k * m) % n
+c2 = xor(key, flag)
+
+
+# Actual values
+c1 = Lrh/EMfrRXqShQQqw+Zd/w6Nn2MwaWT5s0Xvb6AAq+NE4FxIvvPSuzLJbv9VwcJv0F1LlOfnfvc3j/eFM5BWpTujw6dQ8ZtjV6dOqqnLPC1lKdDZEmt5XaINbKe4CIIT37V1qtR2jqy7K1xjCUJJyGkrgFI9vXWyfrQAHo2JSt4=
+c2 = ////////+/33/////////////////v////////////////9///////f/////////////3//f////////////////
+n = 150095186069281777851468726257751810997446691788728681013850021750670480757667073571298768531705071802820728411143863036993470518226749117889851508979626068982736226357060650073869307154521010066655609905126167748092779979732912821644834005606143609309269768565568485061354218686729973438920060109916387047693
+
+
+# partial parts of key could be found by XOR'ing known parts of flag with c2
+key_start = b"\x99\x93\x9e\x98\x84"
+key_end = b"\x82"
+
+
+# We have these following equations
+flag = xor(c2, key)
+key = xor(c2, flag)
+
+
+# Now find the rest of the key, by using properties of both c1 and c2

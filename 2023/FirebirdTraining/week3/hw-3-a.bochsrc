@@ -1,0 +1,42 @@
+#
+# This is bochsrc template file used by ida bochs debugger.
+#
+
+
+# variables
+# -----------
+# The variables prefixed by "$" are replaced automatically
+# MEGS = physical megabytes of RAM needed by the image
+# BXDBGDIR = base directory of bochsdbg executable
+# CYL, SPT, HEADS, IMGFILE = paramters of the disk image
+# BXDATADIR = Default Bochs data path
+#             On *nix it gets replaced by /usr/local/share/bochs
+#             On Windows it is equivalent to BXDBGDIR
+megs: 9
+ata0-master: type=disk, mode=flat, path="D:\Projekter\Git\DTU\HKUST\COMP-2633\hw-3-a.bochsimg", cylinders=4, heads=16, spt=63
+romimage: file="D:\Program Files\Bochs-2.7/BIOS-bochs-latest"
+vgaromimage: file="D:\Program Files\Bochs-2.7/VGABIOS-lgpl-latest"
+boot: disk
+ata0: enabled=1, ioaddr1=0x1f0, ioaddr2=0x3f0, irq=14
+floppy_bootsig_check: disabled=0
+vga: extension=vbe
+#keyboard_serial_delay: 250
+#keyboard_paste_delay: 100000
+mouse: enabled=0
+private_colormap: enabled=0
+clock: sync=none
+ne2k: enabled=0
+log: -
+debugger_log: -
+logprefix: %t%e%d
+panic: action=fatal
+error: action=report
+info: action=report
+debug: action=ignore
+#pass: action=fatal
+keyboard: type=mf, serial_delay=250, paste_delay=100000
+keyboard: keymap=
+#keyboard_mapping: enabled=0, map=
+#keyboard_type: mf
+#user_shortcut: keys=none
+keyboard: user_shortcut=none

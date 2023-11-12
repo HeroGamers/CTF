@@ -1,0 +1,3 @@
+/mnt/d/Projekter/Git/DTU/HKUST/COMP-2633/week5/cmake-build-debug/CMakeFiles/week5.dir
+/mnt/d/Projekter/Git/DTU/HKUST/COMP-2633/week5/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/d/Projekter/Git/DTU/HKUST/COMP-2633/week5/cmake-build-debug/CMakeFiles/rebuild_cache.dir

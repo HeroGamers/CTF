@@ -1,0 +1,20 @@
+output = '4e64394739460e465e580e3f370a07730e3d6e0d6a1515574c0f1a3231656d502a68562d6c226b4e433d2d5d292b3b600f002d4019'
+
+buffer = []
+for i in range(0, len(output), 2):
+    buffer.append(int(output[i]+output[i+1], 16))
+	
+length = len(buffer)
+for i1 in range(length-1, -1, -1):
+    for i4 in range(0, i1, 1):
+        buffer[i4] = buffer[i4] ^ buffer[i1]
+    for i2 in range(0, buffer[i1], 1):
+        bVar1 = buffer[(i1-1)%length]
+        for i3 in range(length-2, 0, -1):
+            buffer[(i3+i1+1)%length] = buffer[(i3+i1)%length]
+        buffer[(length+i1+1)%length] = bVar1
+
+flag = ''
+for i in buffer:
+    flag += chr(i)
+print(flag)
