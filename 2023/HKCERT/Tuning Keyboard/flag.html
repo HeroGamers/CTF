@@ -1,0 +1,104 @@
+<html>
+<head>
+  <title>Tuning Keyboard 4</title>
+</head>
+<body style="background:salmon">
+<marquee id="f" behavior="alternate" direction="up" height="100%" scrollamount="3">
+  <marquee id="l" behavior="alternate" direction="right" width="100%" scrollamount="3">
+    <svg id="a" width="600" height="600" style="cursor:help">
+      <svg viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg">
+          <g transform="scale(0.5) translate(180,180)">
+            <g>
+            <animateTransform id="g" attributeName="transform" attributeType="XML" 
+            type="rotate" from="0 180 180" to="360 180 180" dur="60s" repeatCount="indefinite" />
+            <svg viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg">
+            <line x1="0" y1="180" x2="360" y2="180" stroke="darkgray" stroke-width="3">
+              <animate attributeName="x1" values="60;60;60;60;0;0;60" dur="1s" repeatCount="indefinite" />
+              <animate attributeName="x2" values="300;300;300;300;360;360;300" dur="1s" repeatCount="indefinite" />
+            </line>
+            <line x1="180" y1="0" x2="180" y2="360" stroke="darkgray" stroke-width="3">
+              <animate attributeName="y1" values="60;0;0;60;60;60;60" dur="1s" repeatCount="indefinite" />
+              <animate attributeName="y2" values="300;360;360;300;300;300;300" dur="1s" repeatCount="indefinite" />
+            </line>
+            <polygon fill="#88888888">
+              <animate attributeName="points" values="
+              60,180 180,60 300,180 180,300;
+              60,180 180,0 300,180 180,360;
+              60,180 180,0 300,180 180,360;
+              60,180 180,60 300,180 180,300;
+              0,180 180,60 360,180 180,300;
+              0,180 180,60 360,180 180,300;
+              60,180 180,60 300,180 180,300" 
+              dur="1s" repeatCount="indefinite" />
+            </polygon>  
+            <polygon fill="cyan">
+              <animate attributeName="points" values="
+              0,0 180,60 180,180 60,180;
+              0,0 180,0 180,90 60,180;
+              0,60 180,0 180,0 60,180;
+              0,0 180,60 180,180 60,180;
+              0,0 180,60 90,180 0,180;
+              60,0 180,60 0,180 0,180;
+              0,0 180,60 180,180 60,180"
+              dur="1s" repeatCount="indefinite" />
+              <animate attributeName="fill" values="hsl(4.81261614rad,24.32539791%,36.53413226%);hsl(3.90699199rad,11.49869364%,34.99557365%);hsl(0.03878509rad,16.26506004%,32.54902%)" dur="1s" repeatCount="indefinite" />
+            </polygon>
+            <polygon fill="magenta">
+              <animate attributeName="points" values="
+              360,0 180,60 180,180 300,180;
+              360,0 180,0 180,90 300,180;
+              360,60 180,0 180,0 300,180;
+              360,0 180,60 180,180 300,180;
+              360,0 180,60 270,180 360,180;
+              300,0 180,60 360,180 360,180;
+              360,0 180,60 180,180 300,180"
+              dur="1s" repeatCount="indefinite" />
+              <animate attributeName="fill" values="hsl(0.16534689rad,9.7938134%,38.03921569%);hsl(3.77025878rad,43.64416333%,33.38033344%);hsl(0.57110573rad,40.23668521%,33.1372549%)" dur="1s" repeatCount="indefinite" />
+            </polygon>
+            <polygon fill="yellow">
+              <animate attributeName="points" values="
+              360,360 180,300 180,180 300,180;
+              360,360 180,360 180,270 300,180;
+              360,300 180,360 180,360 300,180;
+              360,360 180,300 180,180 300,180;
+              360,360 180,300 270,180 360,180;
+              300,360 180,300 360,180 360,180;
+              360,360 180,300 180,180 300,180"
+              dur="1s" repeatCount="indefinite" />
+              <animate attributeName="fill" values="hsl(5.14303676rad,23.77437585%,24.4372566%);hsl(5.22510196rad,22.22735981%,24.95963139%);hsl(2.9536028rad,24.8063338%,34.6816857%)" dur="1s" repeatCount="indefinite" />
+            </polygon>
+            <polygon fill="black">
+              <animate attributeName="points" values="
+              0,360 180,300 180,180 60,180;
+              0,360 180,360 180,270 60,180;
+              0,300 180,360 180,360 60,180;
+              0,360 180,300 180,180 60,180;
+              0,360 180,300 90,180 0,180;
+              60,360 180,300 0,180 0,180;
+              0,360 180,300 180,180 60,180"
+              dur="1s" repeatCount="indefinite" />
+              <animate attributeName="fill" values="hsl(0.49018897rad,31.99041655%,31.42579079%);hsl(5.68813836rad,24.64731433%,38.5401126%);hsl(0.0rad,14.78873099%,27.84313725%)" dur="1s" repeatCount="indefinite" />
+            </polygon>
+            <text x="75" y="105" rotate="315" style="font-size:36pt">&#x1f000;</text>
+            <text x="255" y="75" rotate="45" style="font-size:36pt">&#x1f001;</text>
+            <text x="285" y="255" rotate="135" style="font-size:36pt">&#x1f002;</text>
+            <text x="105" y="285" rotate="225" style="font-size:36pt">&#x1f003;</text>
+          </g>
+        </g>
+      </svg>
+    </svg>
+  </marquee>
+</marquee>
+<script>
+a.addEventListener("mouseover",()=>{
+  f.scrollAmount *= 1.1;
+  l.scrollAmount *= 1.1;
+  a.width.baseVal.value *= 0.99;
+  g.setAttribute("dur",g.getAttribute("dur").replace("s","")*0.95+"s");
+  if(a.width.baseVal.value<30){
+    location="https://www.youtube.com/watch?v=qjFPJQ9tywc";
+  }
+})
+</script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+11 22
+.xxxxxxxxxxxxxxxxxxxxx
+.x...x...............x
+.x.x.x.x.x.x.x.x.x.x.x
+.x.x.xxxxx.x.xxxxxx..x
+.x.x.x.x.x.x.x.x.xx.xx
+.x.x........x....xx..x
+...x.xxxx.xxx..xxxxx.x
+xxxxxxxxxxxxxxxxxxxx.x
+.....................x
+.xxxxxxxxxxxxxxxxxxxx.
+......................
