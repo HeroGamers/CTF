@@ -1,0 +1,1 @@
+For this exercise we can put a XXE payload into the metadata of the office file, which can simply be unzipped and zipped back up.

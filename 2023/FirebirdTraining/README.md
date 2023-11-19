@@ -10,3 +10,5 @@ There will not be a lot of in-depth documentation given, and some challenges mig
 - Attendence 5 (I forgor)
 - Homework 5-A: Brainfork
 - Homework 6-B: A very secured network
+- Homework 9-A: Worsetouch
+
