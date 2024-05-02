@@ -1,0 +1,7 @@
+version: '3'
+services:
+  kvault:
+    image: kvault
+    build: .
+    ports:
+      - "8337:1337"

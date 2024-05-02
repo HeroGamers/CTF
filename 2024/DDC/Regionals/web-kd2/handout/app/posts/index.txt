@@ -1,0 +1,16 @@
+ ____  __.__.__  .__                   .___                     __      __      ___.          .__  __          
+|    |/ _|__|  | |  |   ___________  __| _/____   ____  ______ /  \    /  \ ____\_ |__   _____|__|/  |_  ____  
+|      < |  |  | |  | _/ __ \_  __ \/ __ |/  _ \ / ___\/  ___/ \   \/\/   // __ \| __ \ /  ___/  \   __\/ __ \ 
+|    |  \|  |  |_|  |_\  ___/|  | \/ /_/ (  <_> ) /_/  >___ \   \        /\  ___/| \_\ \\___ \|  ||  | \  ___/ 
+|____|__ \__|____/____/\___  >__|  \____ |\____/\___  /____  >   \__/\  /  \___  >___  /____  >__||__|  \___  >
+        \/                 \/           \/     /_____/     \/         \/       \/    \/     \/              \/ 
+
+
+Welcome to my website! People told me I couldn't do web so I decided to prove them wrong!
+This website has been very thoroughly tested by yours truly and has no bugs whatsoever!
+
+Would you like to read about:
+
+- Psyduck!: /?post=pokedex.txt
+- Sunglasses: /?post=sunglasses.txt
+- Cryptography: /?post=cryptography.txt

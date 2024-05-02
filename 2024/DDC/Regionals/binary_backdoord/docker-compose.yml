@@ -1,0 +1,9 @@
+version: '3'
+services:
+  challenge:
+    image: challenge
+    build: .
+    ports:
+      - "8347:1337"
+    #volumes:
+    #  - ./realflag-rootfs.cpio:/challenge/rootfs.cpio

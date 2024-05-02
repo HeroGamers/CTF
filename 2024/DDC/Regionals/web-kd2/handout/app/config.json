@@ -1,0 +1,3 @@
+// SECRET KEY for some session data or something? I'm not really sure how configs work. 
+// If i just put some random hex string like this it should be fine right?
+SECRET_KEY = "99a147c8b967fcc82fe59a7864bec829f2cbc81c50494120f506bab843780558"

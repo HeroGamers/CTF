@@ -1,0 +1,3095 @@
+GeneralInfo {
+  PlayfieldColumns 10
+  PlayfieldRows 22
+  MaxMovementsPerSecond 15
+  MaxRotationsPerSecond 5
+  GameType Levels
+  RemoveFromBagAfterUse
+  NextPieceQueueSize 8
+}
+
+MinoSticky {
+  NotStickyBetweenPieces
+  0: 0
+  4: 4
+  7: 7
+  9: 9
+  12: 12
+  16: 16
+  18: 18
+  19: 19
+  20: 20
+  21: 21
+  30: 30
+}
+
+Mino {
+  Name "Hati"
+  Tags 13, 8, 6, 22
+  MutateMino "Awasis"
+  D4 1
+  D1 1
+}
+
+Mino {
+  Name "Zembra"
+  Tags 8, 25, 26
+  D2 2
+  D9 10
+}
+
+Mino {
+  Name "Guahayona"
+  Antigravity
+  Tags 20, 5
+  MutateMino "Hatysa"
+}
+
+Mino {
+  Name "Kalausi"
+  Tags 13, 8, 6, 30
+  MutateMino "Ogma"
+  D4 2
+  D5 1
+}
+
+Mino {
+  Name "Veritate"
+  Tags 8, 25, 29
+  D2 1
+  D9 108
+}
+
+Mino {
+  Name "Iocaste"
+  Tags 8, 25, 26
+  D2 2
+  D9 0
+}
+
+Mino {
+  Name "Baten Kaitos"
+  Tags 8, 2, 29
+  D2 1
+  D9 109
+}
+
+Mino {
+  Name "Markab"
+  Tags 8, 25, 29
+  D2 1
+  D9 7
+}
+
+Mino {
+  Name "Geminga"
+  Tags 8, 2, 26
+  D2 2
+  D9 54
+}
+
+Mino {
+  Name "Nahn"
+  Tags 8, 25, 29
+  D2 1
+  D9 2
+}
+
+Mino {
+  Name "Arneb"
+  Tags 5
+}
+
+Mino {
+  Name "Guniibuu"
+  Tags 13, 8, 6, 22
+  MutateMino "Kale"
+  D4 1
+  D0 1
+  D1 1
+}
+
+Mino {
+  Name "Banksia"
+  Tags 8, 25, 29
+  D2 1
+  D9 18
+}
+
+Mino {
+  Name "Centaurus"
+  Tags 8, 2, 29
+  D2 1
+  D9 114
+}
+
+Mino {
+  Name "Solaris"
+  Tags 8, 25, 26
+  D2 2
+  D9 108
+}
+
+Mino {
+  Name "Zibal"
+  Tags 1, 8, 6
+  MutateMino "Stephano"
+  D0 1
+  D1 1
+}
+
+Mino {
+  Name "Magor"
+  Tags 5
+}
+
+Mino {
+  Name "Grus"
+  Tags 13, 8, 6
+  MutateMino "Pyxis"
+  D4 3
+  D1 1
+}
+
+Mino {
+  Name "Cebalrai"
+  Tags 8, 25, 26
+  D2 2
+  D9 54
+}
+
+Mino {
+  Name "Hamarik"
+  Tags 1, 8, 6, 23
+  MutateMino "Halimede"
+  D1 1
+}
+
+Mino {
+  Name "Orion"
+  Tags 8, 2, 26
+  D2 2
+  D9 126
+}
+
+Mino {
+  Name "Tiaki"
+  Tags 8, 2, 29
+  D2 1
+  D9 132
+}
+
+Mino {
+  Name "La Superba"
+  Tags 5
+}
+
+Mino {
+  Name "Beid"
+  Tags 8, 26
+  D2 2
+}
+
+Mino {
+  Name "Talitha"
+  Tags 8, 6, 30
+  MutateMino "Oberon"
+  D5 1
+}
+
+Mino {
+  Name "Peitruss"
+  Tags 8, 25, 29
+  D2 1
+  D9 90
+}
+
+Mino {
+  Name "Makombe"
+  Tags 13, 8, 6, 22
+  MutateMino "Salm"
+  D4 2
+  D1 1
+}
+
+Mino {
+  Name "Pyxis"
+  Tags 13, 8, 6, 22
+  MutateMino "Revati"
+  D4 3
+  D1 1
+}
+
+Mino {
+  Name "Taurus"
+  Tags 8, 2, 26
+  D2 2
+  D9 12
+}
+
+Mino {
+  Name "Hegemone"
+  Tags 8, 25, 26
+  D2 2
+  D9 11
+}
+
+Mino {
+  Name "Ursa Major"
+  Tags 8, 2, 29
+  D2 1
+  D9 9
+}
+
+Mino {
+  Name "Hyperion"
+  Tags 14, 8, 6
+  MutateMino "Tethys"
+  D0 1
+  D1 1
+}
+
+Mino {
+  Name "Atlas"
+  Antigravity
+  Tags 12, 5
+  MutateMino "Philophrosyne"
+}
+
+Mino {
+  Name "Fornax"
+  Tags 8, 25, 29
+  D2 1
+  D9 9
+}
+
+Mino {
+  Name "Kale"
+  Tags 13, 8, 6, 23
+  MutateMino "Dabih"
+  D4 1
+  D1 1
+}
+
+Mino {
+  Name "Stephano"
+  Tags 1, 8, 6, 22
+  MutateMino "Hamarik"
+  D0 1
+  D1 1
+}
+
+Mino {
+  Name "Sadr"
+  Antigravity
+  Tags 18, 5
+  MutateMino "Magor"
+}
+
+Mino {
+  Name "Margaret"
+  Tags 14, 8, 6, 30
+  MutateMino "Cocibolca"
+  D5 1
+}
+
+Mino {
+  Name "Chamaeleon"
+  Tags 8, 25, 29
+  D2 1
+  D9 8
+}
+
+Mino {
+  Name "Spica"
+  Tags 13, 8, 6, 23
+  MutateMino "Cayahuanca"
+  D4 2
+  D1 1
+}
+
+Mino {
+  Name "Philophrosyne"
+  Tags 5
+}
+
+Mino {
+  Name "Hatysa"
+  Tags 5
+}
+
+Mino {
+  Name "Europa"
+  Tags 8, 2, 29
+  D2 1
+  D9 72
+}
+
+Mino {
+  Name "Dopere"
+  Tags 14, 8, 6, 22
+  MutateMino "Hyperion"
+  D1 1
+}
+
+Mino {
+  Name "Kaus Borealis"
+  Antigravity
+  Tags 7, 5
+  MutateMino "La Superba"
+}
+
+Mino {
+  Name "Thalassa"
+  Tags 8, 2, 29
+  D2 1
+  D9 7
+}
+
+Mino {
+  Name "Indus"
+  Tags 8, 25, 26
+  D2 2
+  D9 1
+}
+
+Mino {
+  Name "Nikawiy"
+  Tags 13, 8, 6, 22
+  MutateMino "Spica"
+  D4 2
+  D0 1
+  D1 1
+}
+
+Mino {
+  Name "Tanzanite"
+  Tags 8, 6, 22
+  MutateMino "Hunor"
+  D1 1
+}
+
+Mino {
+  Name "Aldebaran"
+  Tags 5
+}
+
+Mino {
+  Name "Caph"
+  Tags 8, 6, 16
+  MutateMino "Talitha"
+}
+
+Mino {
+  Name "Microscopium"
+  Tags 8, 2, 29
+  D2 1
+  D9 90
+}
+
+Mino {
+  Name "Acamar"
+  Tags 8, 2, 29
+  D2 1
+  D9 18
+}
+
+Mino {
+  Name "Dombay"
+  Tags 1, 8, 6, 22
+  MutateMino "Zibal"
+  D1 1
+}
+
+Mino {
+  Name "Salm"
+  Tags 13, 8, 6
+  MutateMino "Nikawiy"
+  D4 2
+  D0 1
+  D1 1
+}
+
+Mino {
+  Name "Cayahuanca"
+  Tags 13, 8, 6, 16
+  MutateMino "Kalausi"
+  D4 2
+}
+
+Mino {
+  Name "Charon"
+  Tags 13, 8, 6, 22
+  MutateMino "Mazaalai"
+  D4 3
+  D0 1
+  D1 1
+}
+
+Mino {
+  Name "Finlay"
+  Tags 8, 25, 29
+  D2 1
+  D9 11
+}
+
+Mino {
+  Name "Awasis"
+  Tags 13, 8, 6
+  MutateMino "Guniibuu"
+  D4 1
+  D0 1
+  D1 1
+}
+
+Mino {
+  Name "Proxima Centauri"
+  Tags 8, 25, 29
+  D2 1
+  D9 12
+}
+
+Mino {
+  Name "Polydeuces"
+  Tags 8, 2, 29
+  D2 1
+  D9 96
+}
+
+Mino {
+  Name "Deneb"
+  Tags 8, 29
+  D2 1
+}
+
+Mino {
+  Name "Revati"
+  Tags 13, 8, 6
+  MutateMino "Charon"
+  D4 3
+  D0 1
+  D1 1
+}
+
+Mino {
+  Name "Ogma"
+  Tags 13, 8, 6
+  MutateMino "Makombe"
+  D4 2
+  D1 1
+}
+
+Mino {
+  Name "Mimosa"
+  Antigravity
+  Tags 0, 5
+  MutateMino "Dofida"
+}
+
+Mino {
+  Name "Dofida"
+  Tags 5
+}
+
+Mino {
+  Name "Ugarit"
+  Tags 8, 6, 23
+  MutateMino "Caph"
+  D1 1
+}
+
+Mino {
+  Name "Lilii Borea"
+  Tags 8, 2, 29
+  D2 1
+  D9 36
+}
+
+Mino {
+  Name "Mneme"
+  Tags 8, 2, 29
+  D2 1
+  D9 54
+}
+
+Mino {
+  Name "Lionrock"
+  Tags 13, 8, 6
+  MutateMino "Hati"
+  D4 1
+  D1 1
+}
+
+Mino {
+  Name "Pallene"
+  Antigravity
+  Tags 9, 5
+  MutateMino "Aldebaran"
+}
+
+Mino {
+  Name "Neri"
+  Tags 8, 2, 29
+  D2 1
+  D9 78
+}
+
+Mino {
+  Name "Yvaga"
+  Tags 8, 2, 29
+  D2 1
+  D9 11
+}
+
+Mino {
+  Name "Chechia"
+  Tags 8, 2, 29
+  D2 1
+  D9 55
+}
+
+Mino {
+  Name "Botein"
+  Antigravity
+  Tags 21, 5
+  MutateMino "Leklsullun"
+}
+
+Mino {
+  Name "Matar"
+  Tags 8, 25, 29
+  D2 1
+  D9 6
+}
+
+Mino {
+  Name "Leklsullun"
+  Tags 5
+}
+
+Mino {
+  Name "Alnasl"
+  Tags 13, 8, 6, 30
+  MutateMino "Grus"
+  D4 3
+  D5 1
+}
+
+Mino {
+  Name "Lesath"
+  Tags 8, 25, 26
+  D2 2
+  D9 72
+}
+
+Mino {
+  Name "Pherkad"
+  Tags 8, 2, 29
+  D2 1
+  D9 14
+}
+
+Mino {
+  Name "Thiazzi"
+  Tags 8, 2, 29
+  D2 1
+  D9 126
+}
+
+Mino {
+  Name "Sadachbia"
+  Tags 8, 26
+  D2 2
+  D3 1
+}
+
+Mino {
+  Name "Enif"
+  Tags 8, 25, 29
+  D2 1
+  D9 1
+}
+
+Mino {
+  Name "Cocibolca"
+  Tags 14, 8, 6
+  MutateMino "Dopere"
+  D1 1
+}
+
+Mino {
+  Name "Anser"
+  Tags 8, 29
+  D2 1
+  D3 1
+}
+
+Mino {
+  Name "Cupid"
+  Tags 8, 25, 29
+  D2 1
+  D9 10
+}
+
+Mino {
+  Name "Dabih"
+  Tags 13, 8, 6, 16
+  MutateMino "Hiisi"
+  D4 1
+}
+
+Mino {
+  Name "Bambaruush"
+  Tags 1, 8, 6, 30
+  MutateMino "Nashira"
+  D5 1
+}
+
+Mino {
+  Name "Tethys"
+  Tags 14, 8, 6, 22
+  MutateMino "Psamathe"
+  D0 1
+  D1 1
+}
+
+Mino {
+  Name "Oberon"
+  Tags 8, 6
+  MutateMino "Tanzanite"
+  D1 1
+}
+
+Mino {
+  Name "Torcular"
+  Tags 8, 2, 29
+  D2 1
+  D9 60
+}
+
+Mino {
+  Name "Hiisi"
+  Tags 13, 8, 6, 30
+  MutateMino "Lionrock"
+  D4 1
+  D5 1
+}
+
+Mino {
+  Name "Eburonia"
+  Tags 13, 8, 6, 16
+  MutateMino "Alnasl"
+  D4 3
+}
+
+Mino {
+  Name "Almach"
+  Tags 8, 25, 26
+  D2 2
+  D9 7
+}
+
+Mino {
+  Name "Arkab Prior"
+  Tags 8, 6, 22
+  MutateMino "Ugarit"
+  D0 1
+  D1 1
+}
+
+Mino {
+  Name "Sculptor"
+  Tags 8, 25, 29
+  D2 1
+  D9 0
+}
+
+Mino {
+  Name "Hunor"
+  Tags 8, 6
+  MutateMino "Arkab Prior"
+  D0 1
+  D1 1
+}
+
+Mino {
+  Name "Psamathe"
+  Tags 14, 8, 6, 23
+  MutateMino "Tryzub"
+  D1 1
+}
+
+Mino {
+  Name "Ymir"
+  Tags 8, 2, 29
+  D2 1
+  D9 108
+}
+
+Mino {
+  Name "Mazaalai"
+  Tags 13, 8, 6, 23
+  MutateMino "Eburonia"
+  D4 3
+  D1 1
+}
+
+Mino {
+  Name "Halimede"
+  Tags 1, 8, 6, 16
+  MutateMino "Bambaruush"
+}
+
+Mino {
+  Name "Adhara"
+  Tags 8, 25, 26
+  D2 2
+  D9 12
+}
+
+Mino {
+  Name "Tryzub"
+  Tags 14, 8, 6, 16
+  MutateMino "Margaret"
+}
+
+Mino {
+  Name "Portia"
+  Tags 8, 2, 26
+  D2 2
+  D9 72
+}
+
+Mino {
+  Name "Narvi"
+  Tags 8, 25, 29
+  D2 1
+  D9 126
+}
+
+Mino {
+  Name "Yed Posterior"
+  Tags 8, 2, 29
+  D2 1
+  D9 6
+}
+
+Mino {
+  Name "Eggther"
+  Tags 8, 2, 29
+  D2 1
+  D9 10
+}
+
+Mino {
+  Name "Surt"
+  Tags 8, 2, 29
+  D2 1
+  D9 56
+}
+
+Mino {
+  Name "Lucilinburhuc"
+  Tags 8, 25, 26
+  D2 2
+  D9 8
+}
+
+Mino {
+  Name "Matza"
+  Tags 8, 2, 29
+  D2 1
+  D9 110
+}
+
+Mino {
+  Name "Sponde"
+  Tags 8, 2, 29
+  D2 1
+  D9 2
+}
+
+Mino {
+  Name "Nashira"
+  Tags 1, 8, 6
+  MutateMino "Dombay"
+  D1 1
+}
+
+Mino {
+  Name "Ankaa"
+  Tags 8, 2, 29
+  D2 1
+  D9 1
+}
+
+Mino {
+  Name "Alsciaukat"
+  Tags 8, 2, 29
+  D2 1
+  D9 13
+}
+
+Mino {
+  Name "Spe"
+  Tags 8, 2, 29
+  D2 1
+  D9 74
+}
+
+Mino {
+  Name "Bagan"
+  Tags 8, 2, 29
+  D2 1
+  D9 8
+}
+
+Tetramino {
+  Name "Merak"
+  NumberInBag 1
+  ID 1
+
+  MinoList {
+    "Guahayona" (-1, 1)
+    "Guahayona" (-1, 0)
+    "Guahayona" (0, 0)
+    "Guahayona" (1, 0)
+  }
+  Rot0CWOffsetList (0, 0), (0, 0), (0, 0), (0, 0), (0, 0)
+  Rot90CWOffsetList (0, 0), (1, 0), (1, -1), (0, 2), (1, 2)
+  Rot180CWOffsetList (0, 0), (0, 0), (0, 0), (0, 0), (0, 0)
+  Rot270CWOffsetList (0, 0), (-1, 0), (-1, -1), (0, 2), (-1, 2)
+}
+
+Tetramino {
+  Name "Meleph"
+  NumberInBag 1
+  ID 2
+
+  MinoList {
+    "Atlas" (1, 1)
+    "Atlas" (-1, 0)
+    "Atlas" (0, 0)
+    "Atlas" (1, 0)
+  }
+  Rot0CWOffsetList (0, 0), (0, 0), (0, 0), (0, 0), (0, 0)
+  Rot90CWOffsetList (0, 0), (1, 0), (1, -1), (0, 2), (1, 2)
+  Rot180CWOffsetList (0, 0), (0, 0), (0, 0), (0, 0), (0, 0)
+  Rot270CWOffsetList (0, 0), (-1, 0), (-1, -1), (0, 2), (-1, 2)
+}
+
+Tetramino {
+  Name "Achird"
+  NumberInBag 1
+  ID 3
+
+  MinoList {
+    "Botein" (0, 1)
+    "Botein" (1, 1)
+    "Botein" (-1, 0)
+    "Botein" (0, 0)
+  }
+  Rot0CWOffsetList (0, 0), (0, 0), (0, 0), (0, 0), (0, 0)
+  Rot90CWOffsetList (0, 0), (1, 0), (1, -1), (0, 2), (1, 2)
+  Rot180CWOffsetList (0, 0), (0, 0), (0, 0), (0, 0), (0, 0)
+  Rot270CWOffsetList (0, 0), (-1, 0), (-1, -1), (0, 2), (-1, 2)
+}
+
+Tetramino {
+  Name "Ancha"
+  NumberInBag 1
+  ID 4
+
+  MinoList {
+    "Mimosa" (-1, 1)
+    "Mimosa" (0, 1)
+    "Mimosa" (0, 0)
+    "Mimosa" (1, 0)
+  }
+  Rot0CWOffsetList (0, 0), (0, 0), (0, 0), (0, 0), (0, 0)
+  Rot90CWOffsetList (0, 0), (1, 0), (1, -1), (0, 2), (1, 2)
+  Rot180CWOffsetList (0, 0), (0, 0), (0, 0), (0, 0), (0, 0)
+  Rot270CWOffsetList (0, 0), (-1, 0), (-1, -1), (0, 2), (-1, 2)
+}
+
+Tetramino {
+  Name "Galatea"
+  NumberInBag 1
+  ID 5
+
+  MinoList {
+    "Pallene" (0, 0)
+    "Pallene" (1, 0)
+    "Pallene" (0, 1)
+    "Pallene" (1, 1)
+  }
+  Rot0CWOffsetList (0, 0), (0, 0), (0, 0), (0, 0), (0, 0)
+  Rot90CWOffsetList (0, -1), (0, -1), (0, -1), (0, -1), (0, -1)
+  Rot180CWOffsetList (-1, -1), (-1, -1), (-1, -1), (-1, -1), (-1, -1)
+  Rot270CWOffsetList (-1, 0), (-1, 0), (-1, 0), (-1, 0), (-1, 0)
+}
+
+Tetramino {
+  Name "Mesarthim"
+  NumberInBag 1
+  ID 6
+
+  MinoList {
+    "Kaus Borealis" (0, 1)
+    "Kaus Borealis" (-1, 0)
+    "Kaus Borealis" (0, 0)
+    "Kaus Borealis" (1, 0)
+  }
+  Rot0CWOffsetList (0, 0), (0, 0), (0, 0), (0, 0), (0, 0)
+  Rot90CWOffsetList (0, 0), (1, 0), (1, -1), (0, 2), (1, 2)
+  Rot180CWOffsetList (0, 0), (0, 0), (0, 0), (0, 0), (0, 0)
+  Rot270CWOffsetList (0, 0), (-1, 0), (-1, -1), (0, 2), (-1, 2)
+}
+
+Tetramino {
+  Name "Larissa"
+  NumberInBag 1
+  ID 7
+
+  MinoList {
+    "Sadr" (-1, 0)
+    "Sadr" (0, 0)
+    "Sadr" (1, 0)
+    "Sadr" (2, 0)
+  }
+  Rot0CWOffsetList (0, 0), (-1, 0), (2, 0), (-1, 0), (2, 0)
+  Rot90CWOffsetList (-1, 0), (0, 0), (0, 0), (0, 1), (0, -2)
+  Rot180CWOffsetList (-1, 1), (1, 1), (-2, 1), (1, 0), (-2, 0)
+  Rot270CWOffsetList (0, 1), (0, 1), (0, 1), (0, -1), (0, 2)
+}
+
+Shape {
+  Name "Poerava"
+  Hotspot (7, 7)
+  ShapeCoords (8, 8), (6, 9), (5, 7)
+}
+
+Shape {
+  Name "Su"
+  Hotspot (7, 7)
+  ShapeCoords (9, 7), (7, 8), (6, 6)
+}
+
+Shape {
+  Name "Grumium"
+  Hotspot (7, 7)
+  ShapeCoords (7, 9)
+}
+
+Shape {
+  Name "Laomedeia"
+  Hotspot (7, 7)
+  ShapeCoords (8, 7), (6, 6)
+}
+
+Shape {
+  Name "Metis"
+  Hotspot (7, 7)
+  ShapeCoords (9, 7)
+}
+
+Shape {
+  Name "Aiolos"
+  Hotspot (7, 7)
+  ShapeCoords (7, 7), (7, 6), (8, 7)
+}
+
+Shape {
+  Name "Phoebe"
+  Hotspot (7, 7)
+  ShapeCoords (6, 8)
+}
+
+Shape {
+  Name "Citala"
+  Hotspot (7, 7)
+  ShapeCoords (8, 7), (6, 8), (5, 6)
+}
+
+Shape {
+  Name "Alya"
+  Hotspot (7, 7)
+  ShapeCoords (7, 7), (7, 6), (6, 7)
+}
+
+Shape {
+  Name "Chaophraya"
+  Hotspot (7, 7)
+  ShapeCoords (6, 8), (7, 6)
+}
+
+Shape {
+  Name "Tupi"
+  Hotspot (7, 7)
+  ShapeCoords (7, 5)
+}
+
+Shape {
+  Name "Montuno"
+  Hotspot (7, 7)
+  ShapeCoords (8, 8)
+}
+
+Shape {
+  Name "Hoggar"
+  Hotspot (7, 7)
+  ShapeCoords (6, 8), (6, 6), (8, 6)
+}
+
+Shape {
+  Name "Pandora"
+  Hotspot (7, 7)
+  ShapeCoords (4, 7), (9, 7), (7, 8)
+}
+
+Shape {
+  Name "Meissa"
+  Hotspot (7, 7)
+  ShapeCoords (7, 6), (8, 8)
+}
+
+Shape {
+  Name "Morava"
+  Hotspot (7, 7)
+  ShapeCoords (7, 8), (8, 6)
+}
+
+Shape {
+  Name "Helike"
+  Hotspot (7, 7)
+  ShapeCoords (7, 7), (7, 8), (6, 7)
+}
+
+Shape {
+  Name "Noquisi"
+  Hotspot (7, 7)
+  ShapeCoords (8, 6)
+}
+
+Shape {
+  Name "Praecipua"
+  Hotspot (7, 7)
+  ShapeCoords (7, 7), (7, 8), (8, 7)
+}
+
+Shape {
+  Name "Tondra"
+  Hotspot (7, 7)
+  ShapeCoords (9, 7), (7, 8)
+}
+
+Shape {
+  Name "Al Minliar al Asad"
+  Hotspot (7, 7)
+  ShapeCoords (6, 6)
+}
+
+Shape {
+  Name "Leo"
+  Hotspot (7, 7)
+  ShapeCoords (8, 8), (6, 7)
+}
+
+Shape {
+  Name "Kaewkosin"
+  Hotspot (7, 7)
+  ShapeCoords (7, 8), (6, 6)
+}
+
+Shape {
+  Name "Mekbuda"
+  Hotspot (7, 7)
+  ShapeCoords (7, 7)
+}
+
+Shape {
+  Name "Eyeke"
+  Hotspot (7, 7)
+  ShapeCoords (6, 6), (8, 8), (8, 6)
+}
+
+Shape {
+  Name "Tarvos"
+  Hotspot (7, 7)
+  ShapeCoords (7, 6), (7, 8), (5, 7)
+}
+
+Shape {
+  Name "Albiorix"
+  Hotspot (7, 7)
+  ShapeCoords (8, 7), (6, 8)
+}
+
+Shape {
+  Name "Juliet"
+  Hotspot (7, 7)
+  ShapeCoords (5, 7), (10, 7), (7, 8)
+}
+
+Shape {
+  Name "Themisto"
+  Hotspot (7, 7)
+  ShapeCoords (6, 7), (8, 7), (7, 9)
+}
+
+Shape {
+  Name "Perseus"
+  Hotspot (7, 7)
+  ShapeCoords (5, 7)
+}
+
+Shape {
+  Name "Scorpius"
+  Hotspot (7, 7)
+  ShapeCoords (5, 7), (7, 8)
+}
+
+Shape {
+  Name "Rocinante"
+  Hotspot (7, 7)
+  ShapeCoords (7, 6), (7, 8), (9, 7)
+}
+
+Shape {
+  Name "Situla"
+  Hotspot (7, 7)
+  ShapeCoords (6, 7), (8, 6)
+}
+
+Shape {
+  Name "Fafnir"
+  Hotspot (7, 7)
+  ShapeCoords (6, 7), (8, 7), (7, 10)
+}
+
+Shape {
+  Name "Noifasui"
+  Hotspot (7, 7)
+  ShapeCoords (9, 8), (7, 9), (6, 7)
+}
+
+Pattern {
+  Name "Khambalia"
+  Tags 2
+  Method Search
+  SearchType Horizontal
+  SearchCount 1
+
+  PatternMinoScript {
+    if pf.d7
+      set ph.d3 to 1
+      set ph.d2 to mino.d9
+      if ph.d2 % 3
+        if pl.d3 + 1 != ph.d2 % 3
+          set ph.d3 to 0
+        end
+      end
+      set ph.d2 to (ph.d2 - ph.d2 % 3) / 3
+      if ph.d2 % 6
+        if pl.d0 + 1 != ph.d2 % 6
+          set ph.d3 to 0
+        end
+      end
+      set ph.d2 to (ph.d2 - ph.d2 % 6) / 6
+      if ph.d2
+        if pl.d1 != ph.d2
+          set ph.d3 to 0
+        end
+      end
+      if ph.d3
+        pattern "Altair" at mino.x, mino.y
+      end
+    end
+  }
+}
+
+Pattern {
+  Name "Elgafar"
+  Tags 25
+  Method Search
+  SearchType Vertical
+  SearchCount 1
+
+  PatternMinoScript {
+    if pf.d7
+      set ph.d3 to 1
+      set ph.d2 to mino.d9
+      if ph.d2 % 3
+        if pl.d3 + 1 != ph.d2 % 3
+          set ph.d3 to 0
+        end
+      end
+      set ph.d2 to (ph.d2 - ph.d2 % 3) / 3
+      if ph.d2 % 6
+        if pl.d0 + 1 != ph.d2 % 6
+          set ph.d3 to 0
+        end
+      end
+      set ph.d2 to (ph.d2 - ph.d2 % 6) / 6
+      if ph.d2
+        if pl.d1 != ph.d2
+          set ph.d3 to 0
+        end
+      end
+      if ph.d3
+        pattern "Taiyi" at mino.x, mino.y
+      end
+    end
+  }
+}
+
+Pattern {
+  Name "Altair"
+  Triggered
+  Tags 2, 6
+  Method Search
+  SearchType Vertical
+  SearchCount 1
+
+  PatternMinoScript {
+    mutate mino
+  }
+}
+
+Pattern {
+  Name "Taiyi"
+  Triggered
+  Tags 25, 6
+  Method Search
+  SearchType Horizontal
+  SearchCount 1
+
+  PatternMinoScript {
+    mutate mino
+  }
+}
+
+Pattern {
+  Name "Agouto"
+  Tags 23
+  Method Search
+  SearchType FloodFill8D
+  SearchCount 1
+
+  PatternMinoScript {
+    mutate mino
+    mutate mino
+    mutate mino
+  }
+}
+
+Pattern {
+  Name "Tangra"
+  Tags 22
+  Method Search
+  SearchType FloodFill8D
+  SearchCount 1
+
+  PatternMinoScript {
+    mutate mino
+    mutate mino
+    mutate mino
+    mutate mino
+    mutate mino
+    mutate mino
+  }
+}
+
+Pattern {
+  Name "Wazn"
+  Method Search
+  SearchType Vertical
+  SearchCount 1
+
+  PatternMinoScript {
+    if mino.y < 2
+      set ph.d8 to 1
+    end
+  }
+
+  PatternEndScript {
+    if ph.d8
+      if ph.d7 = 0
+        if pf.d6 = 0
+          set ph.d7 to 1
+          set ph.d9 to 0
+          set pl.d2 to 0
+          pattern "Mimas" at 0, 21
+          pattern "Beemim" at 9, 21 - pf.d0 - 1
+        end
+      end
+    end
+  }
+}
+
+Pattern {
+  Name "Belinda"
+  Tags 5
+  Method Search
+  SearchType Horizontal
+  SearchCount 10
+
+  PatternMinoScript {
+    kill mino
+    sound "FX_CLR01"
+  }
+}
+
+Pattern {
+  Name "Tianyi"
+  Tags 8
+  Method Search
+  SearchType Horizontal
+  SearchCount 10
+
+  PatternBeginScript {
+    set ph.d6 to 0
+  }
+
+  PatternMinoScript {
+    if ph.d8
+      if mino.d0
+        set ph.d6 to 1 - ph.d6
+      end
+      if mino.d3
+        if mino.d2 - 1 != ph.d6
+          set ph.d0 to 1
+        end
+      end
+      if mino.d2
+        set ph.d6 to mino.d2 - 1
+      end
+      if mino.d1
+        set pl.d2 to ((pl.d2 + mino.d0) * 17) % 97
+        if mino.d0 = 0
+          mutate mino
+          mutate mino
+        end
+        mutate mino
+        mutate mino
+        mutate mino
+        if ph.d6
+          mutate mino
+        end
+      end
+    end
+  }
+}
+
+Pattern {
+  Name "Alkaid"
+  Tags 1
+  Method Search
+  SearchType Vertical
+  SearchCount 1
+
+  PatternMinoScript {
+    if ph.d8
+      if mino.d5
+        set mino to "Beid"
+      else
+        set mino to "Deneb"
+      end
+    end
+  }
+}
+
+Pattern {
+  Name "Jebus"
+  Tags 13
+  Method Shape
+  ShapeName "Mekbuda"
+
+  PatternMinoScript {
+    if ph.d8
+      if mino.d5
+        pattern "Graffias" at mino.x, mino.y
+      else
+        pattern "Unurgunite" at mino.x, mino.y
+      end
+    end
+  }
+}
+
+Pattern {
+  Name "Leda"
+  Tags 14
+  Method Shape
+  ShapeName "Mekbuda"
+
+  PatternMinoScript {
+    if ph.d8
+      pattern "Ran" at mino.x, mino.y
+      pattern "Dschubba" at mino.x, mino.y
+      pattern "Uklun" at mino.x, mino.y
+      pattern "Callirrhoe" at mino.x, mino.y
+      pattern "Naiad" at mino.x, mino.y
+      pattern "Thyone" at mino.x, mino.y
+      pattern "Musica" at mino.x, mino.y
+      pattern "Tylos" at mino.x, mino.y
+    end
+  }
+}
+
+Pattern {
+  Name "Mimas"
+  Triggered
+  Tags 29, 16
+  Method Search
+  SearchType FloodFill4D
+  SearchCount 1
+
+  PatternMinoScript {
+    set ph.d9 to ph.d9 + 1
+  }
+}
+
+Pattern {
+  Name "Beemim"
+  Triggered
+  Tags 26, 30
+  Method Search
+  SearchType FloodFill4D
+  SearchCount 1
+
+  PatternMinoScript {
+    set ph.d9 to ph.d9 + 1
+  }
+}
+
+Pattern {
+  Name "Unurgunite"
+  Triggered
+  Tags 16
+  Method Search
+  SearchType FloodFill4D
+  SearchCount 1
+
+  PatternBeginScript {
+    set ph.d5 to 0
+  }
+
+  PatternMinoScript {
+    if mino.d4
+      if ph.d5
+        if mino.d4 != ph.d5
+          set ph.d0 to 1
+        end
+      else
+        set ph.d5 to mino.d4
+      end
+    end
+  }
+}
+
+Pattern {
+  Name "Graffias"
+  Triggered
+  Tags 30
+  Method Search
+  SearchType FloodFill4D
+  SearchCount 1
+
+  PatternBeginScript {
+    set ph.d5 to 0
+  }
+
+  PatternMinoScript {
+    if mino.d4
+      if ph.d5
+        if mino.d4 != ph.d5
+          set ph.d0 to 1
+        end
+      else
+        set ph.d5 to mino.d4
+      end
+    end
+  }
+}
+
+Pattern {
+  Name "Ran"
+  Triggered
+  Tags 16
+  Method Shape
+  ShapeName "Aiolos"
+
+  PatternMinoScript {
+    set ph.d0 to 1
+  }
+}
+
+Pattern {
+  Name "Dschubba"
+  Triggered
+  Tags 16
+  Method Shape
+  ShapeName "Alya"
+
+  PatternMinoScript {
+    set ph.d0 to 1
+  }
+}
+
+Pattern {
+  Name "Uklun"
+  Triggered
+  Tags 16
+  Method Shape
+  ShapeName "Praecipua"
+
+  PatternMinoScript {
+    set ph.d0 to 1
+  }
+}
+
+Pattern {
+  Name "Callirrhoe"
+  Triggered
+  Tags 16
+  Method Shape
+  ShapeName "Helike"
+
+  PatternMinoScript {
+    set ph.d0 to 1
+  }
+}
+
+Pattern {
+  Name "Naiad"
+  Triggered
+  Tags 30
+  Method Shape
+  ShapeName "Aiolos"
+
+  PatternMinoScript {
+    set ph.d0 to 1
+  }
+}
+
+Pattern {
+  Name "Thyone"
+  Triggered
+  Tags 30
+  Method Shape
+  ShapeName "Alya"
+
+  PatternMinoScript {
+    set ph.d0 to 1
+  }
+}
+
+Pattern {
+  Name "Musica"
+  Triggered
+  Tags 30
+  Method Shape
+  ShapeName "Praecipua"
+
+  PatternMinoScript {
+    set ph.d0 to 1
+  }
+}
+
+Pattern {
+  Name "Tylos"
+  Triggered
+  Tags 30
+  Method Shape
+  ShapeName "Helike"
+
+  PatternMinoScript {
+    set ph.d0 to 1
+  }
+}
+
+Trash {
+  Name "Arion"
+  Height 5
+
+  MinoList {
+    "Deneb" (0, 0)
+    "Proxima Centauri" (0, 1)
+    "Fornax" (0, 2)
+    "Matar" (0, 3)
+    "Deneb" (0, 4)
+    "Acamar" (1, 0)
+    "Lionrock" (1, 1)
+    "Lionrock" (1, 2)
+    "Cocibolca" (1, 3)
+    "Beid" (1, 4)
+    "Lilii Borea" (2, 0)
+    "Grus" (2, 1)
+    "Oberon" (2, 2)
+    "Grus" (2, 3)
+    "Beid" (2, 4)
+    "Mneme" (3, 0)
+    "Ogma" (3, 1)
+    "Cocibolca" (3, 2)
+    "Ogma" (3, 3)
+    "Beid" (3, 4)
+    "Portia" (4, 0)
+    "Nashira" (4, 1)
+    "Nashira" (4, 2)
+    "Nashira" (4, 3)
+    "Beid" (4, 4)
+    "Beid" (5, 0)
+    "Sadachbia" (5, 1)
+    "Sadachbia" (5, 2)
+    "Sadachbia" (5, 3)
+    "Beid" (5, 4)
+    "Beid" (6, 0)
+    "Sadachbia" (6, 1)
+    "Sadachbia" (6, 2)
+    "Sadachbia" (6, 3)
+    "Beid" (6, 4)
+    "Beid" (7, 0)
+    "Sadachbia" (7, 1)
+    "Sadachbia" (7, 2)
+    "Sadachbia" (7, 3)
+    "Beid" (7, 4)
+    "Beid" (8, 0)
+    "Sadachbia" (8, 1)
+    "Sadachbia" (8, 2)
+    "Sadachbia" (8, 3)
+    "Beid" (8, 4)
+    "Beid" (9, 0)
+    "Sadachbia" (9, 1)
+    "Sadachbia" (9, 2)
+    "Sadachbia" (9, 3)
+    "Beid" (9, 4)
+  }
+}
+
+Trash {
+  Name "Bocaprins"
+  Height 5
+
+  MinoList {
+    "Deneb" (0, 0)
+    "Proxima Centauri" (0, 1)
+    "Fornax" (0, 2)
+    "Matar" (0, 3)
+    "Deneb" (0, 4)
+    "Acamar" (1, 0)
+    "Ogma" (1, 1)
+    "Lionrock" (1, 2)
+    "Oberon" (1, 3)
+    "Beid" (1, 4)
+    "Lilii Borea" (2, 0)
+    "Lionrock" (2, 1)
+    "Oberon" (2, 2)
+    "Ogma" (2, 3)
+    "Beid" (2, 4)
+    "Mneme" (3, 0)
+    "Cocibolca" (3, 1)
+    "Oberon" (3, 2)
+    "Cocibolca" (3, 3)
+    "Beid" (3, 4)
+    "Portia" (4, 0)
+    "Nashira" (4, 1)
+    "Nashira" (4, 2)
+    "Nashira" (4, 3)
+    "Beid" (4, 4)
+    "Beid" (5, 0)
+    "Sadachbia" (5, 1)
+    "Sadachbia" (5, 2)
+    "Sadachbia" (5, 3)
+    "Beid" (5, 4)
+    "Beid" (6, 0)
+    "Sadachbia" (6, 1)
+    "Sadachbia" (6, 2)
+    "Sadachbia" (6, 3)
+    "Beid" (6, 4)
+    "Beid" (7, 0)
+    "Sadachbia" (7, 1)
+    "Sadachbia" (7, 2)
+    "Sadachbia" (7, 3)
+    "Beid" (7, 4)
+    "Beid" (8, 0)
+    "Sadachbia" (8, 1)
+    "Sadachbia" (8, 2)
+    "Sadachbia" (8, 3)
+    "Beid" (8, 4)
+    "Beid" (9, 0)
+    "Sadachbia" (9, 1)
+    "Sadachbia" (9, 2)
+    "Sadachbia" (9, 3)
+    "Beid" (9, 4)
+  }
+}
+
+Trash {
+  Name "Fomalhaut"
+  Height 7
+
+  MinoList {
+    "Deneb" (0, 0)
+    "Narvi" (0, 1)
+    "Finlay" (0, 2)
+    "Veritate" (0, 3)
+    "Chamaeleon" (0, 4)
+    "Lesath" (0, 5)
+    "Beid" (0, 6)
+    "Acamar" (1, 0)
+    "Oberon" (1, 1)
+    "Oberon" (1, 2)
+    "Oberon" (1, 3)
+    "Oberon" (1, 4)
+    "Oberon" (1, 5)
+    "Beid" (1, 6)
+    "Yed Posterior" (2, 0)
+    "Cocibolca" (2, 1)
+    "Oberon" (2, 2)
+    "Cocibolca" (2, 3)
+    "Oberon" (2, 4)
+    "Oberon" (2, 5)
+    "Beid" (2, 6)
+    "Lilii Borea" (3, 0)
+    "Oberon" (3, 1)
+    "Oberon" (3, 2)
+    "Oberon" (3, 3)
+    "Oberon" (3, 4)
+    "Oberon" (3, 5)
+    "Beid" (3, 6)
+    "Ursa Major" (4, 0)
+    "Oberon" (4, 1)
+    "Oberon" (4, 2)
+    "Oberon" (4, 3)
+    "Cocibolca" (4, 4)
+    "Oberon" (4, 5)
+    "Beid" (4, 6)
+    "Geminga" (5, 0)
+    "Cocibolca" (5, 1)
+    "Oberon" (5, 2)
+    "Oberon" (5, 3)
+    "Oberon" (5, 4)
+    "Cocibolca" (5, 5)
+    "Beid" (5, 6)
+    "Taurus" (6, 0)
+    "Nashira" (6, 1)
+    "Nashira" (6, 2)
+    "Nashira" (6, 3)
+    "Nashira" (6, 4)
+    "Nashira" (6, 5)
+    "Beid" (6, 6)
+    "Beid" (7, 0)
+    "Sadachbia" (7, 1)
+    "Sadachbia" (7, 2)
+    "Sadachbia" (7, 3)
+    "Sadachbia" (7, 4)
+    "Sadachbia" (7, 5)
+    "Beid" (7, 6)
+    "Beid" (8, 0)
+    "Sadachbia" (8, 1)
+    "Sadachbia" (8, 2)
+    "Sadachbia" (8, 3)
+    "Sadachbia" (8, 4)
+    "Sadachbia" (8, 5)
+    "Beid" (8, 6)
+    "Beid" (9, 0)
+    "Sadachbia" (9, 1)
+    "Sadachbia" (9, 2)
+    "Sadachbia" (9, 3)
+    "Sadachbia" (9, 4)
+    "Sadachbia" (9, 5)
+    "Beid" (9, 6)
+  }
+}
+
+Trash {
+  Name "Rosaliadecastro"
+  Height 6
+
+  MinoList {
+    "Deneb" (0, 0)
+    "Zembra" (0, 1)
+    "Hegemone" (0, 2)
+    "Lucilinburhuc" (0, 3)
+    "Almach" (0, 4)
+    "Beid" (0, 5)
+    "Surt" (1, 0)
+    "Oberon" (1, 1)
+    "Lionrock" (1, 2)
+    "Cocibolca" (1, 3)
+    "Oberon" (1, 4)
+    "Beid" (1, 5)
+    "Chechia" (2, 0)
+    "Oberon" (2, 1)
+    "Oberon" (2, 2)
+    "Oberon" (2, 3)
+    "Lionrock" (2, 4)
+    "Beid" (2, 5)
+    "Matza" (3, 0)
+    "Ogma" (3, 1)
+    "Oberon" (3, 2)
+    "Oberon" (3, 3)
+    "Oberon" (3, 4)
+    "Beid" (3, 5)
+    "Baten Kaitos" (4, 0)
+    "Oberon" (4, 1)
+    "Cocibolca" (4, 2)
+    "Ogma" (4, 3)
+    "Oberon" (4, 4)
+    "Beid" (4, 5)
+    "Spe" (5, 0)
+    "Nashira" (5, 1)
+    "Nashira" (5, 2)
+    "Nashira" (5, 3)
+    "Nashira" (5, 4)
+    "Beid" (5, 5)
+    "Deneb" (6, 0)
+    "Anser" (6, 1)
+    "Anser" (6, 2)
+    "Anser" (6, 3)
+    "Anser" (6, 4)
+    "Beid" (6, 5)
+    "Deneb" (7, 0)
+    "Anser" (7, 1)
+    "Anser" (7, 2)
+    "Anser" (7, 3)
+    "Anser" (7, 4)
+    "Beid" (7, 5)
+    "Deneb" (8, 0)
+    "Anser" (8, 1)
+    "Anser" (8, 2)
+    "Anser" (8, 3)
+    "Anser" (8, 4)
+    "Beid" (8, 5)
+    "Deneb" (9, 0)
+    "Anser" (9, 1)
+    "Anser" (9, 2)
+    "Anser" (9, 3)
+    "Anser" (9, 4)
+    "Beid" (9, 5)
+  }
+}
+
+Trash {
+  Name "Absolutno"
+  Height 6
+
+  MinoList {
+    "Deneb" (0, 0)
+    "Enif" (0, 1)
+    "Nahn" (0, 2)
+    "Fornax" (0, 3)
+    "Matar" (0, 4)
+    "Deneb" (0, 5)
+    "Yed Posterior" (1, 0)
+    "Cocibolca" (1, 1)
+    "Oberon" (1, 2)
+    "Oberon" (1, 3)
+    "Lionrock" (1, 4)
+    "Beid" (1, 5)
+    "Ursa Major" (2, 0)
+    "Oberon" (2, 1)
+    "Oberon" (2, 2)
+    "Lionrock" (2, 3)
+    "Oberon" (2, 4)
+    "Beid" (2, 5)
+    "Sponde" (3, 0)
+    "Grus" (3, 1)
+    "Oberon" (3, 2)
+    "Ogma" (3, 3)
+    "Cocibolca" (3, 4)
+    "Beid" (3, 5)
+    "Ankaa" (4, 0)
+    "Oberon" (4, 1)
+    "Cocibolca" (4, 2)
+    "Oberon" (4, 3)
+    "Lionrock" (4, 4)
+    "Beid" (4, 5)
+    "Taurus" (5, 0)
+    "Nashira" (5, 1)
+    "Nashira" (5, 2)
+    "Nashira" (5, 3)
+    "Nashira" (5, 4)
+    "Beid" (5, 5)
+    "Beid" (6, 0)
+    "Sadachbia" (6, 1)
+    "Sadachbia" (6, 2)
+    "Sadachbia" (6, 3)
+    "Sadachbia" (6, 4)
+    "Beid" (6, 5)
+    "Beid" (7, 0)
+    "Sadachbia" (7, 1)
+    "Sadachbia" (7, 2)
+    "Sadachbia" (7, 3)
+    "Sadachbia" (7, 4)
+    "Beid" (7, 5)
+    "Beid" (8, 0)
+    "Sadachbia" (8, 1)
+    "Sadachbia" (8, 2)
+    "Sadachbia" (8, 3)
+    "Sadachbia" (8, 4)
+    "Beid" (8, 5)
+    "Beid" (9, 0)
+    "Sadachbia" (9, 1)
+    "Sadachbia" (9, 2)
+    "Sadachbia" (9, 3)
+    "Sadachbia" (9, 4)
+    "Beid" (9, 5)
+  }
+}
+
+Trash {
+  Name "Algieba"
+  Height 6
+
+  MinoList {
+    "Deneb" (0, 0)
+    "Lesath" (0, 1)
+    "Adhara" (0, 2)
+    "Cebalrai" (0, 3)
+    "Indus" (0, 4)
+    "Beid" (0, 5)
+    "Acamar" (1, 0)
+    "Oberon" (1, 1)
+    "Ogma" (1, 2)
+    "Oberon" (1, 3)
+    "Cocibolca" (1, 4)
+    "Beid" (1, 5)
+    "Yed Posterior" (2, 0)
+    "Lionrock" (2, 1)
+    "Oberon" (2, 2)
+    "Oberon" (2, 3)
+    "Oberon" (2, 4)
+    "Beid" (2, 5)
+    "Sponde" (3, 0)
+    "Oberon" (3, 1)
+    "Cocibolca" (3, 2)
+    "Oberon" (3, 3)
+    "Oberon" (3, 4)
+    "Beid" (3, 5)
+    "Lilii Borea" (4, 0)
+    "Cocibolca" (4, 1)
+    "Grus" (4, 2)
+    "Oberon" (4, 3)
+    "Oberon" (4, 4)
+    "Beid" (4, 5)
+    "Ursa Major" (5, 0)
+    "Nashira" (5, 1)
+    "Nashira" (5, 2)
+    "Nashira" (5, 3)
+    "Nashira" (5, 4)
+    "Beid" (5, 5)
+    "Deneb" (6, 0)
+    "Anser" (6, 1)
+    "Anser" (6, 2)
+    "Anser" (6, 3)
+    "Anser" (6, 4)
+    "Beid" (6, 5)
+    "Deneb" (7, 0)
+    "Anser" (7, 1)
+    "Anser" (7, 2)
+    "Anser" (7, 3)
+    "Anser" (7, 4)
+    "Beid" (7, 5)
+    "Deneb" (8, 0)
+    "Anser" (8, 1)
+    "Anser" (8, 2)
+    "Anser" (8, 3)
+    "Anser" (8, 4)
+    "Beid" (8, 5)
+    "Deneb" (9, 0)
+    "Anser" (9, 1)
+    "Anser" (9, 2)
+    "Anser" (9, 3)
+    "Anser" (9, 4)
+    "Beid" (9, 5)
+  }
+}
+
+Trash {
+  Name "Pavo"
+  Height 6
+
+  MinoList {
+    "Deneb" (0, 0)
+    "Sculptor" (0, 1)
+    "Sculptor" (0, 2)
+    "Sculptor" (0, 3)
+    "Iocaste" (0, 4)
+    "Beid" (0, 5)
+    "Torcular" (1, 0)
+    "Oberon" (1, 1)
+    "Oberon" (1, 2)
+    "Ogma" (1, 3)
+    "Oberon" (1, 4)
+    "Beid" (1, 5)
+    "Tiaki" (2, 0)
+    "Oberon" (2, 1)
+    "Oberon" (2, 2)
+    "Oberon" (2, 3)
+    "Cocibolca" (2, 4)
+    "Beid" (2, 5)
+    "Neri" (3, 0)
+    "Oberon" (3, 1)
+    "Cocibolca" (3, 2)
+    "Grus" (3, 3)
+    "Oberon" (3, 4)
+    "Beid" (3, 5)
+    "Centaurus" (4, 0)
+    "Lionrock" (4, 1)
+    "Oberon" (4, 2)
+    "Oberon" (4, 3)
+    "Ogma" (4, 4)
+    "Beid" (4, 5)
+    "Polydeuces" (5, 0)
+    "Nashira" (5, 1)
+    "Nashira" (5, 2)
+    "Nashira" (5, 3)
+    "Nashira" (5, 4)
+    "Beid" (5, 5)
+    "Deneb" (6, 0)
+    "Anser" (6, 1)
+    "Anser" (6, 2)
+    "Sadachbia" (6, 3)
+    "Sadachbia" (6, 4)
+    "Beid" (6, 5)
+    "Deneb" (7, 0)
+    "Anser" (7, 1)
+    "Anser" (7, 2)
+    "Sadachbia" (7, 3)
+    "Sadachbia" (7, 4)
+    "Beid" (7, 5)
+    "Deneb" (8, 0)
+    "Anser" (8, 1)
+    "Anser" (8, 2)
+    "Sadachbia" (8, 3)
+    "Sadachbia" (8, 4)
+    "Beid" (8, 5)
+    "Deneb" (9, 0)
+    "Anser" (9, 1)
+    "Anser" (9, 2)
+    "Sadachbia" (9, 3)
+    "Sadachbia" (9, 4)
+    "Beid" (9, 5)
+  }
+}
+
+Trash {
+  Name "Hypatia"
+  Height 6
+
+  MinoList {
+    "Deneb" (0, 0)
+    "Finlay" (0, 1)
+    "Chamaeleon" (0, 2)
+    "Cupid" (0, 3)
+    "Markab" (0, 4)
+    "Deneb" (0, 5)
+    "Acamar" (1, 0)
+    "Lionrock" (1, 1)
+    "Cocibolca" (1, 2)
+    "Ogma" (1, 3)
+    "Oberon" (1, 4)
+    "Deneb" (1, 5)
+    "Acamar" (2, 0)
+    "Oberon" (2, 1)
+    "Ogma" (2, 2)
+    "Oberon" (2, 3)
+    "Ogma" (2, 4)
+    "Deneb" (2, 5)
+    "Lilii Borea" (3, 0)
+    "Oberon" (3, 1)
+    "Oberon" (3, 2)
+    "Ogma" (3, 3)
+    "Cocibolca" (3, 4)
+    "Deneb" (3, 5)
+    "Lilii Borea" (4, 0)
+    "Ogma" (4, 1)
+    "Oberon" (4, 2)
+    "Oberon" (4, 3)
+    "Lionrock" (4, 4)
+    "Beid" (4, 5)
+    "Thiazzi" (5, 0)
+    "Nashira" (5, 1)
+    "Nashira" (5, 2)
+    "Nashira" (5, 3)
+    "Nashira" (5, 4)
+    "Beid" (5, 5)
+    "Deneb" (6, 0)
+    "Anser" (6, 1)
+    "Anser" (6, 2)
+    "Anser" (6, 3)
+    "Sadachbia" (6, 4)
+    "Beid" (6, 5)
+    "Deneb" (7, 0)
+    "Anser" (7, 1)
+    "Anser" (7, 2)
+    "Anser" (7, 3)
+    "Sadachbia" (7, 4)
+    "Beid" (7, 5)
+    "Deneb" (8, 0)
+    "Anser" (8, 1)
+    "Anser" (8, 2)
+    "Anser" (8, 3)
+    "Sadachbia" (8, 4)
+    "Beid" (8, 5)
+    "Deneb" (9, 0)
+    "Anser" (9, 1)
+    "Anser" (9, 2)
+    "Anser" (9, 3)
+    "Sadachbia" (9, 4)
+    "Beid" (9, 5)
+  }
+}
+
+Trash {
+  Name "Viculus"
+  Height 5
+
+  MinoList {
+    "Deneb" (0, 0)
+    "Fornax" (0, 1)
+    "Matar" (0, 2)
+    "Matar" (0, 3)
+    "Deneb" (0, 4)
+    "Acamar" (1, 0)
+    "Oberon" (1, 1)
+    "Oberon" (1, 2)
+    "Cocibolca" (1, 3)
+    "Beid" (1, 4)
+    "Lilii Borea" (2, 0)
+    "Cocibolca" (2, 1)
+    "Cocibolca" (2, 2)
+    "Oberon" (2, 3)
+    "Beid" (2, 4)
+    "Mneme" (3, 0)
+    "Cocibolca" (3, 1)
+    "Cocibolca" (3, 2)
+    "Oberon" (3, 3)
+    "Beid" (3, 4)
+    "Europa" (4, 0)
+    "Oberon" (4, 1)
+    "Cocibolca" (4, 2)
+    "Cocibolca" (4, 3)
+    "Beid" (4, 4)
+    "Microscopium" (5, 0)
+    "Oberon" (5, 1)
+    "Cocibolca" (5, 2)
+    "Cocibolca" (5, 3)
+    "Beid" (5, 4)
+    "Ymir" (6, 0)
+    "Cocibolca" (6, 1)
+    "Oberon" (6, 2)
+    "Oberon" (6, 3)
+    "Beid" (6, 4)
+    "Orion" (7, 0)
+    "Nashira" (7, 1)
+    "Nashira" (7, 2)
+    "Nashira" (7, 3)
+    "Beid" (7, 4)
+    "Beid" (8, 0)
+    "Sadachbia" (8, 1)
+    "Sadachbia" (8, 2)
+    "Sadachbia" (8, 3)
+    "Beid" (8, 4)
+    "Beid" (9, 0)
+    "Sadachbia" (9, 1)
+    "Sadachbia" (9, 2)
+    "Sadachbia" (9, 3)
+    "Beid" (9, 4)
+  }
+}
+
+Trash {
+  Name "Electra"
+  Height 7
+
+  MinoList {
+    "Deneb" (0, 0)
+    "Peitruss" (0, 1)
+    "Narvi" (0, 2)
+    "Banksia" (0, 3)
+    "Cebalrai" (0, 4)
+    "Solaris" (0, 5)
+    "Beid" (0, 6)
+    "Bagan" (1, 0)
+    "Oberon" (1, 1)
+    "Cocibolca" (1, 2)
+    "Oberon" (1, 3)
+    "Oberon" (1, 4)
+    "Grus" (1, 5)
+    "Beid" (1, 6)
+    "Thalassa" (2, 0)
+    "Lionrock" (2, 1)
+    "Oberon" (2, 2)
+    "Oberon" (2, 3)
+    "Cocibolca" (2, 4)
+    "Oberon" (2, 5)
+    "Beid" (2, 6)
+    "Yvaga" (3, 0)
+    "Oberon" (3, 1)
+    "Grus" (3, 2)
+    "Oberon" (3, 3)
+    "Oberon" (3, 4)
+    "Oberon" (3, 5)
+    "Beid" (3, 6)
+    "Pherkad" (4, 0)
+    "Cocibolca" (4, 1)
+    "Oberon" (4, 2)
+    "Oberon" (4, 3)
+    "Oberon" (4, 4)
+    "Oberon" (4, 5)
+    "Beid" (4, 6)
+    "Alsciaukat" (5, 0)
+    "Oberon" (5, 1)
+    "Oberon" (5, 2)
+    "Ogma" (5, 3)
+    "Oberon" (5, 4)
+    "Cocibolca" (5, 5)
+    "Beid" (5, 6)
+    "Eggther" (6, 0)
+    "Nashira" (6, 1)
+    "Nashira" (6, 2)
+    "Nashira" (6, 3)
+    "Nashira" (6, 4)
+    "Nashira" (6, 5)
+    "Beid" (6, 6)
+    "Deneb" (7, 0)
+    "Anser" (7, 1)
+    "Anser" (7, 2)
+    "Anser" (7, 3)
+    "Sadachbia" (7, 4)
+    "Sadachbia" (7, 5)
+    "Beid" (7, 6)
+    "Deneb" (8, 0)
+    "Anser" (8, 1)
+    "Anser" (8, 2)
+    "Anser" (8, 3)
+    "Sadachbia" (8, 4)
+    "Sadachbia" (8, 5)
+    "Beid" (8, 6)
+    "Deneb" (9, 0)
+    "Anser" (9, 1)
+    "Anser" (9, 2)
+    "Anser" (9, 3)
+    "Sadachbia" (9, 4)
+    "Sadachbia" (9, 5)
+    "Beid" (9, 6)
+  }
+}
+
+Level {
+  Name "Albireo"
+  LevelTrash "Arion"
+
+  LevelStartScript {
+    set pf.d0 to 3
+  }
+}
+
+Level {
+  Name "Draco"
+  LevelTrash "Bocaprins"
+
+  LevelStartScript {
+    set pf.d0 to 3
+  }
+}
+
+Level {
+  Name "Diphda"
+  LevelTrash "Fomalhaut"
+
+  LevelStartScript {
+    set pf.d0 to 5
+  }
+}
+
+Level {
+  Name "Antares"
+  LevelTrash "Rosaliadecastro"
+
+  LevelStartScript {
+    set pf.d0 to 4
+  }
+}
+
+Level {
+  Name "Zaniah"
+  LevelTrash "Absolutno"
+
+  LevelStartScript {
+    set pf.d0 to 4
+  }
+}
+
+Level {
+  Name "Rapeto"
+  LevelTrash "Algieba"
+
+  LevelStartScript {
+    set pf.d0 to 4
+  }
+}
+
+Level {
+  Name "Azelfafage"
+  LevelTrash "Pavo"
+
+  LevelStartScript {
+    set pf.d0 to 4
+  }
+}
+
+Level {
+  Name "Ananuca"
+  LevelTrash "Hypatia"
+
+  LevelStartScript {
+    set pf.d0 to 4
+  }
+}
+
+Level {
+  Name "Wouri"
+  LevelTrash "Viculus"
+
+  LevelStartScript {
+    set pf.d0 to 3
+  }
+}
+
+Level {
+  Name "Okab"
+  LevelTrash "Electra"
+
+  LevelStartScript {
+    set pf.d0 to 5
+  }
+}
+
+GenerationPhase {
+  GenerationTime ((.8-((level-1)*.007))^(level-1))/20
+  PieceStartingLocation (4, 0)
+
+  GenerationBeginScript {
+    set pf.d2 to 1
+    set pf.d1 to 0
+  }
+}
+
+FallingPhase {
+  FallSpeed (.8-((level-1)*.007))^(level-1)
+  SoftDropSpeed ((.8-((level-1)*.007))^(level-1))/20
+  HardDropSpeed 0.0001
+  MoveTolerance 1
+
+  FallingEndScript {
+    set pf.d7 to 1
+  }
+}
+
+LockPhase {
+  MovementRestartsClock
+  Duration 0.5
+}
+
+PatternPhase {
+  PatternBeginScript {}
+
+  PatternEndScript {
+    set pf.d7 to 0
+    if pf.d6 = 0
+      if ph.d8
+        if ph.d9 - pf.d0 * 10 != 20
+          set ph.d0 to 1
+        end
+        if ph.d4
+          set ph.d0 to 1
+        end
+        if ph.d0
+          lose
+        else
+          set pf.d6 to 1
+        end
+      end
+    end
+  }
+}
+
+IteratePhase {
+  PrimaryIterator {
+    IteratorExpression pf.d6 = 1
+    IteratorTags 5
+
+    MinoIteratorScript {
+      mutate mino
+    }
+  }
+
+  SecondaryIterator {
+    IteratorExpression pf.d6 = 1
+    IteratorTags 8
+
+    MinoIteratorScript {
+      set mino to "Arneb"
+    }
+  }
+
+  IterateEndScript {
+    if pf.d6 = 1
+      set pf.d6 to 2
+    end
+  }
+}
+
+EliminatePhase {
+  FallSpeed 0.05
+
+  LineCollapsedScript {
+    set ph.d0 to ph.d0 + 1
+  }
+
+  StartFallingScript {
+    if ph.d0 = 1
+      line color (109,0,23)
+    end
+    if ph.d0 = 2
+      line color (39,0,87)
+    end
+    if ph.d0 = 3
+      line color (116,55,0)
+    end
+    if ph.d0 >= 4
+      line color (0,91,56)
+    end
+  }
+
+  GroupLandedScript {
+    sound "FX_LNE01"
+  }
+
+  EliminateEndScript {
+    if pf.d6 = 0
+      set pf.d1 to pf.d1 + ph.d0
+      if ph.d0 = 1
+        sound "VO_LINE01"
+        sound "FX_MTRS1"
+        message "Single"
+      end
+      if ph.d0 = 2
+        sound "VO_LINE02"
+        sound "FX_MTRS2"
+        message "Double"
+      end
+      if ph.d0 = 3
+        sound "VO_LINE03"
+        sound "FX_MTRS3"
+        message "Triple"
+      end
+      if ph.d0 = 4
+        sound "VO_TETRS"
+        sound "FX_MTRS4"
+        message "Tetris!"
+      end
+      if ph.d0 = 5
+        sound "VO_TETRS"
+        sound "FX_MTRS5"
+        message "Pentris!!"
+      end
+    end
+  }
+}
+
+SolidifyPhase {}
+
+GravityPhase {
+  GravityEnabled
+  FallSpeed 0.05
+
+  GroupLandedScript {
+    sound "FX_LOCK"
+  }
+}
+
+CompletionPhase {
+  CompletionBeginScript {
+    set pl.d0 to pf.d1
+    if pl.d1 = pf.d5
+      set pl.d9 to pl.d9 + 1
+    else
+      set pl.d9 to 1
+    end
+    set pl.d1 to pf.d5
+    set pl.d3 to pl.d5
+    set pl.d8 to pf.d8
+    if pf.d6 = 2
+      if level <= 1
+        sound "VO_WOW"
+      else
+        if level <= 3
+          sound "VO_THTGREAT"
+        else
+          if level <= 5
+            sound "VO_VRYGOOD"
+          else
+            if level <= 7
+              sound "VO_EXLNT"
+            else
+              if level <= 9
+                sound "VO_AMAZING"
+              else
+                sound "VO_BRILLIANT"
+              end
+            end
+          end
+        end
+      end
+      sound "FX_MTRS6"
+      message "LEVEL UP!"
+      next level
+    end
+  }
+}
+
+EventScripts {
+  GameStartScript {
+    set st2.d7 to rank
+    sound "FX_LEVEL"
+    set ghost to 1
+    set st0.d0 to 0
+    set st0.d1 to 0
+    set st0.d2 to 0
+    set st0.d3 to 0
+    set st0.d4 to 0
+    set st0.d5 to 0
+    set st0.d7 to 0
+    set st0.d8 to 0
+    set st0.d9 to 0
+    set st1.d0 to 0
+    set ph.d8 to 0
+    set ph.d7 to 0
+    line color (30,30,30)
+  }
+
+  LevelStartScript {
+    if level < 3
+      mino intensity low
+    else
+      if level < 6
+        mino intensity medium
+      else
+        mino intensity high
+      end
+    end
+    if level = 1
+      set pf.d9 to 78
+    end
+    if level = 2
+      set pf.d9 to 32
+    end
+    if level = 3
+      set pf.d9 to 53
+    end
+    if level = 4
+      set pf.d9 to 44
+    end
+    if level = 5
+      set pf.d9 to 84
+    end
+    if level = 6
+      set pf.d9 to 96
+    end
+    if level = 7
+      set pf.d9 to 58
+    end
+    if level = 8
+      set pf.d9 to 30
+    end
+    if level = 9
+      set pf.d9 to 46
+    end
+    if level = 10
+      set pf.d9 to 93
+    end
+    set goal to 0
+    set ph.d8 to 0
+    set ph.d7 to 0
+    set pf.d1 to 0
+    set pf.d6 to 0
+    set pl.d0 to 0
+    set pl.d1 to 0
+    set pl.d3 to 0
+    set pf.d5 to 0
+    set pl.d5 to 0
+  }
+
+  LevelEndScript {
+    if level = 1
+      set st0.d0 to 31 + ((pl.d2 + pf.d9) % 97)
+    end
+    if level = 2
+      set st0.d1 to 31 + ((pl.d2 + pf.d9) % 97)
+    end
+    if level = 3
+      set st0.d2 to 31 + ((pl.d2 + pf.d9) % 97)
+    end
+    if level = 4
+      set st0.d3 to 31 + ((pl.d2 + pf.d9) % 97)
+    end
+    if level = 5
+      set st0.d4 to 31 + ((pl.d2 + pf.d9) % 97)
+    end
+    if level = 6
+      set st0.d5 to 31 + ((pl.d2 + pf.d9) % 97)
+    end
+    if level = 7
+      set st0.d6 to 31 + ((pl.d2 + pf.d9) % 97)
+    end
+    if level = 8
+      set st0.d7 to 31 + ((pl.d2 + pf.d9) % 97)
+    end
+    if level = 9
+      set st0.d8 to 31 + ((pl.d2 + pf.d9) % 97)
+    end
+    if level = 10
+      set st0.d9 to 31 + ((pl.d2 + pf.d9) % 97)
+    end
+    if level >= 10
+      win
+    end
+  }
+
+  MoveSuccessfulScript {
+    sound "FX_FALL"
+    if piece.id = 7
+      shape "Grumium" at piece.x, piece.y
+      set pl.d6 to 8 * result
+      shape "Metis" at piece.x, piece.y
+      set pl.d6 to pl.d6 + 4 * result
+      shape "Tupi" at piece.x, piece.y
+      set pl.d6 to pl.d6 + 2 * result
+      shape "Perseus" at piece.x, piece.y
+      set pl.d6 to pl.d6 + result
+    else
+      if piece.id != 6
+        shape "Phoebe" at piece.x, piece.y
+        set pl.d6 to 8 * result
+        shape "Montuno" at piece.x, piece.y
+        set pl.d6 to pl.d6 + 4 * result
+        shape "Noquisi" at piece.x, piece.y
+        set pl.d6 to pl.d6 + 2 * result
+        shape "Al Minliar al Asad" at piece.x, piece.y
+        set pl.d6 to pl.d6 + result
+      end
+    end
+  }
+
+  MoveFailedScript {
+    sound "FX_LND01"
+  }
+
+  RotateSuccessfulScript {
+    sound "FX_RTA01"
+    if piece.id = 7
+      shape "Grumium" at piece.x, piece.y
+      set pl.d6 to 8 * result
+      shape "Metis" at piece.x, piece.y
+      set pl.d6 to pl.d6 + 4 * result
+      shape "Tupi" at piece.x, piece.y
+      set pl.d6 to pl.d6 + 2 * result
+      shape "Perseus" at piece.x, piece.y
+      set pl.d6 to pl.d6 + result
+    else
+      if piece.id != 6
+        shape "Phoebe" at piece.x, piece.y
+        set pl.d6 to 8 * result
+        shape "Montuno" at piece.x, piece.y
+        set pl.d6 to pl.d6 + 4 * result
+        shape "Noquisi" at piece.x, piece.y
+        set pl.d6 to pl.d6 + 2 * result
+        shape "Al Minliar al Asad" at piece.x, piece.y
+        set pl.d6 to pl.d6 + result
+      end
+    end
+  }
+
+  RotateFailedScript {
+    sound "FX_LND01"
+  }
+
+  HardDropStartScript {
+    sound "FX_HRDDP"
+    set pf.d2 to 0
+  }
+
+  HardDropStepScript {
+    if piece.id = 7
+      shape "Grumium" at piece.x, piece.y
+      set pl.d6 to 8 * result
+      shape "Metis" at piece.x, piece.y
+      set pl.d6 to pl.d6 + 4 * result
+      shape "Tupi" at piece.x, piece.y
+      set pl.d6 to pl.d6 + 2 * result
+      shape "Perseus" at piece.x, piece.y
+      set pl.d6 to pl.d6 + result
+    else
+      if piece.id != 6
+        shape "Phoebe" at piece.x, piece.y
+        set pl.d6 to 8 * result
+        shape "Montuno" at piece.x, piece.y
+        set pl.d6 to pl.d6 + 4 * result
+        shape "Noquisi" at piece.x, piece.y
+        set pl.d6 to pl.d6 + 2 * result
+        shape "Al Minliar al Asad" at piece.x, piece.y
+        set pl.d6 to pl.d6 + result
+      end
+    end
+  }
+
+  SoftDropStepScript {
+    sound "FX_FALL"
+    if piece.id = 7
+      shape "Grumium" at piece.x, piece.y
+      set pl.d6 to 8 * result
+      shape "Metis" at piece.x, piece.y
+      set pl.d6 to pl.d6 + 4 * result
+      shape "Tupi" at piece.x, piece.y
+      set pl.d6 to pl.d6 + 2 * result
+      shape "Perseus" at piece.x, piece.y
+      set pl.d6 to pl.d6 + result
+    else
+      if piece.id != 6
+        shape "Phoebe" at piece.x, piece.y
+        set pl.d6 to 8 * result
+        shape "Montuno" at piece.x, piece.y
+        set pl.d6 to pl.d6 + 4 * result
+        shape "Noquisi" at piece.x, piece.y
+        set pl.d6 to pl.d6 + 2 * result
+        shape "Al Minliar al Asad" at piece.x, piece.y
+        set pl.d6 to pl.d6 + result
+      end
+    end
+  }
+
+  FallStepScript {
+    sound "FX_FALL"
+    if piece.id = 7
+      shape "Grumium" at piece.x, piece.y
+      set pl.d6 to 8 * result
+      shape "Metis" at piece.x, piece.y
+      set pl.d6 to pl.d6 + 4 * result
+      shape "Tupi" at piece.x, piece.y
+      set pl.d6 to pl.d6 + 2 * result
+      shape "Perseus" at piece.x, piece.y
+      set pl.d6 to pl.d6 + result
+    else
+      if piece.id != 6
+        shape "Phoebe" at piece.x, piece.y
+        set pl.d6 to 8 * result
+        shape "Montuno" at piece.x, piece.y
+        set pl.d6 to pl.d6 + 4 * result
+        shape "Noquisi" at piece.x, piece.y
+        set pl.d6 to pl.d6 + 2 * result
+        shape "Al Minliar al Asad" at piece.x, piece.y
+        set pl.d6 to pl.d6 + result
+      end
+    end
+  }
+
+  TouchdownScript {
+    if pf.d2
+      sound "FX_LND01"
+    end
+  }
+
+  LockdownScript {
+    set pf.d5 to piece.id
+    if pf.d2
+      sound "FX_LCK01"
+    end
+    if piece.id = 7
+      shape "Perseus" at piece.x, piece.y
+      if result * (1 - pl.d6 % 2)
+        set pl.d4 to 1
+      end
+      set pl.d6 to (pl.d6 - pl.d6 % 2) / 2
+      shape "Tupi" at piece.x, piece.y
+      if result * (1 - pl.d6 % 2)
+        set pl.d4 to 2
+      end
+      set pl.d6 to (pl.d6 - pl.d6 % 2) / 2
+      shape "Metis" at piece.x, piece.y
+      if result * (1 - pl.d6 % 2)
+        set pl.d4 to 3
+      end
+      set pl.d6 to (pl.d6 - pl.d6 % 2) / 2
+      shape "Grumium" at piece.x, piece.y
+      if result * (1 - pl.d6 % 2)
+        set pl.d4 to 4
+      end
+    else
+      if piece.id != 6
+        shape "Al Minliar al Asad" at piece.x, piece.y
+        if result * (1 - pl.d6 % 2)
+          set pl.d4 to 1
+        end
+        set pl.d6 to (pl.d6 - pl.d6 % 2) / 2
+        shape "Noquisi" at piece.x, piece.y
+        if result * (1 - pl.d6 % 2)
+          set pl.d4 to 2
+        end
+        set pl.d6 to (pl.d6 - pl.d6 % 2) / 2
+        shape "Montuno" at piece.x, piece.y
+        if result * (1 - pl.d6 % 2)
+          set pl.d4 to 3
+        end
+        set pl.d6 to (pl.d6 - pl.d6 % 2) / 2
+        shape "Phoebe" at piece.x, piece.y
+        if result * (1 - pl.d6 % 2)
+          set pl.d4 to 4
+        end
+      end
+    end
+    set pl.d5 to 0
+    if piece.id = 1
+      if pl.d4 = 2
+        shape "Rocinante" at piece.x, piece.y
+        set pl.d5 to result
+      end
+      if pl.d4 = 4
+        shape "Scorpius" at piece.x, piece.y
+        set pl.d5 to result
+      end
+    end
+    if piece.id = 2
+      if pl.d4 = 1
+        shape "Tarvos" at piece.x, piece.y
+        set pl.d5 to result
+      end
+      if pl.d4 = 3
+        shape "Tondra" at piece.x, piece.y
+        set pl.d5 to result
+      end
+    end
+    if piece.id = 3
+      if pl.d4 = 1
+        shape "Situla" at piece.x, piece.y
+        set pl.d5 to result
+      end
+      if pl.d4 = 2
+        shape "Meissa" at piece.x, piece.y
+        set pl.d5 to result
+      end
+      if pl.d4 = 3
+        shape "Albiorix" at piece.x, piece.y
+        set pl.d5 to result
+      end
+      if pl.d4 = 4
+        shape "Kaewkosin" at piece.x, piece.y
+        set pl.d5 to result
+      end
+    end
+    if piece.id = 4
+      if pl.d4 = 1
+        shape "Chaophraya" at piece.x, piece.y
+        set pl.d5 to result
+      end
+      if pl.d4 = 2
+        shape "Laomedeia" at piece.x, piece.y
+        set pl.d5 to result
+      end
+      if pl.d4 = 3
+        shape "Morava" at piece.x, piece.y
+        set pl.d5 to result
+      end
+      if pl.d4 = 4
+        shape "Leo" at piece.x, piece.y
+        set pl.d5 to result
+      end
+    end
+    if piece.id = 5
+      if pl.d4 = 1
+        shape "Citala" at piece.x, piece.y
+        set pl.d5 to result
+      end
+      if pl.d4 = 2
+        shape "Su" at piece.x, piece.y
+        set pl.d5 to result
+      end
+      if pl.d4 = 3
+        shape "Noifasui" at piece.x, piece.y
+        set pl.d5 to result
+      end
+      if pl.d4 = 4
+        shape "Poerava" at piece.x, piece.y
+        set pl.d5 to result
+      end
+    end
+    if piece.id = 7
+      if pl.d4 = 1
+        shape "Pandora" at piece.x, piece.y
+        set pl.d5 to result
+      end
+      if pl.d4 = 2
+        shape "Themisto" at piece.x, piece.y
+        set pl.d5 to result
+      end
+      if pl.d4 = 3
+        shape "Juliet" at piece.x, piece.y
+        set pl.d5 to result
+      end
+      if pl.d4 = 4
+        shape "Fafnir" at piece.x, piece.y
+        set pl.d5 to result
+      end
+    end
+    if piece.id = 6
+      shape "Hoggar" at piece.x, piece.y
+      set pl.d5 to result
+      shape "Eyeke" at piece.x, piece.y
+      set pl.d5 to pl.d5 + result
+    end
+    set pf.d8 to 9 - (game time - game time % 1) % 10
+    if pl.d5
+      sound "FX_FUS02"
+    end
+  }
+}
+
+CustomEvent {
+  Name "Nereid"
+  TriggerType LevelTime 90
+
+  Script {
+    sound "VO_30TIC"
+  }
+}
+
+CustomEvent {
+  Name "Santamasa"
+  TriggerType LevelTime 100
+
+  Script {
+    sound "VO_20TIC"
+  }
+}
+
+CustomEvent {
+  Name "Guatauba"
+  TriggerType LevelTime 110
+
+  Script {
+    sound "VO_10TIC"
+    sound "FX_TIC10"
+  }
+}
+
+CustomEvent {
+  Name "Sumajmajta"
+  TriggerType LevelTime 111
+
+  Script {
+    sound "VO_09TIC"
+    sound "FX_TIC09"
+  }
+}
+
+CustomEvent {
+  Name "Drukyul"
+  TriggerType LevelTime 112
+
+  Script {
+    sound "VO_08TIC"
+    sound "FX_TIC08"
+  }
+}
+
+CustomEvent {
+  Name "Capricornus"
+  TriggerType LevelTime 113
+
+  Script {
+    sound "VO_07TIC"
+    sound "FX_TIC07"
+  }
+}
+
+CustomEvent {
+  Name "Sadalbari"
+  TriggerType LevelTime 114
+
+  Script {
+    sound "VO_06TIC"
+    sound "FX_TIC06"
+  }
+}
+
+CustomEvent {
+  Name "Buru"
+  TriggerType LevelTime 115
+
+  Script {
+    sound "VO_05TIC"
+    sound "FX_TIC05"
+  }
+}
+
+CustomEvent {
+  Name "Musca"
+  TriggerType LevelTime 116
+
+  Script {
+    sound "VO_04TIC"
+    sound "FX_TIC04"
+  }
+}
+
+CustomEvent {
+  Name "Miaplacidus"
+  TriggerType LevelTime 117
+
+  Script {
+    sound "VO_03TIC"
+    sound "FX_TIC03"
+  }
+}
+
+CustomEvent {
+  Name "Fold"
+  TriggerType LevelTime 118
+
+  Script {
+    sound "VO_02TIC"
+    sound "FX_TIC02"
+  }
+}
+
+CustomEvent {
+  Name "Setebos"
+  TriggerType LevelTime 119
+
+  Script {
+    sound "VO_01TIC"
+    sound "FX_TIC01"
+  }
+}
+
+CustomEvent {
+  Name "Felis"
+  TriggerType LevelTime 120
+
+  Script {
+    sound "VO_OVRTIME"
+    lose
+  }
+}
+
+CustomEvent {
+  Name "Alfirk"
+  TriggerType LevelTime 108
+
+  Script {
+    sound "VO_COUNTDWN"
+  }
+}

@@ -1,0 +1,3 @@
+Math is really cool!
+
+Instead of trying to find bugs in my perfectly designed and thoroughly tested website, you should go solve the crypto challenges instead!

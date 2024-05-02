@@ -1,0 +1,58 @@
+Praktisk information - De Regionale Cybermesterskaber
+
+Lørdag d. 13. april 2024
+
+ZOOM LINK NEDENFOR!
+
+ 
+
+ 
+
+ONLINE FRA 10.00 - 22.00
+
+Mesterskaberne afvikles samtidig i dag i hele landet (online) og varer 12 timer fra 10.00 - 22.00. Du bestemmer selv hvor mange timer du konkurrerer, men des mere tid du har, des mere øger du dine chancer for en god placering. Konkurrencen løber fra 10.00 - 20.00, herefter er der pointoptælling og annoncering af vinderne.  Vi starter med officiel åbning i et zoom-kald kl. 10.00, kort efter åbningen starter selve konkurrencen.
+
+ 
+
+ZOOM-LINK
+
+https://aaudk.zoom.us/j/66536276402
+
+   
+
+DEN TEKNISKE PLATFORM - ANVENDELSE AF VPN
+
+Dagen vil byde på forskellige tekniske platforme, men en del af opgaverne kører på Haaukins-platformen som I allerede har mødt under kvalifikationen.  Hvis man ønsker det, vil det dog være muligt at bruge sin egen Kali Linux, og så forbinde til de virtuelle opgaver gennem VPN (Wireguard). Det vil i begrænset omfang være muligt at skifte i løbet af dagen. 
+
+
+ TEST AF VPN LØSNING
+
+Vi anbefaler at du tester VPN-løsningen grundigt i god tid inden selve dagen, for at undgå tekniske problemer. Du teste på ddc.haaukins.dk som du måske også brugte i kvalifikationen. Secret key er cZt)$cALON.
+
+Hvis du oplever problemer (eller har feedback til løsningen) vil vi meget gerne vide det, via #support på Discord-kanalen (https://discord.gg/uhTr3Urema).
+
+
+HVAD SKAL JEG HAVE KLAR?
+
+    Stabil Internet-adgang
+    Opdateret version af Zoom desktop client
+    Evt. din egen Kali Linux – dette anbefales, da du derved får adgang til flere værktøjer. Men det er ikke et krav for at kunne deltage.
+
+ 
+
+HAR DU SPØRGSMÅL?
+
+Vi glæder os til at se dig om en times tid. Har du spørgsmål så skriv endelig, så forsøger vi at svare hurtigst muligt.
+
+Du skal bruge Discorden til de spørgsmål du måtte have!  Brug #support på Discord-kanalen (https://discord.gg/uhTr3Urema).
+
+ 
+
+ 
+
+De bedste hilsner / Best regards
+Linda Mostrup Pedersen
+Project Lead, De Danske Cybermesterskaber
+
+
+Passwd: ETD*mxw2gx
