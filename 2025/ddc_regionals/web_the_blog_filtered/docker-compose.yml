@@ -1,0 +1,9 @@
+services:
+  blog:
+    build: blog
+    ports:
+      - 5000:5000
+  bot:
+    build: bot
+    ports:
+      - 5001:5001

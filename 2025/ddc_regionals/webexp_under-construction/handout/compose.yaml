@@ -1,0 +1,6 @@
+services:
+  challenge:
+    build:
+      context: .
+    ports:
+      - "7500:80"

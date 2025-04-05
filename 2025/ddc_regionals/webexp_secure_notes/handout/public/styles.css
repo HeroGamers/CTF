@@ -1,0 +1,196 @@
+/* General Reset */
+body, h1, h2, p, ul, li, form, input, textarea, button, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background: linear-gradient(135deg, #d6f3ff, #fffacc);
+    color: #000;
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(to bottom, #f7d66e, #d2a6ff);
+    color: #000;
+    padding: 1.5em 0;
+    border-bottom: 5px solid #334b99;
+    text-shadow: 1px 1px #fff;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0.2em;
+}
+
+header nav {
+    margin-top: 1em;
+}
+
+header nav a {
+    color: #334b99;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 1em;
+    border: 2px solid #334b99;
+    padding: 0.3em 0.6em;
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+header nav a:hover {
+    background-color: #eef3ff;
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #334b99;
+    color: #fff;
+    padding: 1em 0;
+    margin-top: 2em;
+    font-size: 1.2em;
+}
+
+footer a {
+    color: #f7d66e;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styling */
+main {
+    max-width: 800px;
+    margin: 1em auto;
+    padding: 1.5em;
+    background: #ffffff;
+    border: 4px solid #334b99;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Headings */
+h2 {
+    font-size: 1.8em;
+    color: #334b99;
+    margin-bottom: 1em;
+    text-align: center;
+    text-shadow: 1px 1px #ffffff;
+    border-bottom: 3px dashed #d2a6ff;
+    padding-bottom: 0.5em;
+}
+
+/* Form Styling */
+form {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+label {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #334b99;
+    margin-bottom: 0.5em;
+}
+
+input, textarea {
+    padding: 0.7em;
+    font-size: 1em;
+    border: 2px solid #a6c9ff;
+    border-radius: 5px;
+    background-color: #fafbff;
+    color: #000;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+/* Create Note Button */
+#create-note {
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 0.5em;
+    border: 2px solid #387c38;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#create-note:hover {
+    background-color: #43a047;
+}
+
+/* Properties Container */
+#properties {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+/* Add Button Styling */
+#add-property {
+    align-self: flex-start;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: #4caf50;
+    color: #fff;
+    border: 2px solid #387c38;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#add-property:hover {
+    background-color: #43a047;
+}
+
+/* Property Fields */
+.property {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.property input {
+    flex: 1;
+    padding: 0.5em;
+    font-size: 1em;
+}
+
+/* Remove Button Styling */
+.remove-property {
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: #ff5722;
+    color: #fff;
+    border: 2px solid #bf360c;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.remove-property:hover {
+    background-color: #e64a19;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Notes - All Notes</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header>
+    <h1>📒 Secure Notes</h1>
+    <p>Organize your notes like it's the 90s!</p>
+    <nav>
+        <a href="/">Create a Note</a> |
+        <a href="/list">View All Notes</a>
+    </nav>
+</header>
+
+<main>
+    <section id="notes-list">
+        <h2>📝 Notes</h2>
+        <% if (Object.keys(notes).length === 0) { %>
+            <p>No notes available.</p>
+        <% } else { %>
+            <% for (const [id, note] of Object.entries(notes)) { %>
+                <div class="note">
+                    <strong>Note ID:</strong> <%= id %><br>
+                    <strong>Description:</strong> <%= note.description %><br>
+                    <a href="/view?id=<%= id %>">View Note</a>
+                </div>
+            <% } %>
+        <% } %>
+    </section>
+</main>
+
+<footer>
+    <p>© Secure Notes | <a href="/">Create a Note</a> | <a href="/list">All Notes</a> | <a href="/webexp_secure_notes.zip" class="download-link">📥 Download Source Code</a></p>
+</footer>
+</body>
+</html>

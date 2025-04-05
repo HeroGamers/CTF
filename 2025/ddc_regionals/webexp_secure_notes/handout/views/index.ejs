@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Notes - Create Note</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header>
+    <h1>📒 Secure Notes</h1>
+    <p>Organize your notes!</p>
+    <nav>
+        <a href="/">Create a Note</a> |
+        <a href="/list">View All Notes</a>
+    </nav>
+</header>
+
+<main>
+    <marquee behavior="scroll" direction="left">📝 Create a new note and keep track of your thoughts! 💻</marquee>
+    <section id="add-note">
+        <h2>🖊️ Create a New Note</h2>
+        <form id="note-form" action="/submit" method="POST">
+            <label for="id">Note ID:</label>
+            <input type="text" id="id" name="id" placeholder="Enter note ID" required>
+
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" placeholder="Enter note description" required></textarea>
+
+            <label>Meta-data:</label>
+            <div id="properties">
+                <button type="button" id="add-property" class="add-property">+</button>
+                <!-- Property fields will be dynamically added here -->
+            </div>
+
+            <button type="submit" id="create-note">Create Note</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>© Secure Notes | <a href="/">Create a Note</a> | <a href="/list">All Notes</a></p>
+</footer>
+
+<script src="/scripts.js"></script>
+</body>
+</html>

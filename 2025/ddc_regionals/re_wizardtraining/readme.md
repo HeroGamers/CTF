@@ -1,0 +1,1 @@
+DDC{w1zardM4st3r_brut3_f0rc3_ch4rm}

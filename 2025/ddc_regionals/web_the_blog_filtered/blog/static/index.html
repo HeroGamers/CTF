@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script src="/static/js/sanitize.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Master Baker's Brunsviger</h1>
+        <img src="/static/img/brunner.jpg" alt="Brunner" class="blog-image">
+        
+        <div class="section">
+            <h2>Dough</h2>
+            <ul>
+                <li>550g wheat flour</li>
+                <li>60g sugar</li>
+                <li>½ tsp salt</li>
+                <li>60g butter</li>
+                <li>50g yeast</li>
+                <li>3 dl whole milk</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Cream</h2>
+            <ul>
+                <li>½ packet custard powder (Maizena)</li>
+                <li>2 dl whole milk</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Topping</h2>
+            <ul>
+                <li>160g butter</li>
+                <li>320g brown sugar</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Instructions</h2>
+            <p>Warm the milk and dissolve the yeast in it. Add salt, sugar, softened butter, and flour. Knead the dough well until smooth and slightly sticky. Sprinkle with a little flour and let it rise for about 30 minutes.</p>
+            <p>In a bowl, whisk 2 dl of milk with the custard powder for about 2 minutes until smooth.</p>
+            <p>Mix the softened butter with the brown sugar and fold in the custard cream.</p>
+            <p>Roll out the dough and place it in a baking tray. Spread the topping evenly over the dough and bake at 175°C for about 25 minutes.</p>
+        </div>
+
+        <div class="section">
+            <h2>Tips</h2>
+            <ul>
+                <li>Recommended baking tray size: approximately 38x44 cm (large oven tray).</li>
+                <li>Half a portion fits in a 25x35 cm tray.</li>
+            </ul>
+        </div>
+        
+        <div class="comment-section">
+            <h2>Comments</h2>
+            <ul class="comment-list" id="comment-list">
+            </ul>
+            <div class="comment-input-container">
+                <textarea id="comment-input" placeholder="Write a comment..."></textarea>
+                <button onclick="addComment()">Post Comment</button>
+            </div>
+        </div>
+    </div>
+    <script src="/static/js/comments.js"></script>
+</body>

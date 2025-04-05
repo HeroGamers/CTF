@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Copenhagen Tours</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007acc;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        .tour {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .tour h2 {
+            color: #007acc;
+        }
+        footer {
+            background-color: #007acc;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        a {
+            color: #007acc;
+            text-decoration: none;
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const correctPassword = "littlemermaid";
+            let userPassword = prompt("Please enter the password to access this page:");
+
+            if (userPassword !== correctPassword) {
+                alert("Incorrect password. You cannot access this page.");
+                document.body.innerHTML = "<h1>Access Denied</h1><p>Reload the page and try again.</p>";
+            }
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Explore Copenhagen Tours</h1>
+        <p>Your gateway to discovering the beauty of Copenhagen</p>
+    </header>
+    <main>
+        <section class="tour">
+            <h2>Classic Copenhagen Walking Tour</h2>
+            <p>Experience the charm of Copenhagen’s historic streets, colorful houses, and canals. Visit landmarks like Nyhavn and the Little Mermaid statue.</p>
+            <p>Price: 250 DKK per person</p>
+        </section>
+        <section class="tour">
+            <h2>Bike Tour through the City</h2>
+            <p>Discover Copenhagen the way locals do! Ride through bike-friendly streets and visit hotspots like Tivoli Gardens and Amalienborg Palace.</p>
+            <p>Price: 350 DKK per person</p>
+        </section>
+        <section class="tour">
+            <h2>Night Canal Cruise</h2>
+            <p>Relax on a cozy canal cruise and enjoy the illuminated sights of Copenhagen by night. Perfect for couples and families.</p>
+            <p>Price: 400 DKK per person</p>
+        </section>
+    </main>
+    <footer>
+        <p>Contact us at <a href="mailto:info@copenhagentours.com">info@copenhagentours.com</a> | Call: +45 1234 5678</p>
+    </footer>
+<!-- DDC{J0hnD03} -->
+</body>
+</html>
+
