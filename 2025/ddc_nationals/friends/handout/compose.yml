@@ -1,0 +1,9 @@
+services:
+  app:
+    platform: linux/amd64
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "1337:1337" # Adjust the port mapping based on your application's needs
+    restart: unless-stopped

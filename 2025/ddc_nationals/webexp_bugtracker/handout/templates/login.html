@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>BugTracker - Login</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  {% include "nav.html" %}
+  <div class="container">
+    <h2>Log In</h2>
+    <label>Username</label>
+    <input id="login-username" type="text" />
+
+    <label>Password</label>
+    <input id="login-password" type="password" />
+
+    <button onclick="login()">Log In</button>
+    <div id="login-result"></div>
+
+    <p>Don't have an account? <a href="{{ url_for('signup_page') }}">Sign up here</a>.</p>
+  </div>
+
+  <script>
+    function login() {
+      const username = document.getElementById('login-username').value;
+      const password = document.getElementById('login-password').value;
+
+      fetch('/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({username, password})
+      })
+      .then(res => res.json())
+      .then(data => {
+        const resultDiv = document.getElementById('login-result');
+        if (data.token) {
+          localStorage.setItem('jwtToken', data.token);
+          resultDiv.innerText = "Login successful! Token stored.";
+          window.location.href = "/submit_bug";
+        } else {
+          resultDiv.innerText = "Login failed: " + (data.error || JSON.stringify(data));
+        }
+      })
+      .catch(err => {
+        console.error(err);
+        document.getElementById('login-result').innerText = "Error logging in.";
+      });
+    }
+  </script>
+</body>
+</html>

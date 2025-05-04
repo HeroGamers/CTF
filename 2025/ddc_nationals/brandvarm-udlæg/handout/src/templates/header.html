@@ -1,0 +1,16 @@
+<header class="bg-blue-600 text-white py-4">
+    <div class="container mx-auto flex justify-between items-center">
+        <a href="{{ url_for('index') }}" class="text-2xl font-bold">Brandvarme udlæg</a>
+        <nav>
+            <ul class="flex space-x-4">
+                {% if 'user_id' in session %}
+                    <li><a href="{{ url_for('dashboard') }}" class="hover:underline">Dashboard</a></li>
+                    <li><a href="{{ url_for('logout') }}" class="hover:underline">Logout</a></li>
+                {% else %}
+                    <li><a href="{{ url_for('login_page') }}" class="hover:underline">Login</a></li>
+                    <li><a href="{{ url_for('register_page') }}" class="hover:underline">Register</a></li>
+                {% endif %}
+            </ul>
+        </nav>
+    </div>
+</header>

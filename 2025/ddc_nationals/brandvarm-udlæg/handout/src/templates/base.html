@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Varme Udlæg{% endblock %}</title>
+    <link href="{{ url_for('static', filename='tailwind.css') }}" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+    {% include 'header.html' %}
+    <main class="container mx-auto py-8">
+        {% block content %}
+        <!-- Page-specific content goes here -->
+        {% endblock %}
+    </main>
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto text-center">
+            &copy; {{ current_year }} Varme Udlæg. ALLE RETTIGHEDER RESERVERET YO.
+        </div>
+    </footer>
+</body>
+</html>

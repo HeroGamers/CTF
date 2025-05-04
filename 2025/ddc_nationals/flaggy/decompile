@@ -1,0 +1,198 @@
+stream : VBA/ThisWorkbook - 1196 bytes
+########################################
+
+
+stream : VBA/CPU - 21367 bytes
+########################################
+
+Option Explicit
+
+Private i, PC
+Private V(0 To 15)
+Private stack(0 To 15)
+Private keys(0 To 15)
+Private map(0 To 15)
+Private memory(0 To 4095)
+Private frame(1 To 32, 1 To 64)
+Private SP As Byte, DT As Byte, ST As Byte
+Private wait As Boolean
+Private tk As Byte
+Private screen
+Private mask(0 To 7)
+Private dirty As Boolean
+Private run As Boolean
+Private Const PROGRAM_START = &H200
+
+' Sorry LibreOffice users, VBA hates builtin async stuff :(
+Function GetAsyncKeyState(ByVal vKey)
+  
+  Sub init()
+    
+    Dim s, ss, j
+    Application.Calculation = xlCalculationManual
+    Set screen = ThisWorkbook.Worksheets("Emulator").Range("A1").Resize(32, 64)
+    
+    Erase V, stack, frame, keys, memory
+    i = 0: SP = 0: DT = 0: ST = 0: PC = &H200
+    run = True: wait = False
+    
+    dirty = True: screen.Value2 = frame
+    
+    ' 1 2 3 C -> 1 2 3 4
+    ' 4 5 6 D -> Q W E R
+    ' 7 8 9 E -> A S D F
+    ' A 0 B F -> Z X C V
+    
+    ss = "583132335157454153445A4334524656"
+    s = "F0909090F0" & "2060202070" & "F010F080F0" & "F010F010F0" & "9090F01010" & "F080F010F0" & "F080F090F0" & "F010204040" & "F090F090F0" & "F090F010F0" & "F090F09090" & "E090E090E0" & "F0808080F0" & "E0909090E0" & "F080F080F0" & "F080F08080"
+    
+  For j = 0 To 79: memory(j) = "&H" & Mid(s, j * 2 + 1, 2): Next j
+  For j = 0 To 15: map(j) = "&H" & Mid(ss, j * 2 + 1, 2): Next j
+  For j = 0 To 7: mask(j) = 128 \ (2 ^ j): Next
+  
+  Randomize
+  
+End Sub
+
+Sub check()
+  
+  Dim k, down As Boolean
+  For k = 0 To 15
+    down = (GetAsyncKeyState(map(k)) And &H8000) <> 0
+  If down And Not keys(k) Then keys(k) = True: If wait Then V(tk) = k: wait = False: PC = PC + 2 End If
+  If Not down Then keys(k) = False
+Next k
+
+End Sub
+
+Sub cycle()
+
+Dim opcode: opcode = (CLng(memory(PC)) * 256) + memory(PC + 1)
+Dim x As Byte: x = (opcode And &HF00) \ &H100
+Dim y As Byte: y = (opcode And &HF0) \ &H10
+Dim n As Byte: n = opcode And &HF
+Dim kk As Byte: kk = opcode And &HFF
+Dim nnn: nnn = opcode And &HFFF
+Dim j, sum
+
+PC = PC + 2
+
+Select Case (opcode And &HF000) \ &H1000
+  Case &H0:
+  If opcode = &HE0 Then Erase frame: dirty = True
+  If opcode = &HEE Then SP = SP - 1: PC = stack(SP)
+  If opcode = &HFD Then run = False
+  Case &H1: PC = nnn
+  Case &H2: stack(SP) = PC: SP = SP + 1: PC = nnn
+  Case &H3: If V(x) = kk Then PC = PC + 2
+  Case &H4: If V(x) <> kk Then PC = PC + 2
+  Case &H5: If V(x) = V(y) Then PC = PC + 2
+  Case &H6: V(x) = kk
+  Case &H7: V(x) = CByte((CInt(V(x)) + CInt(kk)) And &HFF)
+  Case &H8:
+  Select Case n
+    Case &H0: V(x) = V(y)
+    Case &H1: V(x) = V(x) Or V(y)
+    Case &H2: V(x) = V(x) And V(y)
+    Case &H3: V(x) = V(x) Xor V(y)
+    Case &H4: sum = CInt(V(x)) + CInt(V(y)): V(&HF) = (sum > 255) And 1: V(x) = CByte(sum And &HFF)
+    Case &H5: V(&HF) = (V(x) >= V(y)) And 1: V(x) = CByte((CInt(V(x)) - CInt(V(y))) And &HFF)
+    Case &H6: V(&HF) = V(x) And 1: V(x) = V(x) \ 2
+    Case &H7: V(&HF) = (V(y) >= V(x)) And 1: V(x) = CByte((CInt(V(y)) - CInt(V(x))) And &HFF)
+    Case &HE: V(&HF) = (V(x) And &H80) \ &H80: V(x) = CByte((CInt(V(x)) * 2) And &HFF)
+  End Select
+  Case &H9: If V(x) <> V(y) Then PC = PC + 2
+  Case &HA: i = nnn
+  Case &HB: PC = nnn + V(0)
+  Case &HC: V(x) = int(Rnd * 256) And kk
+  Case &HD: DRW x, y, n
+  Case &HE:
+If kk = &H9E Then If keys(V(x)) Then PC = PC + 2 End If
+If kk = &HA1 Then If Not keys(V(x)) Then PC = PC + 2 End If
+Case &HF:
+Select Case kk
+Case &H7: V(x) = DT
+Case &HA: wait = True: tk = x: PC = PC - 2
+Case &H15: DT = V(x)
+Case &H18: ST = V(x)
+Case &H1E: i = (i + V(x)) And &HFFF
+Case &H29: i = V(x) * 5
+Case &H33: memory(i) = V(x) \ 100: memory(i + 1) = (V(x) \ 10) Mod 10: memory(i + 2) = V(x) Mod 10
+Case &H55: For j = 0 To x: memory(i + j) = V(j): Next j: i = i + x + 1
+Case &H65: For j = 0 To x: V(j) = memory(i + j): Next j: i = i + x + 1
+End Select
+End Select
+
+If DT > 0 Then DT = DT - 1
+If ST > 0 Then ST = ST - 1
+If Not wait Then Erase keys
+
+End Sub
+
+Sub DRW(ByVal x As Byte)
+
+Dim r As Byte, c As Byte, spr As Byte, xp As Byte, yp As Byte
+V(&HF) = 0
+For r = 0 To h - 1
+spr = memory(i + r)
+For c = 0 To 7
+If spr And mask(c) Then
+  xp = (V(x) + c) And 63: yp = (V(y) + r) And 31
+  V(&HF) = V(&HF) Or frame(yp + 1, xp + 1)
+  frame(yp + 1, xp + 1) = frame(yp + 1, xp + 1) Xor 1
+End If
+Next
+Next
+dirty = True
+
+End Sub
+
+Sub flush()
+
+If Not dirty Then Exit Sub
+screen.Value2 = frame
+dirty = False
+
+End Sub
+
+Sub start()
+
+Do While run
+check
+If Not wait Then cycle
+flush
+DoEvents
+Loop
+
+End Sub
+
+Sub Load(Name)
+
+Dim s, tag, pos, q, i, m, blk
+s = ThisWorkbook.BuiltinDocumentProperties(5).Value
+tag = "[" & Name & "]"
+pos = Instr(s, tag): If pos = 0 Then Exit Sub
+pos = pos + Len(tag)
+q = Instr(pos, s, "["): If q = 0 Then q = Len(s) + 1
+blk = Mid$(s, pos, q - pos)
+m = PROGRAM_START
+For i = 1 To Len(blk)
+memory(m) = AscW(Mid$(blk, i, 1)) - 256
+m = m + 1
+Next
+
+End Sub
+
+Public Sub play()
+
+init
+Load Application.Caller
+start
+
+End Sub
+
+stream : VBA/Sheet2 - 1188 bytes
+########################################
+
+
+

@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %}Log ind - Brandvarme Udlæg{% endblock %}
+
+{% block content %}
+<div class="max-w-md mx-auto bg-white p-8 rounded-lg shadow-md">
+    <h1 class="text-2xl font-bold text-center text-blue-600">Log ind 🔥</h1>
+    <p class="mt-2 text-center text-gray-600">Velkommen tilbage! Klar til at holde styr på dine udlæg?</p>
+    <form action="{{ url_for('login') }}" method="post" class="mt-6">
+        <div class="mb-4">
+            <label for="username" class="block text-gray-700">Brugernavn</label>
+            <input type="text" id="username" name="username" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" placeholder="Indtast dit brugernavn" required>
+        </div>
+        <div class="mb-4">
+            <label for="password" class="block text-gray-700">Adgangskode</label>
+            <input type="password" id="password" name="password" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" placeholder="Indtast din adgangskode" required>
+        </div>
+        <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700">Log ind</button>
+    </form>
+    <p class="mt-4 text-center text-gray-600">
+        Ny her? <a href="{{ url_for('register_page') }}" class="text-blue-600 hover:underline">Opret en konto</a>.
+    </p>
+</div>
+{% endblock %}

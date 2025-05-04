@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>BugTracker - Sign Up</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  {% include "nav.html" %}
+  <div class="container">
+    <h2>Create a New Account</h2>
+    <label>Username</label>
+    <input id="signup-username" type="text" />
+
+    <label>Password</label>
+    <input id="signup-password" type="password" />
+
+    <button onclick="signup()">Sign Up</button>
+    <div id="signup-result"></div>
+
+    <p>Already have an account? <a href="{{ url_for('login_page') }}">Log in here</a>.</p>
+  </div>
+
+  <script>
+    function signup() {
+      const username = document.getElementById('signup-username').value;
+      const password = document.getElementById('signup-password').value;
+
+      fetch('/signup', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({username, password})
+      })
+      .then(res => res.json())
+      .then(data => {
+        const div = document.getElementById('signup-result');
+        if(data.success) {
+          div.innerText = "Signup successful. You can now log in.";
+        } else {
+          div.innerText = "Error: " + (data.error || JSON.stringify(data));
+        }
+      })
+      .catch(err => {
+        console.error(err);
+        document.getElementById('signup-result').innerText = "Error in signup request.";
+      });
+    }
+  </script>
+</body>
+</html>

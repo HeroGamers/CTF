@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+
+{% block title %}Se udlæg - Brandvarme Udlæg{% endblock %}
+
+{% block content %}
+<div class="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-md">
+    <h1 class="text-2xl font-bold text-center text-blue-600">Detaljer om udlæg 🔥</h1>
+    <p class="mt-2 text-center text-gray-600">Her er alt, hvad vi ved om dette varme udlæg:</p>
+
+    <div class="mt-6">
+        <div class="mb-4">
+            <h2 class="text-lg font-semibold text-gray-700">Titel:</h2>
+            <p class="text-gray-800">{{ expense.title | safe}}</p>
+        </div>
+        <div class="mb-4">
+            <h2 class="text-lg font-semibold text-gray-700">Beskrivelse:</h2>
+            <p class="text-gray-800">{{ expense.description or 'Ingen beskrivelse' | safe}}</p>
+        </div>
+        <div class="mb-4">
+            <h2 class="text-lg font-semibold text-gray-700">Beløb:</h2>
+            <p class="text-gray-800">{{ expense.amount | safe}} DKK</p>
+        </div>
+        {% if expense.image_name %}
+        <div class="mb-4">
+            <h2 class="text-lg font-semibold text-gray-700">Kvittering:</h2>
+            <img src="{{ url_for('static', filename='receipts/' + expense.image_name) }}" alt="Kvittering" class="w-full rounded-lg shadow-md">
+        </div>
+        {% endif %}
+    </div>
+
+    <div class="mt-6 text-center">
+        <button id="notifyAdmin" class="bg-red-600 text-white px-6 py-3 rounded-lg shadow hover:bg-red-700">
+            Send til admin
+        </button>
+        <a href="{{ url_for('dashboard') }}" class="ml-4 bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700">
+            Tilbage til dashboard
+        </a>
+    </div>
+
+    <p id="successMessage" class="mt-4 text-center text-green-600 hidden">Udlægget er sendt til admin!</p>
+    <p id="errorMessage" class="mt-4 text-center text-red-600 hidden">Noget gik galt. Prøv igen.</p>
+</div>
+
+<script>
+    document.getElementById('notifyAdmin').addEventListener('click', function() {
+        fetch('/api/notify-admin', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded'
+            },
+            body: new URLSearchParams({ expense_location: '/expense/{{ expense.id }}' }).toString()
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                document.getElementById('successMessage').classList.remove('hidden');
+                document.getElementById('errorMessage').classList.add('hidden');
+            } else {
+                document.getElementById('errorMessage').textContent = data.error || 'Noget gik galt. Prøv igen.';
+                document.getElementById('errorMessage').classList.remove('hidden');
+                document.getElementById('successMessage').classList.add('hidden');
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            document.getElementById('errorMessage').textContent = 'Der opstod en fejl. Prøv igen senere.';
+            document.getElementById('errorMessage').classList.remove('hidden');
+            document.getElementById('successMessage').classList.add('hidden');
+        });
+    });
+</script>
+{% endblock %}

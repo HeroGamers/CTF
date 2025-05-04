@@ -1,0 +1,39 @@
+220 mailserver.local ESMTP Postfix (Ubuntu)
+EHLO machine2.local
+250-mailserver.local
+250-PIPELINING
+250-SIZE 10240000
+250-VRFY
+250-ETRN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250-SMTPUTF8
+250 CHUNKING
+MAIL FROM:<machine2@machine2.local> SIZE=573 BODY=8BITMIME
+RCPT TO:<trump@mailserver.local> ORCPT=rfc822;trump@mailserver.local
+DATA
+250 2.1.0 Ok
+250 2.1.5 Ok
+354 End data with <CR><LF>.<CR><LF>
+Received: by machine2.local (Postfix, from userid 1000)
+	id 32F101404E3; Sat,  1 Mar 2025 17:59:11 +0100 (CET)
+Date: Sat, 1 Mar 2025 17:59:11 +0100
+From: machine2 <machine2@machine2.local>
+To: trump@mailserver.local
+Subject: re: Very Important Business #MakeAmericaGreatAgain
+Message-ID: <Z8M831aAvrRx0fxk@machine2.local>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+
+Donald, 
+
+I...m ready for that very important file. Also, what...s our security plan? Do we need passwords? 
+
+-JD 
+.
+QUIT
+250 2.0.0 Ok: queued as 35BCC260672
+221 2.0.0 Bye

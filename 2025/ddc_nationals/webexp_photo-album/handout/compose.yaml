@@ -1,0 +1,5 @@
+services:
+  photo-album:
+    build: .
+    ports:
+      - "5000:80"

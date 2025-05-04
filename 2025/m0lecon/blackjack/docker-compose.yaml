@@ -1,0 +1,12 @@
+services:
+  blackjack:
+    image: cybersecnatlab/socaz:ubuntu-noble
+    container_name: blackjack_chall
+    restart: unless-stopped
+    working_dir: /home/user/chall
+    command: 'socaz --bind 1337 --cmd /home/user/chall/blackjack --pow 26'
+    volumes:
+      - './:/home/user/chall:ro'
+    ports:
+      - '21777:1337'
+    

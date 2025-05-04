@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}Velkommen til Brandvarme Udlæg{% endblock %}
+
+{% block content %}
+<div class="text-center">
+    <h1 class="text-4xl font-bold text-blue-600">Velkommen til Brandvarme Udlæg 🔥</h1>
+    <p class="mt-4 text-lg text-gray-700">
+        Hold styr på dine udlæg med stil. Ingen Excel-ark, kun ren varme. 💸
+    </p>
+    <div class="mt-6">
+        <a href="{{ url_for('login_page') }}" class="bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700">
+            Log ind
+        </a>
+        <a href="{{ url_for('register_page') }}" class="ml-4 bg-gray-200 text-gray-800 px-6 py-3 rounded-lg shadow hover:bg-gray-300">
+            Opret konto
+        </a>
+    </div>
+    <div class="mt-8">
+        <img src="{{ url_for('static', filename='expense_tracker.png') }}" alt="Expense Tracker" class="mx-auto w-1/2 rounded-lg shadow-lg">
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,41 @@
+220 mailserver.local ESMTP Postfix (Ubuntu)
+EHLO machine1.local
+250-mailserver.local
+250-PIPELINING
+250-SIZE 10240000
+250-VRFY
+250-ETRN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250-SMTPUTF8
+250 CHUNKING
+MAIL FROM:<machine1@machine1.local> SIZE=738 BODY=8BITMIME
+RCPT TO:<vance@mailserver.local> ORCPT=rfc822;vance@mailserver.local
+DATA
+250 2.1.0 Ok
+250 2.1.5 Ok
+354 End data with <CR><LF>.<CR><LF>
+Received: by machine1.local (Postfix, from userid 1000)
+	id A49811C053A; Sat,  1 Mar 2025 17:58:43 +0100 (CET)
+Date: Sat, 1 Mar 2025 17:58:43 +0100
+From: machine1 <machine1@machine1.local>
+To: vance@mailserver.local
+Subject: re: Very Important Business #MakeAmericaGreatAgain
+Message-ID: <Z8M8wz_eFGfMQRgV@machine1.local>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+
+JD, 
+
+Fake news! No one doesn...t trust my steaks. They...re perfect, the best. And regulations? Come on, we...ll put the exchange in "a very secure location" (a Florida basement). 
+
+Speaking of security, I...ll send you a very important file soon...keep it secret! 
+
+-Donald 
+.
+QUIT
+250 2.0.0 Ok: queued as A6178260672
+221 2.0.0 Bye

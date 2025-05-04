@@ -1,0 +1,40 @@
+220 mailserver.local ESMTP Postfix (Ubuntu)
+EHLO machine2.local
+250-mailserver.local
+250-PIPELINING
+250-SIZE 10240000
+250-VRFY
+250-ETRN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250-SMTPUTF8
+250 CHUNKING
+MAIL FROM:<machine2@machine2.local> SIZE=571
+RCPT TO:<trump@mailserver.local> ORCPT=rfc822;trump@mailserver.local
+DATA
+250 2.1.0 Ok
+250 2.1.5 Ok
+354 End data with <CR><LF>.<CR><LF>
+Received: by machine2.local (Postfix, from userid 1000)
+	id CD47A14052A; Sat,  1 Mar 2025 18:00:13 +0100 (CET)
+Date: Sat, 1 Mar 2025 18:00:13 +0100
+From: machine2 <machine2@machine2.local>
+To: trump@mailserver.local
+Subject: re: Very Important Business #MakeAmericaGreatAgain
+Message-ID: <Z8M9HfH5ZxW38rzv@machine2.local>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+
+Donald, 
+
+I opened the attachment. Why is there text on it?! 
+
+Also, I think we need to be more discreet. People might be watching... 
+
+-JD 
+.
+QUIT
+250 2.0.0 Ok: queued as D1106260672
+221 2.0.0 Bye

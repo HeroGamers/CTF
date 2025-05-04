@@ -1,0 +1,15 @@
+[project]
+name = "ddc"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "aiohttp>=3.10.11",
+    "angr>=9.2.71",
+    "claripy>=9.2.71",
+    "flask>=3.0.3",
+    "pcode2code>=0.1.1",
+    "pycryptodome>=3.22.0",
+    "z3-solver>=4.10.2.0",
+]

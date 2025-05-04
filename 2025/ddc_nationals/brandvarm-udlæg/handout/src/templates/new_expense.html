@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block title %}Ny udlæg - Brandvarme Udlæg{% endblock %}
+
+{% block content %}
+<div class="max-w-lg mx-auto bg-white p-8 rounded-lg shadow-md">
+    <h1 class="text-2xl font-bold text-center text-blue-600">Tilføj en ny udlæg 🔥</h1>
+    <p class="mt-2 text-center text-gray-600">Lad os få styr på dine varme udlæg!</p>
+    <form action="{{ url_for('create_expense') }}" method="post" enctype="multipart/form-data" class="mt-6">
+        <div class="mb-4">
+            <label for="title" class="block text-gray-700">Titel</label>
+            <input type="text" id="title" name="title" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" placeholder="F.eks. Frokost med teamet" required>
+        </div>
+        <div class="mb-4">
+            <label for="description" class="block text-gray-700">Beskrivelse</label>
+            <textarea id="description" name="description" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" placeholder="Tilføj en kort beskrivelse (valgfrit)"></textarea>
+        </div>
+        <div class="mb-4">
+            <label for="amount" class="block text-gray-700">Beløb (DKK)</label>
+            <input type="number" id="amount" name="amount" step="0.01" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" placeholder="F.eks. 250.50" required>
+        </div>
+        <div class="mb-4">
+            <label for="receipt" class="block text-gray-700">Kvittering</label>
+            <input type="file" id="receipt" name="receipt" accept=".jpg,.jpeg,.png" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" required>
+        </div>
+        <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700">Tilføj udlæg</button>
+    </form>
+    <p class="mt-4 text-center text-gray-600">
+        <a href="{{ url_for('dashboard') }}" class="text-blue-600 hover:underline">Tilbage til dashboard</a>.
+    </p>
+</div>
+{% endblock %}

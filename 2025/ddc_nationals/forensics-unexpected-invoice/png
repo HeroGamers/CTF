@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta content="initial-scale=1, maximum-scale=5, width=device-width" name="viewport"/>
+        <title>Base64 to PNG | Image | Base64 Decode | Base64 Converter | Base64</title>
+        <meta content="Convert Base64 to PNG online using a free decoding tool" name="description"/>
+        <link href="//static.base64.guru/css/style.min.css?1.0.65" rel="stylesheet" />
+        <link rel="shortcut icon" href="//static.base64.guru/img/favicon.ico" />
+		<!--[if lt IE 9]><script src="//static.base64.guru/js/html5shiv.min.js?1.0.50"></script><![endif]-->
+		    </head>
+    <body>
+        <header>
+            <div itemscope itemtype="https://schema.org/Organization">
+				<meta itemprop="logo" content="https://static.base64.guru/img/logo.png" />
+				<h1 itemprop="name"><a href="https://base64.guru/" itemprop="url">Base64<span>.</span>Guru</a></h1>
+				<h2 itemprop="slogan">A virtual teacher who reveals to you the great secrets of Base64</h2>
+			</div>
+
+			<nav role="navigation"><ul><li><a href='/'>Home</a></li><li><b><a href='/converter'>Converter</a></b><ul><li><b><a href='https://base64.guru/converter/decode'>Base64 Decode</a></b><ul><li><a href='https://base64.guru/converter/decode/ascii'>ASCII</a></li><li><a href='https://base64.guru/converter/decode/audio'>Audio</a></li><li><a href='https://base64.guru/converter/decode/file'>File</a></li><li><a href='https://base64.guru/converter/decode/hex'>Hex</a></li><li><b><a href='https://base64.guru/converter/decode/image'>Image</a></b><ul><li><a href='https://base64.guru/converter/decode/image/bmp'>BMP</a></li><li><a href='https://base64.guru/converter/decode/image/gif'>GIF</a></li><li><a href='https://base64.guru/converter/decode/image/ico'>ICO</a></li><li><a href='https://base64.guru/converter/decode/image/jpg'>JPG</a></li><li><a href='https://base64.guru/converter/decode/image/png'>PNG</a></li><li><a href='https://base64.guru/converter/decode/image/svg'>SVG</a></li><li><a href='https://base64.guru/converter/decode/image/webp'>WebP</a></li></ul></li><li><a href='https://base64.guru/converter/decode/pdf'>PDF</a></li><li><a href='https://base64.guru/converter/decode/text'>Text</a></li><li><a href='https://base64.guru/converter/decode/video'>Video</a></li></ul></li><li><b><a href='https://base64.guru/converter/encode'>Base64 Encode</a></b><ul><li><b><a href='https://base64.guru/converter/encode/audio'>Audio</a></b><ul><li><a href='https://base64.guru/converter/encode/audio/flac'>FLAC</a></li><li><a href='https://base64.guru/converter/encode/audio/mp3'>MP3</a></li><li><a href='https://base64.guru/converter/encode/audio/ogg'>Ogg</a></li><li><a href='https://base64.guru/converter/encode/audio/wav'>WAV</a></li><li><a href='https://base64.guru/converter/encode/audio/wma'>WMA</a></li></ul></li><li><a href='https://base64.guru/converter/encode/css'>CSS</a></li><li><a href='https://base64.guru/converter/encode/file'>File</a></li><li><a href='https://base64.guru/converter/encode/hex'>Hex</a></li><li><a href='https://base64.guru/converter/encode/html'>HTML</a></li><li><b><a href='https://base64.guru/converter/encode/image'>Image</a></b><ul><li><a href='https://base64.guru/converter/encode/image/bmp'>BMP</a></li><li><a href='https://base64.guru/converter/encode/image/gif'>GIF</a></li><li><a href='https://base64.guru/converter/encode/image/ico'>ICO</a></li><li><a href='https://base64.guru/converter/encode/image/jpg'>JPG</a></li><li><a href='https://base64.guru/converter/encode/image/png'>PNG</a></li><li><a href='https://base64.guru/converter/encode/image/svg'>SVG</a></li><li><a href='https://base64.guru/converter/encode/image/webp'>WebP</a></li></ul></li><li><a href='https://base64.guru/converter/encode/pdf'>PDF</a></li><li><a href='https://base64.guru/converter/encode/text'>Text</a></li><li><a href='https://base64.guru/converter/encode/url'>URL</a></li><li><a href='https://base64.guru/converter/encode/video'>Video</a></li></ul></li></ul></li><li><b><a href='/developers'>Developers</a></b><ul><li><b><a href='https://base64.guru/developers/css'>CSS</a></b><ul><li><a href='https://base64.guru/developers/css/background'>background</a></li><li><a href='https://base64.guru/developers/css/background-image'>background-image</a></li><li><a href='https://base64.guru/developers/css/border-image'>border-image</a></li><li><a href='https://base64.guru/developers/css/cursor'>cursor</a></li><li><a href='https://base64.guru/developers/css/list-style'>list-style</a></li><li><a href='https://base64.guru/developers/css/list-style-image'>list-style-image</a></li></ul></li><li><b><a href='https://base64.guru/developers/data-uri'>Data URI</a></b><ul><li><a href='https://base64.guru/developers/data-uri/css-sprites'>CSS Sprites</a></li><li><a href='https://base64.guru/developers/data-uri/gzip'>Gzip</a></li></ul></li><li><b><a href='https://base64.guru/developers/html'>HTML</a></b><ul><li><a href='https://base64.guru/developers/html/a'>&lt;a&gt;</a></li><li><a href='https://base64.guru/developers/html/audio'>&lt;audio&gt;</a></li><li><a href='https://base64.guru/developers/html/embed'>&lt;embed&gt;</a></li><li><a href='https://base64.guru/developers/html/iframe'>&lt;iframe&gt;</a></li><li><a href='https://base64.guru/developers/html/img'>&lt;img&gt;</a></li><li><a href='https://base64.guru/developers/html/input'>&lt;input&gt;</a></li><li><a href='https://base64.guru/developers/html/link'>&lt;link&gt;</a></li><li><a href='https://base64.guru/developers/html/object'>&lt;object&gt;</a></li><li><a href='https://base64.guru/developers/html/picture'>&lt;picture&gt;</a></li><li><a href='https://base64.guru/developers/html/script'>&lt;script&gt;</a></li><li><a href='https://base64.guru/developers/html/source'>&lt;source&gt;</a></li><li><a href='https://base64.guru/developers/html/style'>&lt;style&gt;</a></li><li><a href='https://base64.guru/developers/html/video'>&lt;video&gt;</a></li></ul></li><li><b><a href='https://base64.guru/developers/java'>Java</a></b><ul><li><a href='https://base64.guru/developers/java/decode'>Decode</a></li><li><a href='https://base64.guru/developers/java/encode'>Encode</a></li><li><a href='https://base64.guru/developers/java/examples'>Examples</a></li></ul></li><li><b><a href='https://base64.guru/developers/javascript'>JavaScript</a></b><ul><li><a href='https://base64.guru/developers/javascript/atob'>Decode</a></li><li><a href='https://base64.guru/developers/javascript/btoa'>Encode</a></li><li><a href='https://base64.guru/developers/javascript/examples'>Examples</a></li></ul></li><li><b><a href='https://base64.guru/developers/php'>PHP</a></b><ul><li><a href='https://base64.guru/developers/php/base64_decode'>Decode</a></li><li><a href='https://base64.guru/developers/php/base64_encode'>Encode</a></li><li><a href='https://base64.guru/developers/php/examples'>Examples</a></li></ul></li><li><b><a href='https://base64.guru/developers/python'>Python</a></b><ul><li><a href='https://base64.guru/developers/python/b64decode'>Decode</a></li><li><a href='https://base64.guru/developers/python/b64encode'>Encode</a></li><li><a href='https://base64.guru/developers/python/examples'>Examples</a></li></ul></li></ul></li><li><b><a href='/learn'>Learn</a></b><ul><li><a href='https://base64.guru/learn/what-is-base64'>What is Base64?</a></li><li><b><a href='https://base64.guru/learn/base64-algorithm'>Base64 Algorithm</a></b><ul><li><a href='https://base64.guru/learn/base64-algorithm/encode'>Encoding</a></li><li><a href='https://base64.guru/learn/base64-algorithm/decode'>Decoding</a></li></ul></li><li><a href='https://base64.guru/learn/base64-characters'>Base64 Characters</a></li><li><b><a href='https://base64.guru/learn/more'>More</a></b><ul><li><a href='https://base64.guru/learn/more/ascii-table'>ASCII Table</a></li></ul></li></ul></li><li><b><a href='/standards'>Standards</a></b><ul><li><b><a href='https://base64.guru/standards/base64url'>Base64URL</a></b><ul><li><a href='https://base64.guru/standards/base64url/decode'>Decode</a></li><li><a href='https://base64.guru/standards/base64url/encode'>Encode</a></li></ul></li><li><a href='https://base64.guru/standards/main'>Main</a></li></ul></li><li><b><a href='/tools'>Tools</a></b><ul><li><a href='https://base64.guru/tools/character-encoding'>Character Encoding Detection</a></li><li><a href='https://base64.guru/tools/css-data-uri-converter'>CSS Data URI Converter</a></li><li><a href='https://base64.guru/tools/data-url-to-image'>Data URL to image</a></li><li><a href='https://base64.guru/tools/detector'>Base64 Standard Detector</a></li><li><a href='https://base64.guru/tools/gzip-test'>Check gzip compression</a></li><li><a href='https://base64.guru/tools/http-request-online'>HTTP Request Online</a></li><li><a href='https://base64.guru/tools/normalization'>Normalize Base64</a></li><li><a href='https://base64.guru/tools/repair'>Repair malformed Base64</a></li><li><a href='https://base64.guru/tools/validator'>Validate Base64</a></li></ul></li><li><a href='/donate'>&hearts; Donate</a></li><li><a href='/blog'>Blog</a></li><li><a href='/contacts'>Contacts</a></li></ul>
+
+<select onchange='location.href=this.value' aria-label='Navigation Menu'><option>Navigation Menu</option><option value='/'>Home</option><option value='/converter'>Converter</option><option value='https://base64.guru/converter/decode'>- Base64 Decode</option><option value='https://base64.guru/converter/decode/ascii'>- - ASCII</option><option value='https://base64.guru/converter/decode/audio'>- - Audio</option><option value='https://base64.guru/converter/decode/file'>- - File</option><option value='https://base64.guru/converter/decode/hex'>- - Hex</option><option value='https://base64.guru/converter/decode/image'>- - Image</option><option value='https://base64.guru/converter/decode/image/bmp'>- - - BMP</option><option value='https://base64.guru/converter/decode/image/gif'>- - - GIF</option><option value='https://base64.guru/converter/decode/image/ico'>- - - ICO</option><option value='https://base64.guru/converter/decode/image/jpg'>- - - JPG</option><option value='https://base64.guru/converter/decode/image/png'>- - - PNG</option><option value='https://base64.guru/converter/decode/image/svg'>- - - SVG</option><option value='https://base64.guru/converter/decode/image/webp'>- - - WebP</option><option value='https://base64.guru/converter/decode/pdf'>- - PDF</option><option value='https://base64.guru/converter/decode/text'>- - Text</option><option value='https://base64.guru/converter/decode/video'>- - Video</option><option value='https://base64.guru/converter/encode'>- Base64 Encode</option><option value='https://base64.guru/converter/encode/audio'>- - Audio</option><option value='https://base64.guru/converter/encode/audio/flac'>- - - FLAC</option><option value='https://base64.guru/converter/encode/audio/mp3'>- - - MP3</option><option value='https://base64.guru/converter/encode/audio/ogg'>- - - Ogg</option><option value='https://base64.guru/converter/encode/audio/wav'>- - - WAV</option><option value='https://base64.guru/converter/encode/audio/wma'>- - - WMA</option><option value='https://base64.guru/converter/encode/css'>- - CSS</option><option value='https://base64.guru/converter/encode/file'>- - File</option><option value='https://base64.guru/converter/encode/hex'>- - Hex</option><option value='https://base64.guru/converter/encode/html'>- - HTML</option><option value='https://base64.guru/converter/encode/image'>- - Image</option><option value='https://base64.guru/converter/encode/image/bmp'>- - - BMP</option><option value='https://base64.guru/converter/encode/image/gif'>- - - GIF</option><option value='https://base64.guru/converter/encode/image/ico'>- - - ICO</option><option value='https://base64.guru/converter/encode/image/jpg'>- - - JPG</option><option value='https://base64.guru/converter/encode/image/png'>- - - PNG</option><option value='https://base64.guru/converter/encode/image/svg'>- - - SVG</option><option value='https://base64.guru/converter/encode/image/webp'>- - - WebP</option><option value='https://base64.guru/converter/encode/pdf'>- - PDF</option><option value='https://base64.guru/converter/encode/text'>- - Text</option><option value='https://base64.guru/converter/encode/url'>- - URL</option><option value='https://base64.guru/converter/encode/video'>- - Video</option><option value='/developers'>Developers</option><option value='https://base64.guru/developers/css'>- CSS</option><option value='https://base64.guru/developers/css/background'>- - background</option><option value='https://base64.guru/developers/css/background-image'>- - background-image</option><option value='https://base64.guru/developers/css/border-image'>- - border-image</option><option value='https://base64.guru/developers/css/cursor'>- - cursor</option><option value='https://base64.guru/developers/css/list-style'>- - list-style</option><option value='https://base64.guru/developers/css/list-style-image'>- - list-style-image</option><option value='https://base64.guru/developers/data-uri'>- Data URI</option><option value='https://base64.guru/developers/data-uri/css-sprites'>- - CSS Sprites</option><option value='https://base64.guru/developers/data-uri/gzip'>- - Gzip</option><option value='https://base64.guru/developers/html'>- HTML</option><option value='https://base64.guru/developers/html/a'>- - &lt;a&gt;</option><option value='https://base64.guru/developers/html/audio'>- - &lt;audio&gt;</option><option value='https://base64.guru/developers/html/embed'>- - &lt;embed&gt;</option><option value='https://base64.guru/developers/html/iframe'>- - &lt;iframe&gt;</option><option value='https://base64.guru/developers/html/img'>- - &lt;img&gt;</option><option value='https://base64.guru/developers/html/input'>- - &lt;input&gt;</option><option value='https://base64.guru/developers/html/link'>- - &lt;link&gt;</option><option value='https://base64.guru/developers/html/object'>- - &lt;object&gt;</option><option value='https://base64.guru/developers/html/picture'>- - &lt;picture&gt;</option><option value='https://base64.guru/developers/html/script'>- - &lt;script&gt;</option><option value='https://base64.guru/developers/html/source'>- - &lt;source&gt;</option><option value='https://base64.guru/developers/html/style'>- - &lt;style&gt;</option><option value='https://base64.guru/developers/html/video'>- - &lt;video&gt;</option><option value='https://base64.guru/developers/java'>- Java</option><option value='https://base64.guru/developers/java/decode'>- - Decode</option><option value='https://base64.guru/developers/java/encode'>- - Encode</option><option value='https://base64.guru/developers/java/examples'>- - Examples</option><option value='https://base64.guru/developers/javascript'>- JavaScript</option><option value='https://base64.guru/developers/javascript/atob'>- - Decode</option><option value='https://base64.guru/developers/javascript/btoa'>- - Encode</option><option value='https://base64.guru/developers/javascript/examples'>- - Examples</option><option value='https://base64.guru/developers/php'>- PHP</option><option value='https://base64.guru/developers/php/base64_decode'>- - Decode</option><option value='https://base64.guru/developers/php/base64_encode'>- - Encode</option><option value='https://base64.guru/developers/php/examples'>- - Examples</option><option value='https://base64.guru/developers/python'>- Python</option><option value='https://base64.guru/developers/python/b64decode'>- - Decode</option><option value='https://base64.guru/developers/python/b64encode'>- - Encode</option><option value='https://base64.guru/developers/python/examples'>- - Examples</option><option value='/learn'>Learn</option><option value='https://base64.guru/learn/what-is-base64'>- What is Base64?</option><option value='https://base64.guru/learn/base64-algorithm'>- Base64 Algorithm</option><option value='https://base64.guru/learn/base64-algorithm/encode'>- - Encoding</option><option value='https://base64.guru/learn/base64-algorithm/decode'>- - Decoding</option><option value='https://base64.guru/learn/base64-characters'>- Base64 Characters</option><option value='https://base64.guru/learn/more'>- More</option><option value='https://base64.guru/learn/more/ascii-table'>- - ASCII Table</option><option value='/standards'>Standards</option><option value='https://base64.guru/standards/base64url'>- Base64URL</option><option value='https://base64.guru/standards/base64url/decode'>- - Decode</option><option value='https://base64.guru/standards/base64url/encode'>- - Encode</option><option value='https://base64.guru/standards/main'>- Main</option><option value='/tools'>Tools</option><option value='https://base64.guru/tools/character-encoding'>- Character Encoding Detection</option><option value='https://base64.guru/tools/css-data-uri-converter'>- CSS Data URI Converter</option><option value='https://base64.guru/tools/data-url-to-image'>- Data URL to image</option><option value='https://base64.guru/tools/detector'>- Base64 Standard Detector</option><option value='https://base64.guru/tools/gzip-test'>- Check gzip compression</option><option value='https://base64.guru/tools/http-request-online'>- HTTP Request Online</option><option value='https://base64.guru/tools/normalization'>- Normalize Base64</option><option value='https://base64.guru/tools/repair'>- Repair malformed Base64</option><option value='https://base64.guru/tools/validator'>- Validate Base64</option><option value='/donate'>♥ Donate</option><option value='/blog'>Blog</option><option value='/contacts'>Contacts</option></select></nav>
+        </header>
+
+        <section>
+			<main>
+									<article>
+	<h1>Base64 to PNG</h1>
+	
+			<div class="pageheader">
+			<a href="#comments">Comments: 31</a>
+
+							| <a href="#form-comment-main" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+					<meta itemprop="itemReviewed" content="Base64 to PNG" />
+					<meta itemprop="ratingCount" content="16" />
+					Rating: <span itemprop="ratingValue">4.6</span>/<span itemprop="bestRating">5</span>
+				</a>
+					</div>
+	
+	<p>Convert Base64 to PNG online using a free decoding tool that allows you to decode Base64 as PNG image and preview it directly in the browser. By and large, the “Base64 to PNG” converter is similar to <a href="/converter/decode/image">Base64 to Image</a>, except that it this one forces the MIME type to be “image/png”. If you are looking for the reverse process, check <a href="/converter/encode/image/png">PNG to Base64</a>.</p>
+
+	<form action="/converter/decode/image/png" name="base64-converter-decode-image-png" id="form-base64-converter-decode-image-png" method="post" class="form-base64">
+<div>
+<input type="hidden" value="base64-converter-decode-image-png" name="form_is_submited"><input type="hidden" value="/converter/decode/image/png" name="form_action_url"><fieldset id="form-base64-converter-decode-image-png-fieldset-base64"><label><h5>Base64<b>*</b></h5><textarea name="base64" id="form-base64-converter-decode-image-png-base64"></textarea></label></fieldset>
+<button value="1" name="decode" id="form-base64-converter-decode-image-png-decode">Decode Base64 to PNG</button><fieldset id="form-base64-converter-decode-image-png-fieldset-preview"><label><h5>Preview PNG Image</h5><div data-preview-type="image" data-preview-ext="png" id="form-base64-converter-decode-image-png-preview">The result of Base64 decoding will appear here
+</div></label></fieldset>
+</div>
+<script src='//static.base64.guru/js/form_base64.min.js?1.0.50'></script><hr/><div itemscope itemtype="https://schema.org/HowTo">
+	<h4 itemprop="name">How to convert Base64 to PNG online</h4>
+	<meta itemprop="totalTime" content="PT9S"/>
+	<span itemprop="estimatedCost" itemscope itemtype="http://schema.org/MonetaryAmount">
+		<meta itemprop="currency" content="USD"/>
+		<meta itemprop="value" content="0"/>
+	</span>
+	<ol>
+		<li itemprop="step" itemscope itemtype="https://schema.org/HowToStep">
+			<span itemprop="text">Paste your string in the “Base64” field.</span>
+		</li>
+		<li itemprop="step" itemscope itemtype="https://schema.org/HowToStep">
+			<span itemprop="text">Press the “Decode Base64 to PNG” button.</span>
+		</li>
+		<li itemprop="step" itemscope itemtype="https://schema.org/HowToStep">
+			<span itemprop="text">Click on the filename link to download the PNG image.</span>
+		</li>
+	</ol>
+</div>
+</form>
+<h4>Important notes about the decoder</h4>
+<p>The “Base64 to PNG” converter will force the decoding result to be displayed as a PNG image, even if it is a different file type. Therefore, if you are not sure that your Base64 string is PNG image, use the <a href="/converter/decode/file">Base64 to file converter</a> since it is capable of displaying various file types. In any case, feel free to give it a try, since this converter will inform you if something is wrong.</p>
+
+<h4>About PNG</h4>
+<ul>
+	<li>Name: Portable Network Graphics</li>
+	<li>Developer: PNG Development Group</li>
+	<li>MIME types: image/png</li>
+	<li>File Extensions: .png</li>
+	<li>Uniform Type Identifier: public.png</li>
+	<li>Type of Format: Lossless bitmap image</li>
+</ul>
+
+
+
+	
+	<!--<hr/>-->
+	</article>
+
+<div id="comments"><h6>Comments (31)</h6><p><i>I hope you enjoy this discussion. In any case, I ask you to join it.</i></p><ul><li id='comment-866'><div class="comment comment-by-guest" itemscope itemtype="https://schema.org/Comment">
+	<div class="comment-header">
+		<b itemprop="creator" class="comment-author">TerryCorbet</b>, <time itemprop="dateCreated" datetime="2020-05-21T03:18:21+00:00">21 may 2020 at 03:18</time>
+		<span class="comment-links"><a href='https://base64.guru/converter/decode/image/png#comment-866' itemprop='url'>#</a></span>
+		
+	</div>
+
+	<div class="comment-body" itemprop="text">
+		Thank you very much for providing this as a free service.  I have a brother who sent out a broadcast email that includes his &quot;signature&quot; file.  It is a small black-on-white representation of his name signed with a pen.  He authored it using a recent version of Photoshop on a Mac, but mistakenly saved out of that process a 6MB tiff file.<br/><br/>I don&#039;t have broadband, just a DSL ISP, so it took a couple of minutes for the cut-n-pasted Base64 string to make its way to your site.  The software performed the transcription/encoding and let me download a conformant .png file which IrfanView easily condensed into about 75KB.  Cup of coffee is on its way.
+	</div>
+
+	<div class="comment-footer">
+		<a href='https://base64.guru/converter/decode/image/png#comment-866' class='comment-reply-link'>reply</a>
+	</div>
+</div><ul><li id='comment-867'><div class="comment comment-by-admin" itemscope itemtype="https://schema.org/Comment">
+	<div class="comment-header">
+		<b itemprop="creator" class="comment-author">Administrator</b>, <time itemprop="dateCreated" datetime="2020-05-21T12:32:43+00:00">21 may 2020 at 12:32</time>
+		<span class="comment-links"><a href='https://base64.guru/converter/decode/image/png#comment-867' itemprop='url'>#</a><a href='https://base64.guru/converter/decode/image/png#comment-866'>&uarr;</a></span>
+		
+	</div>
+
+	<div class="comment-body" itemprop="text">
+		Thank you Terry for your support! I'm glad you found the solution to your task here.
+	</div>
+
+	<div class="comment-footer">
+		<a href='https://base64.guru/converter/decode/image/png#comment-867' class='comment-reply-link'>reply</a>
+	</div>
+</div></li></ul></li><li id='comment-928'><div class="comment comment-by-guest" itemscope itemtype="https://schema.org/Comment">
+	<div class="comment-header">
+		<b itemprop="creator" class="comment-author">balasaheb</b>, <time itemprop="dateCreated" datetime="2020-06-14T17:32:59+00:00">14 june 2020 at 17:32</time>
+		<span class="comment-links"><a href='https://base64.guru/converter/decode/image/png#comment-928' itemprop='url'>#</a></span>
+		
+	</div>
+
+	<div class="comment-body" itemprop="text">
+		Hi,<br/>I have base 64 string and trying to decode it to an image on your site. Somehow I am not able to see its preview - it gives an error while rendering it on browser .However it gives the downloadable attachment. Could you please let me know what could be the reason?
+	</div>
+
+	<div class="comment-footer">
+		<a href='https://base64.guru/converter/decode/image/png#comment-928' class='comment-reply-link'>reply</a>
+	</div>
+</div><ul><li id='comment-930'><div class="comment comment-by-admin" itemscope itemtype="https://schema.org/Comment">
+	<div class="comment-header">
+		<b itemprop="creator" class="comment-author">Administrator</b>, <time itemprop="dateCreated" datetime="2020-06-15T11:27:25+00:00">15 june 2020 at 11:27</time>
+		<span class="comment-links"><a href='https://base64.guru/converter/decode/image/png#comment-930' itemprop='url'>#</a><a href='https://base64.guru/converter/decode/image/png#comment-928'>&uarr;</a></span>
+		
+	</div>
+
+	<div class="comment-body" itemprop="text">
+		This can happen for several reasons, but most likely your data is damaged or your browser does not support the image format.
+	</div>
+
+	<div class="comment-footer">
+		<a href='https://base64.guru/converter/decode/image/png#comment-930' class='comment-reply-link'>reply</a>
+	</div>
+</div></li></ul></li><li id='comment-1415'><div class="comment comment-by-guest" itemscope itemtype="https://schema.org/Comment">
+	<div class="comment-header">
+		<b itemprop="creator" class="comment-author">tamar</b>, <time itemprop="dateCreated" datetime="2021-02-07T18:12:33+00:00">7 february 2021 at 18:12</time>
+		<span class="comment-links"><a href='https://base64.guru/converter/decode/image/png#comment-1415' itemprop='url'>#</a></span>
+		
+	</div>
+
+	<div class="comment-body" itemprop="text">
+		i successfully decoded my graph in png format with base64 but the image did not show on my browser(opera,firefox and chrome any help
+	</div>
+
+	<div class="comment-footer">
+		<a href='https://base64.guru/converter/decode/image/png#comment-1415' class='comment-reply-link'>reply</a>
+	</div>
+</div><ul><li id='comment-5986'><div class="comment comment-by-guest" itemscope itemtype="https://schema.org/Comment">
+	<div class="comment-header">
+		<b itemprop="creator" class="comment-author">kumar</b>, <time itemprop="dateCreated" datetime="2024-04-23T08:56:01+00:00">23 april 2024 at 08:56</time>
+		<span class="comment-links"><a href='https://base64.guru/converter/decode/image/png#comment-5986' itemprop='url'>#</a><a href='https://base64.guru/converter/decode/image/png#comment-1415'>&uarr;</a></span>
+		
+	</div>
+
+	<div class="comment-body" itemprop="text">
+		you check in downloads if u click the link in previw info then click the link and you can able to see downloads
+	</div>
+
+	<div class="comment-footer">
+		<a href='https://base64.guru/converter/decode/image/png#comment-5986' class='comment-reply-link'>reply</a>
+	</div>
+</div></li></ul></li><li id='comment-1467'><div class="comment comment-by-guest" itemscope itemtype="https://schema.org/Comment">
+	<div class="comment-header">
+		<b itemprop="creator" class="comment-author">Julio</b>, <time itemprop="dateCreated" datetime="2021-03-11T07:47:21+00:00">11 march 2021 at 07:47</time>
+		<span class="comment-links"><a href='https://base64.guru/converter/decode/image/png#comment-1467' itemprop='url'>#</a></span>
+		
+	</div>
+
+	<div class="comment-body" itemprop="text">
+		Dear Victor...<br/><br/>PNG files can contain multiple images. Yet I can only see the first image. How can I see the other images?
+	</div>
+
+	<div class="comment-footer">
+		<a href='https://base64.guru/converter/decode/image/png#comment-1467' class='comment-reply-link'>reply</a>
+	</div>
+</div><ul><li id='comment-1469'><div class="comment comment-by-admin" itemscope itemtype="https://schema.org/Comment">
+	<div class="comment-header">
+		<b itemprop="creator" class="comment-author">Administrator</b>, <time itemprop="dateCreated" datetime="2021-03-12T12:23:33+00:00">12 march 2021 at 12:23</time>
+		<span class="comment-links"><a href='https://base64.guru/converter/decode/image/png#comment-1469' itemprop='url'>#</a><a href='https://base64.guru/converter/decode/image/png#comment-1467'>&uarr;</a></span>
+		
+	</div>
+
+	<div class="comment-body" itemprop="text">
+		Hello Julio! PNG cannot contain multiple images. You may be referring to APNG, which can store multiple "images" like GIF. If so, perhaps the problem is due your browser, not Base64. Therefore, try to decode your string using another browser.
+	</div>
+
+	<div class="comment-footer">
+		<a href='https://base64.guru/converter/decode/image/png#comment-1469' class='comment-reply-link'>reply</a>
+	</div>
+</div></li></ul></li><li id='comment-1480'><div class="comment comment-by-guest" itemscope itemtype="https://schema.org/Comment">
+	<div class="comment-header">
+		<b itemprop="creator" class="comment-author">GFW</b>, <time itemprop="dateCreated" datetime="2021-03-16T06:32:10+00:00">16 march 2021 at 06:32</time>
+		<span class="comment-links"><a href='https://base64.guru/converter/decode/image/png#comment-1480' itemprop='url'>#</a></span>
+		
+	</div>
+
+	<div class="comment-body" itemprop="text">
+		Hi, it is a great tool and I wonder is there a software available for this cool feature? <br/>Just for offline use, thank you!
+	</div>
+
+	<div class="comment-footer">
+		<a href='https://base64.guru/converter/decode/image/png#comment-1480' class='comment-reply-link'>reply</a>
+	</div>
+</div></li><li id='comment-1514'><div class="comment comment-by-guest" itemscope itemtype="https://schema.org/Comment">
+	<div class="comment-header">
+		<b itemprop="creator" class="comment-author">N_vai</b>, <time itemprop="dateCreated" datetime="2021-04-13T11:34:32+00:00">13 april 2021 at 11:34</time>
+		<span class="comment-links"><a href='https://base64.guru/converter/decode/image/png#comment-1514' itemprop='url'>#</a></span>
+		
+	</div>
+
+	<div class="comment-body" itemprop="text">
+		Hello! I have the following base64code: <code>iVBORw0KGgoAAAANSUhEUgAAAUAAAADwCAYAAABxLb1rAAAgAElEQVR4Xu2dCdxOZf7/r1TUIBrLJJIwlkqbSsXQZkuIRlOSsiRFJNUw0xCV7FuSRpZmkmgGmQYja0MUMZNMFMmSIiYNxpb69/7+5/Z7Eo97Oefc577P5/t63a9mHve5znXe13k+z7V8l5O++96cTAREQAQiSOAkCWAER12PLAIiYAQkgHoRREAE</code><br/>When I run this decoder I get an image that I can not open. Do you maybe know what the problem is here?
+	</div>
+
+	<div class="comment-footer">
+		<a href='https://base64.guru/converter/decode/image/png#comment-1514' class='comment-reply-link'>reply</a>
+	</div>
+</div><ul><li id='comment-1583'><div class="comment comment-by-guest" itemscope itemtype="https://schema.org/Comment">
+	<div class="comment-header">
+		<b itemprop="creator" class="comment-author">blah</b>, <time itemprop="dateCreated" datetime="2021-05-27T16:15:45+00:00">27 may 2021 at 16:15</time>
+		<span class="comment-links"><a href='https://base64.guru/converter/decode/image/png#comment-1583' itemprop='url'>#</a><a href='https://base64.guru/converter/decode/image/png#comment-1514'>&uarr;</a></span>
+		
+	</div>
+
+	<div class="comment-body" itemprop="text">
+		Are you referring to the white png image?
+	</div>
+
+	<div class="comment-footer">
+		<a href='https://base64.guru/converter/decode/image/png#comment-1583' class='comment-reply-link'>reply</a>
+	</div>
+</div></li><li id='comment-3668'><div class="comment comment-by-guest" itemscope itemtype="https://schema.org/Comment">
+	<div class="comment-header">
+		<b itemprop="creator" class="comment-author">wasim</b>, <time itemprop="dateCreated" datetime="2023-04-26T11:29:31+00:00">26 april 2023 at 11:29</time>
+		<span class="comment-links"><a href='https://base64.guru/converter/decode/image/png#comment-3668' itemprop='url'>#</a><a href='https://base64.guru/converter/decode/image/png#comment-1514'>&uarr;</a></span>
+		
+	</div>
+
+	<div class="comment-body" itemprop="text">
+		The base64 encoded string that you provided decodes to an image in PNG format. However, it is possible that the decoded image is corrupted or incomplete, which could explain why you are having difficulty opening it.<br/><br/>One possibility is that there was an issue with the encoding or decoding process. To rule this out, you could try decoding the base64 string again with a different decoder tool, or try encoding a different image to base64 and decoding it to see if the issue persists.<br/><br/>Another possibility is that there was an issue with the image file itself prior to encoding. You could try obtaining the original image file and verifying that it is not corrupted or incomplete.<br/><br/>If none of these solutions work, it may be helpful to provide more information about the specific error or issue you are encountering when trying to open the decoded image.
+	</div>
+
+	<div class="comment-footer">
+		<a href='https://base64.guru/converter/decode/image/png#comment-3668' class='comment-reply-link'>reply</a>
+	</div>
+</div></li></ul></li><li id='comment-2520'><div class="comment comment-by-guest" itemscope itemtype="https://schema.org/Comment">
+	<div class="comment-header">
+		<b itemprop="creator" class="comment-author">Scratch_coder</b>, <time itemprop="dateCreated" datetime="2021-10-11T09:31:02+00:00">11 october 2021 at 09:31</time>
+		<span class="comment-links"><a href='https://base64.guru/converter/decode/image/png#comment-2520' itemprop='url'>#</a></span>
+		
+	</div>
+
+	<div class="comment-body" itemprop="text">
+		i have been trying to understand how it works. so i have seen many wiki sites about this encode/decode but no one explained me how a pixel gets its information in base64. so i know base64 converts in binary and binary converts in to png but i want to know the part ho tf it converts banary in png or how does a pixel/png Chunk know its color from 1 and 0. how pls explain and dont say just use java to encode, cuz i want to know how it works on all stages. pls HELP
+	</div>
+
+	<div class="comment-footer">
+		<a href='https://base64.guru/converter/decode/image/png#comment-2520' class='comment-reply-link'>reply</a>
+	</div>
+</div><ul><li id='comment-2526'><div class="comment comment-by-admin" itemscope itemtype="https://schema.org/Comment">
+	<div class="comment-header">
+		<b itemprop="creator" class="comment-author">Administrator</b>, <time itemprop="dateCreated" datetime="2021-10-16T09:31:49+00:00">16 october 2021 at 09:31</time>
+		<span class="comment-links"><a href='https://base64.guru/converter/decode/image/png#comment-2526' itemprop='url'>#</a><a href='https://base64.guru/converter/decode/image/png#comment-2520'>&uarr;</a></span>
+		
+	</div>
+
+	<div class="comment-body" itemprop="text">
+		Hello! By and large, you can find the answer on this page: <a href="https://base64.guru/learn/base64-algorithm/encode">A step by step explanation of the Base64 encoding algorithm</a>. Also I recommend you to take a look at the <a href="https://base64.guru/learn/base64-algorithm/decode">Base64 Decoding Algorithm</a>.<br/><br/>Please note that on both pages at the end of the article, you can find a form that allows you to get step-by-step instructions for your own data.
+	</div>
+
+	<div class="comment-footer">
+		<a href='https://base64.guru/converter/decode/image/png#comment-2526' class='comment-reply-link'>reply</a>
+	</div>
+</div></li></ul></li><li id='comment-2780'><div class="comment comment-by-guest" itemscope itemtype="https://schema.org/Comment">
+	<div class="comment-header">
+		<b itemprop="creator" class="comment-author">hunt</b>, <time itemprop="dateCreated" datetime="2022-05-06T19:48:49+00:00">6 may 2022 at 19:48</time>
+		<span class="comment-links"><a href='https://base64.guru/converter/decode/image/png#comment-2780' itemprop='url'>#</a></span>
+		
+	</div>
+
+	<div class="comment-body" itemprop="text">
+		do you know how I can obtain this information from an image file?<br/><code><br/>RedMatrixColumn:<br/>BlueMatrixColumn:<br/>GreenMatrixColumn:<br/>RedTRC:<br/>GreenTRC:<br/>BlueTRC:<br/>ChromaticityChannels:<br/>ChromaticityColorant:<br/>ChromaticityChannel1:<br/>ChromaticityChannel2:<br/>ChromaticityChannel3:<br/></code><br/><br/>Along with other similar information?
+	</div>
+
+	<div class="comment-footer">
+		<a href='https://base64.guru/converter/decode/image/png#comment-2780' class='comment-reply-link'>reply</a>
+	</div>
+</div></li><li id='comment-2845'><div class="comment comment-by-guest" itemscope itemtype="https://schema.org/Comment">
+	<div class="comment-header">
+		<b itemprop="creator" class="comment-author">Josedavidpc310</b>, <time itemprop="dateCreated" datetime="2022-07-10T05:36:05+00:00">10 july 2022 at 05:36</time>
+		<span class="comment-links"><a href='https://base64.guru/converter/decode/image/png#comment-2845' itemprop='url'>#</a></span>
+		
+	</div>
+
+	<div class="comment-body" itemprop="text">
+		It works fine
+	</div>
+
+	<div class="comment-footer">
+		<a href='https://base64.guru/converter/decode/image/png#comment-2845' class='comment-reply-link'>reply</a>
+	</div>
+</div></li><li id='comment-2904'><div class="comment comment-by-guest" itemscope itemtype="https://schema.org/Comment">
+	<div class="comment-header">
+		<b itemprop="creator" class="comment-author">Don</b>, <time itemprop="dateCreated" datetime="2022-09-27T07:50:42+00:00">27 september 2022 at 07:50</time>
+		<span class="comment-links"><a href='https://base64.guru/converter/decode/image/png#comment-2904' itemprop='url'>#</a></span>
+		
+	</div>
+
+	<div class="comment-body" itemprop="text">
+		I copied the base64 text into your converter an it gave me an image with the details. I then copied the code on the Base64 to Image link and I get an error Base64 value is not a valid image&quot;. My data has data:image/png;base64,&quot; if I remove this, the error does not appear and a files is created which is a black rectangle. Could you please point me in the right direction.<br/>Regards,<br/>Don Crago
+	</div>
+
+	<div class="comment-footer">
+		<a href='https://base64.guru/converter/decode/image/png#comment-2904' class='comment-reply-link'>reply</a>
+	</div>
+</div></li><li id='comment-2973'><div class="comment comment-by-guest" itemscope itemtype="https://schema.org/Comment">
+	<div class="comment-header">
+		<b itemprop="creator" class="comment-author">argani</b>, <time itemprop="dateCreated" datetime="2022-11-18T20:40:22+00:00">18 november 2022 at 20:40</time>
+		<span class="comment-links"><a href='https://base64.guru/converter/decode/image/png#comment-2973' itemprop='url'>#</a></span>
+		
+	</div>
+
+	<div class="comment-body" itemprop="text">
+		Definitely will keep coming back to this site &lt;3
+	</div>
+
+	<div class="comment-footer">
+		<a href='https://base64.guru/converter/decode/image/png#comment-2973' class='comment-reply-link'>reply</a>
+	</div>
+</div></li><li id='comment-3655'><div class="comment comment-by-guest" itemscope itemtype="https://schema.org/Comment">
+	<div class="comment-header">
+		<b itemprop="creator" class="comment-author">Gokturk_Ucoluk</b>, <time itemprop="dateCreated" datetime="2023-04-13T13:18:05+00:00">13 april 2023 at 13:18</time>
+		<span class="comment-links"><a href='https://base64.guru/converter/decode/image/png#comment-3655' itemprop='url'>#</a></span>
+		
+	</div>
+
+	<div class="comment-body" itemprop="text">
+		Thank you for this service. Proper job :-)
+	</div>
+
+	<div class="comment-footer">
+		<a href='https://base64.guru/converter/decode/image/png#comment-3655' class='comment-reply-link'>reply</a>
+	</div>
+</div></li><li id='comment-3693'><div class="comment comment-by-guest" itemscope itemtype="https://schema.org/Comment">
+	<div class="comment-header">
+		<b itemprop="creator" class="comment-author">bru</b>, <time itemprop="dateCreated" datetime="2023-05-09T16:56:26+00:00">9 may 2023 at 16:56</time>
+		<span class="comment-links"><a href='https://base64.guru/converter/decode/image/png#comment-3693' itemprop='url'>#</a></span>
+		
+	</div>
+
+	<div class="comment-body" itemprop="text">
+		Niceeeeeee
+	</div>
+
+	<div class="comment-footer">
+		<a href='https://base64.guru/converter/decode/image/png#comment-3693' class='comment-reply-link'>reply</a>
+	</div>
+</div></li><li id='comment-3768'><div class="comment comment-by-guest" itemscope itemtype="https://schema.org/Comment">
+	<div class="comment-header">
+		<b itemprop="creator" class="comment-author">tony</b>, <time itemprop="dateCreated" datetime="2023-07-08T07:03:04+00:00">8 july 2023 at 07:03</time>
+		<span class="comment-links"><a href='https://base64.guru/converter/decode/image/png#comment-3768' itemprop='url'>#</a></span>
+		
+	</div>
+
+	<div class="comment-body" itemprop="text">
+		Very good place love it’s for sure I back ??
+	</div>
+
+	<div class="comment-footer">
+		<a href='https://base64.guru/converter/decode/image/png#comment-3768' class='comment-reply-link'>reply</a>
+	</div>
+</div></li><li id='comment-4857'><div class="comment comment-by-guest" itemscope itemtype="https://schema.org/Comment">
+	<div class="comment-header">
+		<b itemprop="creator" class="comment-author">nqhXncMU</b>, <time itemprop="dateCreated" datetime="2024-01-06T16:10:09+00:00">6 january 2024 at 16:10</time>
+		<span class="comment-links"><a href='https://base64.guru/converter/decode/image/png#comment-4857' itemprop='url'>#</a></span>
+		
+	</div>
+
+	<div class="comment-body" itemprop="text">
+		555*DBMS_PIPE.RECEIVE_MESSAGE(CHR(99)||CHR(99)||CHR(99),15)
+	</div>
+
+	<div class="comment-footer">
+		<a href='https://base64.guru/converter/decode/image/png#comment-4857' class='comment-reply-link'>reply</a>
+	</div>
+</div></li><li id='comment-4867'><div class="comment comment-by-guest" itemscope itemtype="https://schema.org/Comment">
+	<div class="comment-header">
+		<b itemprop="creator" class="comment-author">nqhXncMU</b>, <time itemprop="dateCreated" datetime="2024-01-06T16:16:10+00:00">6 january 2024 at 16:16</time>
+		<span class="comment-links"><a href='https://base64.guru/converter/decode/image/png#comment-4867' itemprop='url'>#</a></span>
+		
+	</div>
+
+	<div class="comment-body" itemprop="text">
+		0&#039;XOR(if(now()=sysdate(),sleep(15),0))XOR&#039;Z
+	</div>
+
+	<div class="comment-footer">
+		<a href='https://base64.guru/converter/decode/image/png#comment-4867' class='comment-reply-link'>reply</a>
+	</div>
+</div></li><li id='comment-5812'><div class="comment comment-by-guest" itemscope itemtype="https://schema.org/Comment">
+	<div class="comment-header">
+		<b itemprop="creator" class="comment-author">Test</b>, <time itemprop="dateCreated" datetime="2024-01-15T13:18:35+00:00">15 january 2024 at 13:18</time>
+		<span class="comment-links"><a href='https://base64.guru/converter/decode/image/png#comment-5812' itemprop='url'>#</a></span>
+		
+	</div>
+
+	<div class="comment-body" itemprop="text">
+		&lt;script&gt;alert(&#039;chuj w dupę Łodzi, tej kurwie nic nie zaszkodzi!&#039;&lt;/script&gt;
+	</div>
+
+	<div class="comment-footer">
+		<a href='https://base64.guru/converter/decode/image/png#comment-5812' class='comment-reply-link'>reply</a>
+	</div>
+</div></li><li id='comment-5874'><div class="comment comment-by-guest" itemscope itemtype="https://schema.org/Comment">
+	<div class="comment-header">
+		<b itemprop="creator" class="comment-author">sexy_mama</b>, <time itemprop="dateCreated" datetime="2024-03-04T12:02:30+00:00">4 march 2024 at 12:02</time>
+		<span class="comment-links"><a href='https://base64.guru/converter/decode/image/png#comment-5874' itemprop='url'>#</a></span>
+		
+	</div>
+
+	<div class="comment-body" itemprop="text">
+		hat bharwa
+	</div>
+
+	<div class="comment-footer">
+		<a href='https://base64.guru/converter/decode/image/png#comment-5874' class='comment-reply-link'>reply</a>
+	</div>
+</div></li><li id='comment-6640'><div class="comment comment-by-guest" itemscope itemtype="https://schema.org/Comment">
+	<div class="comment-header">
+		<b itemprop="creator" class="comment-author">Thanksbro</b>, <time itemprop="dateCreated" datetime="2024-06-16T02:22:49+00:00">16 june 2024 at 02:22</time>
+		<span class="comment-links"><a href='https://base64.guru/converter/decode/image/png#comment-6640' itemprop='url'>#</a></span>
+		
+	</div>
+
+	<div class="comment-body" itemprop="text">
+		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
+	</div>
+
+	<div class="comment-footer">
+		<a href='https://base64.guru/converter/decode/image/png#comment-6640' class='comment-reply-link'>reply</a>
+	</div>
+</div></li><li id='comment-7845'><div class="comment comment-by-guest" itemscope itemtype="https://schema.org/Comment">
+	<div class="comment-header">
+		<b itemprop="creator" class="comment-author">palak</b>, <time itemprop="dateCreated" datetime="2024-10-01T11:29:38+00:00">1 october 2024 at 11:29</time>
+		<span class="comment-links"><a href='https://base64.guru/converter/decode/image/png#comment-7845' itemprop='url'>#</a></span>
+		
+	</div>
+
+	<div class="comment-body" itemprop="text">
+		nothing is just good
+	</div>
+
+	<div class="comment-footer">
+		<a href='https://base64.guru/converter/decode/image/png#comment-7845' class='comment-reply-link'>reply</a>
+	</div>
+</div></li><li id='comment-8253'><div class="comment comment-by-guest" itemscope itemtype="https://schema.org/Comment">
+	<div class="comment-header">
+		<b itemprop="creator" class="comment-author">JCfUZQsq</b>, <time itemprop="dateCreated" datetime="2025-02-27T16:09:03+00:00">27 february 2025 at 16:09</time>
+		<span class="comment-links"><a href='https://base64.guru/converter/decode/image/png#comment-8253' itemprop='url'>#</a></span>
+		
+	</div>
+
+	<div class="comment-body" itemprop="text">
+		555&amp;n989672=v948411
+	</div>
+
+	<div class="comment-footer">
+		<a href='https://base64.guru/converter/decode/image/png#comment-8253' class='comment-reply-link'>reply</a>
+	</div>
+</div></li><li id='comment-8267'><div class="comment comment-by-guest" itemscope itemtype="https://schema.org/Comment">
+	<div class="comment-header">
+		<b itemprop="creator" class="comment-author">katana</b>, <time itemprop="dateCreated" datetime="2025-03-02T01:01:52+00:00">2 march 2025 at 01:01</time>
+		<span class="comment-links"><a href='https://base64.guru/converter/decode/image/png#comment-8267' itemprop='url'>#</a></span>
+		
+	</div>
+
+	<div class="comment-body" itemprop="text">
+		katana;echo RGVLDH$(echo RGVLDH)RGVLDH
+	</div>
+
+	<div class="comment-footer">
+		<a href='https://base64.guru/converter/decode/image/png#comment-8267' class='comment-reply-link'>reply</a>
+	</div>
+</div></li><li id='comment-8268'><div class="comment comment-by-guest" itemscope itemtype="https://schema.org/Comment">
+	<div class="comment-header">
+		<b itemprop="creator" class="comment-author">katana</b>, <time itemprop="dateCreated" datetime="2025-03-02T01:02:52+00:00">2 march 2025 at 01:02</time>
+		<span class="comment-links"><a href='https://base64.guru/converter/decode/image/png#comment-8268' itemprop='url'>#</a></span>
+		
+	</div>
+
+	<div class="comment-body" itemprop="text">
+		katana${${exec((print(`echo QBOMKX`.`echo QBOMKX`.`echo QBOMKX`)}}
+	</div>
+
+	<div class="comment-footer">
+		<a href='https://base64.guru/converter/decode/image/png#comment-8268' class='comment-reply-link'>reply</a>
+	</div>
+</div></li><li id='comment-8323'><div class="comment comment-by-guest" itemscope itemtype="https://schema.org/Comment">
+	<div class="comment-header">
+		<b itemprop="creator" class="comment-author">Nash</b>, <time itemprop="dateCreated" datetime="2025-03-18T22:02:02+00:00">18 march 2025 at 22:02</time>
+		<span class="comment-links"><a href='https://base64.guru/converter/decode/image/png#comment-8323' itemprop='url'>#</a></span>
+		
+	</div>
+
+	<div class="comment-body" itemprop="text">
+		import base64<br/><br/># Read the base64 string from the file<br/>with open(&#039;skin_base64.txt&#039;, &#039;r&#039;) as file:<br/>    data = file.read().strip()<br/><br/># Decode the base64 string to binary image data<br/>image_data = base64.b64decode(data)<br/><br/># Write the decoded data to a PNG file<br/>with open(&#039;final_minecraft_skin.png&#039;, &#039;wb&#039;) as image_file:<br/>    image_file.write(image_data)<br/><br/>print(&quot;final_minecraft_skin.png has been created!&quot;)
+	</div>
+
+	<div class="comment-footer">
+		<a href='https://base64.guru/converter/decode/image/png#comment-8323' class='comment-reply-link'>reply</a>
+	</div>
+</div></li></ul></div><form action="/converter/decode/image/png" name="comment-main" id="form-comment-main" method="post" class="form-comment">
+<h6>Add new comment</h6><p>If you have any questions, remarks, need help, or just like this page, please feel free to let me know by leaving a comment using the form bellow.<br/>I will be happy to read every comment and, if necessary, I will do my best to respond as quickly as possible. Of course, spammers are welcome only as readers.</p><div>
+<input type="hidden" value="comment-main" name="form_is_submited"><input type="hidden" value="/converter/decode/image/png" name="form_action_url"><fieldset><label><h5>Name<b>*</b></h5><input value="" name="name" id="form-comment-main-name"></label></fieldset>
+<fieldset><label><h5>Email<b>*</b></h5><input type="email" value="" name="email" id="form-comment-main-email"></label></fieldset>
+<fieldset><label><h5>Do you want to be notified about new comments?</h5><select value="" name="notify" id="form-comment-main-notify"><option value="none">No! I don’t want to receive any notifications.
+</option>
+<option value="comment">Yes. Only direct replies to my comment.
+</option>
+<option value="thread">Yeah. Any comments on my conversation.
+</option>
+<option value="page">Yay! I love this page, so send me ALL comments.
+</option></select></label></fieldset>
+<fieldset><label><h5>Message<b>*</b></h5><textarea name="message" id="form-comment-main-message"></textarea><span>Please enclose <code>```your code```</code> within backticks.</span></label></fieldset>
+<fieldset><label><h5>How do you rate this page?</h5><select value="" name="rating" id="form-comment-main-rating"><option value="0" selected>---
+</option>
+<option value="5">Excellent
+</option>
+<option value="4">Good
+</option>
+<option value="3">Fine
+</option>
+<option value="2">Bad
+</option>
+<option value="1">Awful
+</option></select></label></fieldset>
+<button type="submit" value="1" name="submit" id="form-comment-main-submit">Submit your comment</button><input type="hidden" value="converter/decode/image/png" name="page"><input value="0" type="hidden" name="parentid"><input type="hidden" value="main" name="position">
+</div>
+</form><div class="blog-posts">
+	<h6>Recent blog posts</h6>
+	<ul><li><a href='https://base64.guru/blog/what-is-aaaaigz0-my4xmda'><img src='//static.base64.guru/uploads/blog/what-is-aaaaigz0-my4xmda.png' alt='What is &quot;aaaaigz0...my4xmda=&quot;?' />What is &quot;aaaaigz0...my4xmda=&quot;?</a></li><li><a href='https://base64.guru/blog/validate-base64-using-notepad-plus-plus'><img src='//static.base64.guru/uploads/blog/validate-base64-using-notepad-plus-plus.jpg' alt='Validate Base64 using Notepad++' />Validate Base64 using Notepad++</a></li><li><a href='https://base64.guru/blog/base64-encryption-is-a-lie'><img src='//static.base64.guru/uploads/blog/base64-encryption-is-a-lie.jpg' alt='Base64 encryption is a lie' />Base64 encryption is a lie</a></li></ul>
+</div>
+	<ol id="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+		<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+	<a itemprop="item" href="https://base64.guru/"><span itemprop="name">Home</span></a>
+	<meta itemprop="position" content="1" />
+</li> / <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+	<a itemprop="item" href="https://base64.guru/converter"><span itemprop="name">Base64 Converter</span></a>
+	<meta itemprop="position" content="2" />
+</li> / <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+	<a itemprop="item" href="https://base64.guru/converter/decode"><span itemprop="name">Base64 Decode</span></a>
+	<meta itemprop="position" content="3" />
+</li> / <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+	<a itemprop="item" href="https://base64.guru/converter/decode/image"><span itemprop="name">Image</span></a>
+	<meta itemprop="position" content="4" />
+</li>	</ol>
+
+							</main>
+
+			<aside>
+				
+<div class="adxbanner">
+	<ins style="display:block" class="adsbygoogle adsense-left-sidebar"
+		data-ad-client="ca-pub-4598570628875869"
+		data-ad-slot="7040320060"
+		data-ad-format="auto"
+		data-alternate-ad-url="https://base64.guru/MyShowroom/view.php?medium=backup"
+		data-full-width-responsive="true"></ins>
+	<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+<div class="sidebar-feature">
+	<h6>Decoders</h6>
+	<ul><li><a href="https://base64.guru/converter/decode/ascii">Base64 to ASCII</a></li><li><a href="https://base64.guru/converter/decode/audio">Base64 to Audio</a></li><li><a href="https://base64.guru/converter/decode/file">Base64 to File</a></li><li><a href="https://base64.guru/converter/decode/hex">Base64 to Hex</a></li><li><a href="https://base64.guru/converter/decode/image">Base64 to Image</a></li><li><a href="https://base64.guru/converter/decode/pdf">Base64 to PDF</a></li><li><a href="https://base64.guru/converter/decode/text">Base64 to Text</a></li><li><a href="https://base64.guru/converter/decode/video">Base64 to Video</a></li></ul></div>
+
+<div class="sidebar-feature">
+	<h6>Encoders</h6>
+	<ul><li><a href="https://base64.guru/converter/encode/audio">Audio to Base64</a></li><li><a href="https://base64.guru/converter/encode/css">CSS to Base64</a></li><li><a href="https://base64.guru/converter/encode/file">File to Base64</a></li><li><a href="https://base64.guru/converter/encode/hex">Hex to Base64</a></li><li><a href="https://base64.guru/converter/encode/html">HTML to Base64</a></li><li><a href="https://base64.guru/converter/encode/image">Image to Base64</a></li><li><a href="https://base64.guru/converter/encode/pdf">PDF to Base64</a></li><li><a href="https://base64.guru/converter/encode/text">Text to Base64</a></li><li><a href="https://base64.guru/converter/encode/url">URL to Base64</a></li><li><a href="https://base64.guru/converter/encode/video">Video to Base64</a></li></ul></div>
+
+<div class="sidebar-feature">
+	<h6>Tools</h6>
+	<ul><li><a href='https://base64.guru/tools/character-encoding'>Character Encoding Detection</a></li><li><a href='https://base64.guru/tools/css-data-uri-converter'>CSS Data URI Converter</a></li><li><a href='https://base64.guru/tools/data-url-to-image'>Data URL to image</a></li><li><a href='https://base64.guru/tools/detector'>Base64 Standard Detector</a></li><li><a href='https://base64.guru/tools/gzip-test'>Check gzip compression</a></li><li><a href='https://base64.guru/tools/http-request-online'>HTTP Request Online</a></li><li><a href='https://base64.guru/tools/normalization'>Normalize Base64</a></li><li><a href='https://base64.guru/tools/repair'>Repair malformed Base64</a></li><li><a href='https://base64.guru/tools/validator'>Validate Base64</a></li></ul></div>
+
+<div class="sidebar-feature">
+	<h6>Learn</h6>
+	<ul>
+		<li><a href='/learn/what-is-base64'>What is Base64?</a></li>
+		<li><a href='/learn/base64-algorithm'>Base64 Algorithm</a></li>
+		<li><a href='/learn/base64-algorithm/encode'>Encoding Algorithm</a></li>
+		<li><a href='/learn/base64-algorithm/decode'>Decoding Algorithm</a></li>
+		<li><a href='/learn/base64-characters'>Base64 Characters</a></li>
+		<li><a href='/learn/more/ascii-table'>ASCII Table</a></li>
+	</ul>
+</div>
+
+<div class="sidebar-feature">
+	<h6>Developers</h6>
+	<ul><li><a href='https://base64.guru/developers/css'>CSS</a></li><li><a href='https://base64.guru/developers/data-uri'>Data URI</a></li><li><a href='https://base64.guru/developers/html'>HTML</a></li><li><a href='https://base64.guru/developers/java'>Java</a></li><li><a href='https://base64.guru/developers/javascript'>JavaScript</a></li><li><a href='https://base64.guru/developers/php'>PHP</a></li><li><a href='https://base64.guru/developers/python'>Python</a></li></ul></div>
+
+<div class="sidebar-feature">
+	<h6>Useful Links</h6>
+	<ul>
+		<li><a rel="sponsored" target="_blank" href="https://myprivateip.com/">What is my private IP?</a></li>
+	</ul>
+</div>
+			</aside>
+        </section>
+
+        <footer>
+            &copy; <a href="/">base64.guru</a>, 2025 - A virtual teacher who reveals to you the great secrets of Base64
+        </footer>
+
+		<script class="embedjs">
+			(function (body) {
+				if (body.clientWidth >= 1100) {
+					var header = body.querySelector('header'),
+					nav = header.querySelector('nav>ul'),
+					width = (header.scrollWidth - 20) - header.querySelector('div:first-child').scrollWidth;
+
+					if (nav.scrollWidth >= width) {
+						var home = nav.firstElementChild,
+						ul = home.querySelector('ul'),
+						items = header.querySelectorAll('nav>ul>li'),
+						len = items.length;
+
+						if (!ul) {
+							home.innerHTML = '<b>' + home.innerHTML + '</b>';
+							ul = document.createElement('ul');
+							home.appendChild(ul);
+						}
+
+						do {
+							ul.appendChild(items[len - 1]);
+						} while (nav.scrollWidth >= width && --len > 0);
+					}
+				}
+			})(document.body);
+		</script>
+
+		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script src='//static.base64.guru/js/comments.min.js?1.0.50' async></script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-134607367-1"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'UA-134607367-1');
+</script>    </body>
+</html>

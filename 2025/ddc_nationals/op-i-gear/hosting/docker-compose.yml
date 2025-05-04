@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  ubuntu-ssh:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: komopigear
+    ports:
+      - "80:80"
+    restart: unless-stopped
+

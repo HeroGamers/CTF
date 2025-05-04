@@ -1,0 +1,1 @@
+https://gchq.github.io/CyberChef/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true,false)AES_Decrypt(%7B'option':'UTF8','string':'Kn0w1ngAESisP0w!'%7D,%7B'option':'Hex','string':''%7D,'ECB','Raw','Raw',%7B'option':'Hex','string':''%7D,%7B'option':'Hex','string':''%7D)&input=NHkrUzBnczQwZ05GSTVlanRVaCtzekxmK0d0elN1MUlNL0xyMSsyWkVXbz0

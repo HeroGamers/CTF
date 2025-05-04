@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+
+{% block title %}Opret en konto - Brandvarme Udlæg{% endblock %}
+
+{% block content %}
+<div class="max-w-md mx-auto bg-white p-8 rounded-lg shadow-md">
+    <h1 class="text-2xl font-bold text-center text-blue-600">Opret en konto 🔥</h1>
+    <p class="mt-2 text-center text-gray-600">Bliv en del af varmen og hold styr på dine udlæg!</p>
+    <form id="registerForm" class="mt-6">
+        <div class="mb-4">
+            <label for="username" class="block text-gray-700">Brugernavn</label>
+            <input type="text" id="username" name="username" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" placeholder="Indtast dit brugernavn" required>
+        </div>
+        <div class="mb-4">
+            <label for="password" class="block text-gray-700">Adgangskode</label>
+            <input type="password" id="password" name="password" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" placeholder="Indtast din adgangskode" required>
+        </div>
+        <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700">Opret konto</button>
+    </form>
+    <p id="errorMessage" class="mt-4 text-center text-red-600 hidden"></p>
+    <p class="mt-4 text-center text-gray-600">
+        Allerede en bruger? <a href="{{ url_for('login_page') }}" class="text-blue-600 hover:underline">Log ind her</a>.
+    </p>
+</div>
+
+<script>
+    document.getElementById('registerForm').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent the default form submission
+
+        const form = event.target;
+        const formData = new URLSearchParams(new FormData(form)); // Encode form data as x-www-form-urlencoded
+
+        // Perform an AJAX request to submit the form
+        fetch('{{ url_for("register") }}', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded'
+            },
+            body: formData.toString()
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                // Redirect to login page on success
+                window.location.href = '{{ url_for("login_page") }}';
+            } else {
+                // Display error message
+                const errorMessage = document.getElementById('errorMessage');
+                errorMessage.textContent = data.error || 'Noget gik galt. Prøv igen.';
+                errorMessage.classList.remove('hidden');
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            const errorMessage = document.getElementById('errorMessage');
+            errorMessage.textContent = 'Der opstod en fejl. Prøv igen senere.';
+            errorMessage.classList.remove('hidden');
+        });
+    });
+</script>
+{% endblock %}

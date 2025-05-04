@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Palindrome Checker</title>
+    <style>
+      body {
+        background-color: #f0f4f8;
+        color: #333;
+        font-family: "Arial", sans-serif;
+        text-align: center;
+        padding-top: 100px;
+      }
+
+      h1 {
+        font-size: 2.5em;
+        color: #2c3e50;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: 1.2em;
+        color: #34495e;
+      }
+
+      #inputField {
+        background-color: #ffffff;
+        color: #333;
+        border: 2px solid #2ecc71;
+        padding: 10px;
+        width: 350px;
+        border-radius: 8px;
+        font-size: 1.1em;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: border 0.3s ease;
+      }
+
+      #inputField:focus {
+        border-color: #1abc9c;
+        outline: none;
+      }
+
+      button {
+        background-color: #2ecc71;
+        color: #ffffff;
+        border: none;
+        padding: 10px 30px;
+        font-size: 1.1em;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin-top: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      button:hover {
+        background-color: #27ae60;
+      }
+
+      #result {
+        margin-top: 30px;
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #2c3e50;
+      }
+
+      .container {
+        background-color: #ffffff;
+        padding: 40px;
+        border-radius: 15px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        display: inline-block;
+      }
+
+      footer {
+        margin-top: 50px;
+        color: #95a5a6;
+        font-size: 0.9em;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Palindrome Checker</h1>
+    <p>Enter a string and see if you found a palindrome!</p>
+
+    <div class="container">
+
+      <form action="/" method="GET">
+        <input type="text" id="inputField" placeholder="Your text" name="value" value="" />
+        <br />
+        <button type="submit">Check</button>
+        <p id="result">{{ message }}</p>
+      </form> 
+      
+    </div>
+  </body>
+</html>

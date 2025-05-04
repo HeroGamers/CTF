@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block title %}Dashboard - Brandvarme Udlæg{% endblock %}
+
+{% block content %}
+<div class="max-w-4xl mx-auto">
+    <h1 class="text-3xl font-bold text-blue-600 text-center">Velkommen {{ user |safe }}, lad os få lagt nogle varme udlæg på disken 🔥</h1>
+    <p class="mt-4 text-center text-gray-700">Her er en oversigt over dine udlæg:</p>
+
+    {% if expenses %}
+    <div class="mt-6">
+        <table class="w-full border-collapse border border-gray-300">
+            <thead>
+                <tr class="bg-gray-100">
+                    <th class="border border-gray-300 px-4 py-2 text-left">Titel</th>
+                    <th class="border border-gray-300 px-4 py-2 text-left">Beskrivelse</th>
+                    <th class="border border-gray-300 px-4 py-2 text-right">Beløb (DKK)</th>
+                    <th class="border border-gray-300 px-4 py-2 text-center">Handling</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for expense in expenses %}
+                <tr class="hover:bg-gray-50">
+                    <td class="border border-gray-300 px-4 py-2">{{ expense.title[:25] + '...' if expense.title|length > 25 else expense.title |safe }}</td>
+                    <td class="border border-gray-300 px-4 py-2">{{ expense.description[:100] + '...' if expense.description|length > 100 else expense.description or 'Ingen beskrivelse' | safe }}</td>
+                    <td class="border border-gray-300 px-4 py-2 text-right">{{ expense.amount|safe }}</td>
+                    <td class="border border-gray-300 px-4 py-2 text-center">
+                        <a href="{{ url_for('view_expense', expense_id=expense.id) }}" class="text-blue-600 hover:underline">Se</a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% else %}
+    <p class="mt-6 text-center text-gray-600">Du har ingen udlæg endnu. Klik på knappen nedenfor for at tilføje en ny udlæg.</p>
+    {% endif %}
+
+    <div class="mt-6 text-center">
+        <a href="{{ url_for('new_expense') }}" class="bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700">
+            Tilføj ny udlæg
+        </a>
+    </div>
+</div>
+{% endblock %}

@@ -1,3 +1,9 @@
+# find . -size +100M | cat >> .gitignore
+
+# VPN configs
+*.conf
+*.ovpn
+
 # More stuff
 .idea/
 node_modules/

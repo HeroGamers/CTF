@@ -1,0 +1,44 @@
+﻿Created By AccessData® FTK® Imager 4.7.1.2 
+
+Case Information: 
+Acquired using: ADI4.7.1.2
+Case Number:  
+Evidence Number:  
+Unique Description: 
+Examiner:  
+Notes:  
+
+--------------------------------------------------------------
+
+Information for D:\CTF\DDC\DDC2025\nationals\forensics\Ransomed\Ransomed:
+
+Physical Evidentiary Item (Source) Information:
+[Device Info]
+ Source Type: Physical
+[Drive Geometry]
+ Cylinders: 8.354
+ Heads: 255
+ Sectors per Track: 63
+ Bytes per Sector: 512
+ Sector Count: 134.217.728
+[Physical Drive Information]
+ Drive Interface Type: lsilogic
+[Image]
+ Image Type: VMWare Virtual Disk
+ Source data size: 65536 MB
+ Sector count:    134217728
+[Computed Hashes]
+ MD5 checksum:    04df1b9c43497c3969b5f2b66f497dd9
+ SHA1 checksum:   ec6eab0f98afea6cd5d41e6b728cfa92e7e9dec0
+
+Image Information:
+ Acquisition started:   Fri Apr 25 16:52:47 2025
+ Acquisition finished:  Fri Apr 25 16:56:38 2025
+ Segment list:
+  D:\CTF\DDC\DDC2025\nationals\forensics\Ransomed\Ransomed.E01
+
+Image Verification Results:
+ Verification started:  Fri Apr 25 16:56:38 2025
+ Verification finished: Fri Apr 25 16:59:52 2025
+ MD5 checksum:    04df1b9c43497c3969b5f2b66f497dd9 : verified
+ SHA1 checksum:   ec6eab0f98afea6cd5d41e6b728cfa92e7e9dec0 : verified

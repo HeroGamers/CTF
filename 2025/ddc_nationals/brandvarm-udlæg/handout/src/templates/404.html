@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}404 - Siden blev ikke fundet{% endblock %}
+
+{% block content %}
+<div class="text-center">
+    <h1 class="text-6xl font-bold text-red-600">404 🔥</h1>
+    <p class="mt-4 text-xl text-gray-700">Ups! Vi kunne ikke finde siden, du leder efter.</p>
+    <p class="mt-2 text-gray-600">Måske er den blevet brændt op i varmen? 🔥</p>
+    <div class="mt-6">
+        <a href="{{ url_for('index') }}" class="bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700">
+            Tilbage til forsiden
+        </a>
+    </div>
+    <div class="mt-8">
+        <img src="{{ url_for('static', filename='404_fire.png') }}" alt="404 Fire" class="mx-auto w-1/2 rounded-lg shadow-lg">
+    </div>
+</div>
+{% endblock %}
