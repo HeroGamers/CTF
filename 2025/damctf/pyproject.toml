@@ -1,0 +1,10 @@
+[project]
+name = "damctf"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "lxml>=5.4.0",
+    "signxml>=4.0.3",
+]

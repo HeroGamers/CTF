@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Vine Boom Keyboard",
+  "version": "1.3.3.7",
+  "description": "Add some fun to your typing experience!",
+  "content_scripts": [
+    {
+      "js": [
+        "content-script.js"
+      ],
+      "matches": [
+        "http://*/*", "https://*/*"
+      ],
+      "run_at": "document_start"
+    }
+  ]
+}
