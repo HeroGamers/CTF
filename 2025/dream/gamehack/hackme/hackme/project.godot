@@ -1,0 +1,38 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="hackme"
+run/main_scene="uid://d04k7oadgnmdv"
+config/features=PackedStringArray("4.4", "Mobile")
+boot_splash/bg_color=Color(0.13725491, 0.12156863, 0.1254902, 1)
+boot_splash/image="uid://dr2kh2hju3ndc"
+config/icon="res://icon.svg"
+
+[autoload]
+
+Globals="*res://scripts/scorekeeper.gd"
+NoPause="*res://scripts/no_pause.gd"
+
+[display]
+
+window/size/viewport_width=512
+window/size/viewport_height=768
+window/size/resizable=false
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/gdmaim/plugin.cfg")
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"

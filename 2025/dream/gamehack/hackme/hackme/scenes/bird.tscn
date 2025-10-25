@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://8l7tqd1m5413"]
+
+[ext_resource type="Script" uid="uid://dopabamq82fqa" path="res://scripts/bird.gd" id="1_kqhkv"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_kqhkv"]
+size = Vector2(64, 64)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3po83"]
+size = Vector2(64, 64)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="bird" type="CharacterBody2D" parent="." groups=["player"]]
+script = ExtResource("1_kqhkv")
+
+[node name="Sprite2D" type="Sprite2D" parent="bird"]
+texture = SubResource("PlaceholderTexture2D_kqhkv")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="bird"]
+shape = SubResource("RectangleShape2D_3po83")

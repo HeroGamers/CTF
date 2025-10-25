@@ -1,0 +1,22 @@
+                             DAT_1000030c                                    XREF[1]:     FUN_100002a8:100002a8(R)  
+        1000030c e8 15 00 20     undefined4 200015E8h                                        ?  ->  200015e8
+                             DAT_10000310                                    XREF[1]:     FUN_100002a8:100002aa(R)  
+        10000310 44 52 45 41     undefined4 41455244h
+                             DAT_10000314                                    XREF[1]:     FUN_100002a8:100002b0(R)  
+        10000314 4d 7b 52 65     undefined4 65527B4Dh
+                             DAT_10000318                                    XREF[1]:     FUN_100002a8:100002b6(R)  
+        10000318 76 65 72 73     undefined4 73726576h
+                             DAT_1000031c                                    XREF[1]:     FUN_100002a8:100002ba(R)  
+        1000031c 69 1f 44 6e     undefined4 6E441F69h
+                             DAT_10000320                                    XREF[1]:     FUN_100002a8:100002be(R)  
+        10000320 4f 4d 7e 65     undefined4 657E4D4Fh
+                             DAT_10000324                                    XREF[1]:     FUN_100002a8:100002c2(R)  
+        10000324 21 49 21 47     undefined4 47214921h
+                             DAT_10000328                                    XREF[1]:     FUN_100002a8:100002c6(R)  
+        10000328 75 65 73 73     undefined4 73736575h
+                             DAT_1000032c                                    XREF[1]:     FUN_100002a8:100002ca(R)  
+        1000032c 3f 7d 00 00     undefined4 00007D3Fh
+                             DAT_10000330                                    XREF[1]:     FUN_100002a8:10000300(R)  
+        10000330 11 28 00 20     undefined4 20002811h                                        ?  ->  20002811
+
+

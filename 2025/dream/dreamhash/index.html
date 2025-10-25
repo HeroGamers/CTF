@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DreamHash</title>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
+  <script type="module" crossorigin src="/_bun/client/index-0000000066459ca1.js" data-bun-dev-server-script></script><script>((a)=>{document.addEventListener('visibilitychange',globalThis[Symbol.for('bun:loadData')]=()=>document.visibilityState==='hidden'&&navigator.sendBeacon('/_bun/unref',a));})(document.querySelector('[data-bun-dev-server-script]').src.slice(-11,-3))</script></head>
+  <body>
+    <h1>DreamHash</h1>
+    <p>
+      I made a hashing algorithm to keep my users' IPs anonymous. The problem is, someone hacked my server, and now I
+      don't know who did it! Can you figure it out?
+    </p>
+    <p>The hashing algorithm works as follows:</p>
+    <code>first segment + reverse(sha256(md5(sha512(IPv4))))</code>
+    <p>For example, <code>185.213.154.248</code>, becomes:</p>
+    <code>18541e8bb8f31005d79fee5961c6298e76f77126751756a26df4ccf986ee51f8b62</code>
+    <p>And <code>193.40.225.195</code> becomes:</p>
+    <code>19327b948866cb3002ce04ca7a7ded3e2a07c71e002bb956591a6df6f73197c42cd</code>
+    <p>The attacker's hash is:</p>
+    <code>51b6f9a5bb5907bf876f4ca65ce3523ca56192194a3f759c0971f300ae24c4561b</code>
+    <form class="notice">
+      <p>Please enter the attacker's IP so that I can IP-ban them.</p>
+      <label for="ip">Attacker's IP</label>
+      <input type="text" name="ip" id="ip" />
+      <button type="submit">Submit</button>
+
+      <p style="display: none" id="output"></p>
+    </form>
+
+    <script>
+      const output = document.querySelector('#output');
+
+      document.querySelector('form').addEventListener('submit', async (e) => {
+        e.preventDefault();
+        output.style.display = 'none';
+
+        const res = await fetch('/submit', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            ip: document.querySelector('input').value,
+          }),
+        });
+
+        const json = await res.json();
+        if (json.message) {
+          output.style.display = 'block';
+          output.innerHTML = `<strong>Output: </strong>${json.message}`;
+        }
+      });
+    </script>
+  </body>
+</html>

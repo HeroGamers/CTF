@@ -1,0 +1,8 @@
+{
+  "alg": "pbkdf2-hmac-sha256",
+  "iterations": 300000,
+  "dklen": 32,
+  "salt_hex": "a4b40942fc50bb2ccca51aa4298a90f8",
+  "hash_hex": "c6fd4c393893403e2948a86d32fe517a7ae92961607a247a1a22c23b5945eefb",
+  "flag_format": "DREAM{plaintext_password}"
+}

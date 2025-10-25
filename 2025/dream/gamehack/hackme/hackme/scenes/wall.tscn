@@ -1,0 +1,46 @@
+[gd_scene load_steps=5 format=3 uid="uid://v83uf5ndwnk1"]
+
+[ext_resource type="Script" uid="uid://b0jigocq0xuiw" path="res://scripts/wall.gd" id="1_wykyb"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_uvhfp"]
+size = Vector2(96, 540)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uvhfp"]
+size = Vector2(96, 540)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wykyb"]
+size = Vector2(16, 220)
+
+[node name="wall" type="Node2D" groups=["wall"]]
+script = ExtResource("1_wykyb")
+
+[node name="top" type="Node2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="top"]
+texture = SubResource("PlaceholderTexture2D_uvhfp")
+
+[node name="Area2D" type="Area2D" parent="top" groups=["wall"]]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="top/Area2D"]
+shape = SubResource("RectangleShape2D_uvhfp")
+
+[node name="bottom" type="Node2D" parent="."]
+position = Vector2(0, 768)
+
+[node name="Sprite2D" type="Sprite2D" parent="bottom"]
+texture = SubResource("PlaceholderTexture2D_uvhfp")
+
+[node name="Area2D" type="Area2D" parent="bottom" groups=["wall"]]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="bottom/Area2D"]
+shape = SubResource("RectangleShape2D_uvhfp")
+
+[node name="middle" type="Area2D" parent="." groups=["wall"]]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="middle"]
+position = Vector2(0, 384)
+shape = SubResource("RectangleShape2D_wykyb")
+
+[connection signal="body_entered" from="top/Area2D" to="." method="__F5oq"]
+[connection signal="body_entered" from="bottom/Area2D" to="." method="__F5oq"]
+[connection signal="body_entered" from="middle" to="." method="__EDpu"]

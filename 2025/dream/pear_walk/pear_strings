@@ -1,0 +1,97 @@
+[32m[1m=========================================================================== 8-bit ============================================================================[0m
+/lib64/ld-linux-x86-64.so.2
+mfUa
+fgets
+stdin
+putc
+puts
+free
+exit
+clock
+fflush
+strlen
+strstr
+stdout
+malloc
+__libc_start_main
+stderr
+__ctype_tolower_loc
+__cxa_finalize
+printf
+memcpy
+fwrite
+strncmp
+libc.so.6
+GLIBC_2.3
+GLIBC_2.14
+GLIBC_2.34
+GLIBC_2.2.5
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_ITM_registerTMCloneTable
+PTE1
+u+UH
+ATUSH
+p3arf
+ ff.
+[]A\A]
+[]A\A]
+L0VE
+R00Sf
+R0ST
+GUUU
+Cff.
+t[ATUSH
+DREAf
+ []A\
+AUATI
+D$@&<t
+)D$ f
+)D$0
+[]A\A]
+System integrity check failed.
+ Congratulations! You've unlocked Dr. Pearstein's secret recipe! 
+ Welcome to Dr. Pearstein's Pear Pie Recipe Vault! 
+The recipe is locked away... can you decode it?
+ That's not the right recipe key! The pears remain hidden...
+Memory allocation failed!
+Enter the secret recipe key: 
+ The Secret Recipe:
+DREAM{fake}
+!q,'$
+7SB6 
+<0oNLjr
+$,	z
+OR?0:U\vqrx
+2&+X
+;*3$"
+GCC: (Debian 14.2.0-19) 14.2.0
+.shstrtab
+.note.gnu.property
+.note.gnu.build-id
+.interp
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.note.ABI-tag
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got.plt
+.data
+.bss
+.comment
+[32m[1m=========================================================================== 16-bit ===========================================================================[0m
+[32m[1m=========================================================================== 32-bit ===========================================================================[0m

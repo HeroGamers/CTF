@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  casino:
+    build: .
+    ports:
+      - "777:777"
+    restart: unless-stopped
