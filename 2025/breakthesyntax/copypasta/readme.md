@@ -1,0 +1,42 @@
+file copypasta.pdf
+
+copypasta.pdf: PDF document, version 1.7 (zip deflate encoded)
+
+pdfcrack --wordlist=wordlist.txt copypasta.pdf
+
+PDF version 1.7
+Security Handler: Standard
+V: 2
+R: 3
+P: -3392
+Length: 128
+Encrypted Metadata: True
+FileID: d3117196a8bcb2110a0067458b6bc623
+U: 460a5599c264b869503f662f4ebd1bad00000000000000000000000000000000
+O: 4d472cbb7fb42299fa91d557dc4de781868767dc39b1e8789286ee343282d5a2
+found user-password: 'pumpkin'
+
+
+31 20 30 20 6F 62 6A 0A 3C 3C 2F 46 69 6C 74 65 72 2F 46 6C 61
+1 0 obj
+<</Filter/Fla
+
+73 74 61 72 74 78 72 65 66 0A 30 0A 25 25 45 4F 46 0A 20 20 20 20 20 20 20 20 20 20 0A
+startxref
+0
+%%EOF
+          
+65 6E 64 73 74 72 65 61 6D 0A 65 6E 64 6F 62 6A 0A 73 74 61 72 74 78 72 65 66 0A 32 39 35 36 0A 25 25 45 4F 46 0A
+
+65 6E 64 73 74 72 65 61 6D 0A 65 6E 64 6F 62 6A 0A 31 20 30 20 6F 62 6A 0A 3C 3C 2F 46 69 6C 74 65 72 2F 46 6C 61
+
+
+
+0A 65 6E 64 73 74 72 65 61 6D 0A 65 6E 64 6F 62 6A 0A 31 20 30 20 6F 62 6A 0A 3C 3C 2F 46 69 6C 74 65 72 2F 46 6C 61
+
+0A 65 6E 64 73 74 72 65 61 6D 0A 65 6E 64 6F 62 6A 0A 73 74 61 72 74 78 72 65 66 0A 30 0A 25 25 45 4F 46 0A
+
+
+31 20 30 20 6F 62 6A 0A 3C 3C 2F 46 69 6C 74 65 72 2F 46 6C 61
+1 0 obj
+<</Filter/Fla
