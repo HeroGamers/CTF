@@ -1,0 +1,3759 @@
+[32m[1m================================================ 8-bit =================================================[0m
+!This program cannot be run in DOS mode.
+Rich]
+.text
+`.rdata
+@.data
+.pdata
+@.idata
+@.00cfg
+D$ H
+D$8LD$0H
+D$@L
+D$8H
+T$@HD$HHT$PH
+D$hHD$XH
+D$XH
+D$`H
+T$`HD$@H
+T$`HD$AHD$phD$PH
+D$HHD$@H
+L$ L
+D$0A
+D$@H
+D$HHD$XH
+D$`3
+D$hHD$pH
+D$x3
+T$PH
+T$pHD$pHD$ E3
+D$`HT$PH
+D$8HT$PHD$ HD$8H
+D$@HT$HH
+D$`HD$0H
+D$4E3
+|$8et*
+|$8xt
+|$<Jt1
+|$<Pt
+|$<StD
+|$@6tR
+|$@qt*
+|$@yt
+|$LDt1
+|$LUt
+|$LxtD
+|$`ot
+|$`ut#
+|$d5t
+|$dEt#
+|$hct
+|$lwt
+|$t8t
+|$tBt#
+|$x7tR
+|$x8t*
+|$xpt
+|$|QtR
+|$|Vt
+|$|at#D$0HD$0HD$0H
+D$8L
+T$ H
+T$pHT$(H
+D$HL
+L$(LT$HH
+D$@HD$HH
+H+D$PH;D$Hs
+D$XHD$0HD$ L
+L$XL
+T$@H
+D$DHT$8H
+T$(H
+L$ H
+L$@H
+L$XH
+T$XHD$ H
+H9D$ s
+L$0H
+D$`H9D$@w
+D$0HD$0H
+L$8H
+T$0H
+D$8HD$8H
+T$8H
+D$XL
+T$XH
+T$xH
+T$!H
+T$@HT$0H
+T$"HT$0H
+T$HH
+L$8HL$PL
+L$HH
+D$ HD$0H
+D$@HD$(L
+T$xHD$8LT$xH
+L$(H
+L$ LT$0H
+T$xHD$8L
+D$(L
+L$(H+
+D$ HD$8HL$8H+
+L$@LT$pH
+D$ LT$@HL$ H
+D$(LT$ H
+H9D$@v
+HkD$@
+L$ DD$0H
+H+D$8H;
+L$8HD$0H
+T$HHD$hH
+D$@HL$HHL$PHD$0H
+L$8L
+T$pH
+T$`HL$@HL$(H
+T$pHT$@HD$pHD$0H
+D$8HD$ H
+D$@H9D$xsRH
+D$xH
+D$ L
+T$(HD$ H
+D$@H9D$xL$8H
+D$XH9D$xv
+D$ HD$@H
+L$xH+L$ HT$HH
+D$@HD$PH
+L$XHD$8H
+T$8HL$(HD$ H
+D$hHD$8H
+D$xHD$0H
+D$`HD$ H
+L$`H
+L$ LD$XH
+T$(HD$0H
+L$0H+
+D$0H9D$(t
+T$(HD$PH
+L$pH
+D$ H9D$ t
+T$ HD$0H
+D$ HL$ HL$`HT$`HD$hH
+L$(H+T$@H
+|$(3
+D$ HD$ H
+T$`HD$AH
+D$@HL$@H
+D$@HD$0HD$0H
+T$8HL$8HD$0H
+T$@HD$0HD$0H
+T$ HD$8H
+T$XHD$`HD$ L
+T$ HD$8HD$@L
+D$!H
+D$`L
+T$`H
+D$8H9D$0siHT$0HD$@H
+T$"HD$(L
+L$0L
+D$8HD$PH
+T$ HD$0HD$@H
+D$@HD$0H
+T$8HT$8HD$0H
+T$8HD$0H
+T$8HD$0HD$0HD$0HL$8HD$0HD$0HD$0HD$0H
+D$0LD$0H
+D$0HD$PH
+D$0HT$!H
+H9D$PuT$(H
+T$XHT$8H
+T$8HT$@H
+T$PHL$ L
+L$HHT$`HL$XH
+T$8HD$8H
+L$0HD$0HD$0H
+L$@HL$hH
+L$0HD$`H
+|$8/wD$`H
+T$HHD$ H
+L$ H9
+T$HHL$8H
+H9D$8v
+T$hHL$(H
+L$(HL$(H
+D$PH9D$ v
+L$PH+
+H9D$Hv
+D$(3
+H9D$ v
+L$ HD$XH9D$0sL$ LD$`H
+D$ HD$8H
+L$hHL$hH
+L$hH
+T$8HD$0HD$0H
+D$ HD$PHD$0HL$PH9D$0HD$0H
+L$PHD$@H
+T$8HT$HHD$8H9D$
+H9D$@s
+D$ HT$8H
+D$0HT$hH
+D$@HD$8A
+T$hH
+T$HLD$0H
+T$!HD$`H
+T$ HD$0HD$ E3D$0H
+L$PH
+H9D$X|D$0H
+H9D$XD$0H
+L$0H;
+D$ E3L$XHD$HH
+D$ HD$(L
+@ H+
+H9D$pL$8H
+L$@HT$hHL$8H
+T$0HD$ L
+L$hD
+D$1H
+D$8LT$8H
+D$XHD$ H
+D$PH9D$ t'H
+T$HHT$HH
+D$@HD$@H
+HkD$@T$PHT$PHHkD$PD$0H
+H9D$8t
+D$8H9D$Pu
+D$`H9D$(t'H
+D$`HD$0HL$PH
+L$PLT$@H
+L$0E3
+%xd4
+%Be4
+%|e4
+%fe4
+%He4
+%2e4
+%4e4
+%>e4
+%Pe4
+%:e4
+D$0H9D$ t
+D$8HD$0HcD$0H
+D$0Hc
+D$0HcD$0H
+T$8HD$0HD$0HT$8HD$0H
+T$8HD$0HD$0HD$0HD$0HD$0H
+L$ LD$0LT$hH
+L$hL
+T$XHD$0HD$0HD$HH
+D$PE3
+Hc@<H
+D$ H9
+$t-H
+H9D$Hr
+H9D$Hs$Hc@<HD$ H
+D$ H9D$(u
+D$P3
+D$ HD$ HL$@H
+L$8H+
+T$@HD$0HT$PHD$ H
+D$pHc@
+D$8HcD$ H
+D$0HL$hH
+L$0H3D$8H
+D$H9D$ s"
+D$PI
+D$HE3
+D$XHD$`H
+L$@LT$P3
+}hE3
+T$XHD$`H
+D$0HD$ L
+L$HLT$X3
+L$ H3
+D$ H H3D$0H
+L$ H#
+H9D$ u
+D$HHD$0H
+D$AH
+D$h3D$ H
+D$ Hc@<H
+8csm
+\$0H
+H;D$
+H;D$@v
+D$@A
+@5Genu
+ineI
+ntel
+@5Auth
+enti
+cAMD
+|$$$|.
+D$@AD$0H%
+D$(%
+D$0H%
+L$PH3
+=Ii3
+D$hHD$`HL$`H
+L$hHD$0H
+D$@
+D$8HD$HHL$(H
+T$0HD$@H
+D$pL
+L$XA
+L$ LD$HH
+D$HHD$PH
+|$ H
+D$ _^D$0H
+L$@HcI
+9D$H~
+9D$H
+L$XLT$HH
+T$$H
+D$(9D$ s6H
+D$,H
+D$x9D$,u
+L$`H+D$0HD$0H
+T$XHT$XH
+D$ D
+D$ AT$HH
+L$hH9D$(
+9D$(
+T$@HD$HH
+D$0Hc@
+9D$ s
+D$ Hk
+L$8HcD
+H;D$Ht
+9D$ s(
+L$ LL$0H
+T$HHL$ D
+D$,H9D$8~
+9D$8
+D$,9D$
+L$ HkD$0HD$$HT$XH
+L$ D
+T$@HL$0H
+L$ HD$0HL$0H
+D$0D
+HcD$
+@XH9D$@s
+@XH9D$@u
+D$ H9D$@u
+L$HL
+T$hHD$ L
+L$ LL$HHD$8H9D$0
+D$0Hk
+H9D$P
+D$0HkD$`H
+D$`H8csm
+D$xA
+L$0Hk
+T$ D
+D$XH9D$0
+9D$@
+D$@Hk
+H9D$Xrd
+H9D$XsL
+T$8L
+D$8A
+9D$@t
+H9D$Xu
+D$0HkT$@H
+L$ HD$ H
+D$8H9D$0u
+D$ HD$XH
+u#H
+D$xAD$HHT$`H
+T$PHD$hH
+T$HH8csmD$PH@0Hc@
+L$PHD$PHD$ H
+D$ HL$ HD$ H
+L$@H9c
+L$ Hc@
+L$(HcI
+T$ Hc@|$ RCC
+|$ MOC
+|$ csm
+L$(HL$8HD$ H
+8csm@0Hc@
+@0Hc@
+D$8Hc
+D$@Hc@
+D$HHT$HHD$ H
+H9D$0u
+D$ 3
+D$@HD$pHD$0HD$@Hc@
+L$ LT$HH
+D$PHc@
+9D$X~
+D$PHc@D$ L
+T$HHD$ L
+T$PHD$$H
+D$$9D$ sAH
+H9D$Ps
+D$`HD$,9D$ s?H
+H9D$`s
+D$hL
+L$ LD$pHc@
+L$xLT$hH
+L$xHcI
+D$`HL$xHcIT$8H
+L$ LL$hH
+D$hLT$hH
+D$dH
+L$pHD$HHD$xH
+9D$d}
+D$d9
+9D$d~
+I0HcI
+D$hHL$pHc	HD$@H
+D$8HD$ LD$HH
+D$8HD$ L
+L$xH9A
+8MOC
+8RCC
+L$`HcI
+L$pHcI
+H9D$8tl
+L$xHcIL$pHcI
+9D$P}
+L$PL
+9D$T}
+L$TL
+L$xH
+L$ LD$0HD$0H
+L$@HL$0HD$0H
+L$0HL$ LD$0HD$0H
+L$0HD$0H
+L$0HD$@H
+L$HHL$@H
+D$$H
+D$ _^
+HcI
+D$ _^D$PH
+D$ HD$PH
+L$(H|$XH
+D$XHD$0H
+L$(HL$ L
+D$xHc@
+D$4H
+D$XA
+D$8HL$0HL$0HD$0HD$0HT$0HT$0HT$0HT$0HT$0HT$0H
+I(H9H(u
+D$`L9D$
+9D$ }
+HcL$
+HcL$ HcD
+9D$ ~
+L$@D
+L$@HD$@H
+T$4H
+L$(LT$HHT$HH
+9D$ ~0D
+L$ LT$HHT$HH
+9D$$
+I0HcIL$0Hc	H
+L$hHcI
+HcL$$Hk
+9D$
+L$PHcI
+HcL$ Hk
+T$8HD$ H
+L$ H+
+L$ LD$ H
+D$(D
+T$PHD$0D
+D$0L
+L$@HcI H
+D$ HL$ DD$0HD$8HD$$H
+9D$$}[
+D$x9D$$u
+9D$$u
+T$(HT$pH
+L$(H;D$ H
+D$H9D$ s
+H9D$(r
+H9D$(v
+D$XHL$PH
+H9D$(vD$ Hk
+(HcD$0Hk
+L$8HD$@H
+HcD$PE3
+L$ HT$HH
+D$@HT$8HtzE3
+tzE3
+L$ DT$hH
+ZD$$cD$(E3
+ZD$$HcD$(
+T$0H\$(fI
+D$$HcD$$E3
+D$0HcD$$
+\$(fI
+T$0HD$0HD$0H
+D$0HD$XH
+L$`;
+D$,9D$0t$HD$PHD$8D
+D$8HD$0H
+T$8HT$XHL$0HD$ %D$PH
+D$ %
+D$@HD$EH
+D$`HD$hH
+D$(3D$0H
+L$HH3
+D$<H
+D$ 3L$ H+
+L$@H3
+L$ LD$0H
+D$@HD$0HD$@HD$ H
+L$8HL$@HT$@H
+D$ HD$8D
+T$8HD$@H
+trE3
+D$8%
+L$0HD$0H|$@	~
+9D$@~
+HcD$@H
+D$8HD$@H
+T$PHT$XH
+T$PHT$0H
+D$XD
+T$0HT$HH
+T$ HD$@H
+uRE3
+T$8Hu~E3
+T$XHD$8H
+HcD$ H
+T$8HD$ %
+t)HcD$hHk
+|$`H
+DHcD$hHk
+D$ A
+T$ H|$
+T$0H9|$$X
+|$$Zt
+L$hHD$HH
+|$ @
+|$ Zt$
+D$PLT$8H
+T$ HD$(A
+T$0HD$@A
+D$HA
+D$PA
+D$hA
+D$pA
+|$ 0t
+|$ 2tG
+|$ 5t]
+|$HY
+HcD$HH
+D$`A
+D$hAT$(H
+HcD$DH
+|$<Et
+|$<Gt
+|$<It
+|$<Kt
+|$<Mt
+H;D$(r
+D$ HT$ H
+D$8H9D$8s
+H9D$8r
+L$xHT$ H
+D$xL
+T$HLD$xHD$4H
+$uVD
++D$@
+D$DA
++D$D
+D$pLD$xL
+T$(HL$0E3
+T$8H|$0?
+|$0Xt)
+?uKH
+D$PL
+T$(HD$HHT$hHD$PHT$pH
+_usH
+D$@HL$`H
+|$,Y
+HcD$,H
+D$HAT$0H
+T$PHHcD$ H
+|$$1t
+|$$3t
+|$$5t
+|$$7t
+|$ At
+|$ Btj
+|$ C
+L$HHT$(H
+D$ HT$0H
+0|PH
+Bu!H
+9~.H
+|$ )ufH
+D$@HD$8H
+T$(HD$@H
+D$ HL$PHL$PHD$ H
+T$ HD$XH
+D$XHL$XH9H D$ HD$PH
+L$ HL$ HL$ HL$ H
+H+D$XH
+L$PHL$XH
+L$PHL$PHD$HH
+_u[H
+0|-H
+@t\H
+A|*H
+|$@_
+1u"L
+|$D_
+HcD$DHHcD$8H
+HcD$8Hk
+|$ 0t1
+|$ 1
+|$ 2
+|$ 3
+|$ 4D$PH
+T$pH|$H0t!
+HcD$<H
+?u5H
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+&&&&&&&
+!"#$&&&&%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%
+!%"#%%%%%$>
+T$8H|$0$
+|$0A
+|$0Bt,
+|$4Y
+HcD$4H
+T$HHT$hH
+T$8HL$@H
+#D$
+L$ #
+T$8H|$$-
+HcD$$H
+D$pLD$xA
+|$(@
+L$PHD$8L
+D$PHcD$PE3
+D$ Ht.HcD$PH
+T$HHT$@H
+H9D$
+D$(LT$HHD$ H
+D$ HD$0HD$8L
+H9D$ sNHD$HHD$@H
+XHcD$hHk
+L$HH+
+D$ 9D$X~
+HcD$XH
+D$@H|$(
+T$hH|$$$tN
+|$$Ut)
+|$$Vt/
+|$$Wt
+|$$Zt!T$0H
+D$@HT$(H
+|$0V
+HcD$0H
+D$PL|$,Ht
+|$,It
+|$,Jt
+|$$FtF
+|$$Gt
+|$$Ht`
+|$$It1
+|$$Jt
+D$4%
+L$`HD$!H
+D$"H
+|$(Rt"
+|$(Tt
+|$(U
+|$(V
+T$`HL$0H
+L$pHT$pH
+D$@AD$HAL$0E3
+D$ %?
+|$PR
+HcD$PH
+|$Th
+HcD$TH
+0|tH
+5~)H
+D$8H u@HD$0H
+D$!HD$0H
+@tBE3
+T$(HT$(H
+|$$2t%
+|$$3td
+|$$4t}
+|$$7t3
+|$$@
+T$8HT$xH
+T$ HD$ A
+@t?A
+|$$
+?ul3
+L$HHD$HH
+@u#H
+$s%H
+8	u
+D$ HL$PH
+@utH
+$uq3
+D$09
+T$ L
+D$(A
+L$`L
+L$ HD$8H
+D$8HD$`H
+T$XHD$0H
+D$HH9D$ t"H
+H9D$8u
+T$pHL$`H
+H9D$@t:HD$`H
+T$0HD$0H9D$Ht:HD$0H
+D$`HD$`H
+D$@HD$`H
+Wu-A
+T$8D
+D$@D
+L$HE
+T$8A
+T$0H3
+T$HL
+D$ J
+T$8HT$ H
+L$0HT$ HL$(HD$0HD$0H
+D$@HD$DH
+D$$3
+L$ LD$ D
+L$ LD$0HD$@H
+D$HI
+p*W4H
+D$XI
+T$`HT$`H
+L$0LT$8H
+D$0ID$PHD$PH
+L$0H9L$0H
+L$ LT$hH
+L$ HD$0H
+D$8I
+p{Z^
+D$ `
+@v\H
+D$xHD$hH
+D$XHD$HH
+@vkH
+L$ LD$ E3T$xHD$ E3T$xH
+T$8HD$@D
+T$8HD$@L
+L$0HD$0HL$0HD$0H
+L$0HD$TH
+H9D$0toHD$0H
+L$0HL$0HD$0H
+L$`HL$hH
+L$ DD$XH
+L$pLD$@H
+L$ LD$`H
+L$XLL$ LD$`H
+L$XLL$ LD$ D
+D$H9D$@t
+D$P9D$@t
+L$pLT$`H
+L$ LD$8H
+D$DH
+D$ N
+D$ S
+HcD$4Hk
+HcL$4H
+t7HcD$ H
+L$ LT$PH
+L$(LT$0H
+T$XHL$ L
+T$XHL$ LD$ E3
+D$ LD$XH
+L$ LD$ E3
+H9D$Xs
+D$0HH9D$hs
+D$hHD$ E3
+H9D$xs
+D$LH
+D$03H9D$hs
+D$hHD$pHH9D$xs
+D$`HD$xH
+D$0HH9D$pt|-HcD$0H;
+H9D$puH9D$pu7HD$\H
+D$\H
+D$0HH9D$pt
+T$pf
+|-HcD$0H;
+H9D$pu
+H9D$pu43
+D$ LH9D$PsD$XHH9D$`s
+D$`HL$ LD$ E3
+D$ LH9D$PsD$XH
+D$XHH9D$`s
+D$`HD$hHD$0HD$0HD$0HD$0HD$@H
+H9D$hv%HD$`H
+H9D$(w
+?H9D$hv%HD$`H
+D$ E3D$pH
+D$03
+D$pHc
+L$0D
+L$xHL$8HL$8HL$8HL$8H
+L$pHD$0H
+L$xHL$8HL$8HL$8HL$8HL$8H
+L$xHL$8HL$8HL$8H
+L$xHL$8HL$8H
+D$ E3D$<HD$@H
+D$`HL$hH
+D$ HL$(H
+L$xf
+L$xfL$8fL$8fL$8fL$8f
+9D$8v
+T$8HL$ DT$1H
+9D$Hr
+D$d9D$8v
+D$L9D$Xs
+D$lHD$tH
+D$tH
+L$ DT$<H
+9D$Lr
+D$h9D$8v
+D$P9D$\s
+T$0HD$tH
+D$`HT$8H
+D$HHHc@0H
+0tHH
+0tNH
+D$XHD$8H
+L$8HL$0H
+L$(HD$8H
+D$ f
+D$P9D$ }'L
+D$P9D$ }+f
+L$8HD$0HD$0HD$0H
+L$0fD$0H
+T$`HL$@H
+D$@HL$8HL$@HD$@H
+D$0LD$0HL$8H
+L$HLT$XHD$0HD$8H
+L$HLT$XHD$0HD$0H
+L$HLT$XHD$0H
+L$HLT$XHD$0HD$0HD$0H
+L$HLT$XHD$0HD$0HD$0HD$8H
+L$(9
+D$8HD$0HD$0HD$0HD$0HD$0HT$HH
+et&H
+L$!;
+D$#H
+L$#;
+L$%;
+D$hD
+L$);
+L$';
+D$09D$4t
+L$@H;
+L$p9
+T$@HD$pHD$pH
+H9D$(sL$(H
+D$"HD$0H
+D$"HD$HHD$pH
+D$ E3D$pHD$1HL$pH
+D$pD
+HcD$DHD$HHD$pH
+D$ E3D$pHD$2HL$pH
+L$2f
+|$  t@
+|$ #tJ
+|$ +t!
+|$ -t
+|$ 0tF
+D$ E3D$PH
+L$@L
+L$@LD$@H
+D$<HD$HHL$pLD$0HL$pH
+D$ E3D$pHD$@H
+D$ E3D$pHD$0HD$0HD$0HD$0HD$0HD$0H
+Fu0HD$pH
+|$01
+HcD$0Hhu#HL$pH3u9H2u'HL$pH6u6H4u$HL$pHdtUHitDHot3Hut"HD$pHlu#HL$pH
+
+HcD$0Hhu$HL$pH3u9H2u'HL$pH6u6H4u$HL$pHdtUHitDHot3Hut"HD$pHlu$HL$pH
+|$D7
+D$8HH+D$8L$pH
+T$ LD$PHL$pH
+T$4HL$pH
+T$ LL$pH
+L$8f
+DLXH
+H+D$8
+T$ LL$ L
+L$`H3
+L$`H3D$0HD$0HD$0HD$0HD$0HD$0H
+wdHc
+D$hHD$PH
+D$TH
+D$hHD$xH
+it<H
+It(H
+@9sH
+D$pDD$0H
+T$0HD$0f
+D$4HD$HHD$PHL$@H
+L$4LT$PHD$pH
+D$`D
+T$(f
+D$pHc@ H
+A@E3
+(HcD$8H(HcD$8H(HcD$8H(HcD$8H(HcD$8H(HcD$8H
+D$X9D$ }@H
+D$ HL$PHL$X;
+D$ E3L$PHL$X;D$@H
+D$`HD$@H
+|$0d}D$`H
+9D$0~
+HcD$0Hk
+L$`D
+#HcD$0Hk
+L$`HD$0HD$0H
+D$ HD$ E3D$ E3D$ E3
+D$XHD$PHD$XHD$PHD$XHD$ E3
+L$hf
+D$ E3D$PHD$pHD$HHD$pH
+$u:HD$@HD$pH
+D$ E3D$pHD$8HD$pHD$HHD$pH
+D$ E3D$pHD$8H
+D$HHD$HH
+D$PH9D$@
+D$@HD$HHD$HH
+D$@HD$ E3D$PH
+D$PHc
+L$PD
+D$HHD$ E3
+D$(LT$(H
+D$`HL$ L
+@H9D$4D$@H
+L$0A
+L$`H3D$HHL$pH
+D$pDD$pHD$pH
+@H9D$4
+D$0HL$pL
+T$@HD$XHL$pL
+HcD$8H
+L$@HD$HHL$pH
+L$XDT$HH
+L$ DL$PHD$`HL$PHcD$`H9D$(s
+HcD$`HD$0H
+L$PHD$ H
+L$PHD$`H
++HcD$`H9D$ t
+T$XHL$ H
+L$xHD$xH
+D$0H9D$
+A#D$
+|$ A|
+|$ Z~
+|$ a|
+|$ z~
+L$@LD$0H
+D$ LD$0H
+H#D$
+T$0H3D$0H
+D$0I
+D$@HD$XH
+D$`HD$@HD$XHD$hHD$XHD$lHD$@HD$XHD$tHD$XHD$xH
+D$0HD$ E3
+D$|HD$@H
+D$8HD$XHD$8HD$XH
+D$ E3D$0H
+L$(;D$ E3
+D$`H9D$@
+D$@HD$ E3
+D$@HD$HHD$hH
+D$0HT$@H
+D$xID$ E3D$ E3D$PH
+D$XHD$\HD$@H
+D$0HD$`H
+D$0HL$PHD$dHD$hHD$@H
+D$0HD$lH
+D$0HD$ E3D$ E3D$PHL$PH
+D$PH9
+D$ E3D$PHL$PH
+D$ E3D$PHL$ L
+D$!D
+9D$TuD$pH
+D$xID$ D
+D$0HD$ E3D$XHD$HH
+D$`HD$HHD$HH
+L$HHD$HHD$HHD$HHD$h3D$@HD$ H
+D$ H9D$8s
+D$,HcD$,H
+D$ HcD$,H
+L$8H#
+D$8H9D$ t"L$ H
+D$ %D$HH
+D$XH9D$H
+D$P
+D$@HkL$H
+HkT$H
+T$hDD$0L
+D$0HL$ D
+9D$`uD$ D
+D$0HD$ E3D$ E3
+D$XHD$XH
+@ H9
+D$ E3T$pHT$pHD$H3D$xHD$hH
+I H9
+D$XH9D$Ht:HD$XH9D$Ht	D$HH
+D$XH9D$HHD$HH
+D$XH9D$HH
+L$HHD$HHD$HH
+D$hHD$@HD$PHD$8H
+L$8#D$HH9D$@u4H
+D$XHD$4HD$8H
+L$HI
+T$hHL$ L
+T$HHL$(H9A t
+9H(~D$XH
+D$ E3D$@H
+L$pHD$PH
+T$pHD$8HD$0HD$ E3D$ E3D$pHD$ E3HcD$0HcL$0H
+D$xI
+HcL$0H
+0HcD$0HcL$0H
+@XH+
+@`H+
+L$pHD$PHD$ E3
+T$@D
+D$`HD$`JD$`HD$`HD$ H
+D$0HD$@7
+D$`%D$<H
+D$ HD$0HD$PHD$0HD$ E3L$ L
+L$PE3
+T$HHD$8H
+D$@3D$HHH+D$@H
+L$XH+
+H+D$`HD$hH
+L$ LD$ E3D$`H
+D$XHD$PH9
+L$@HD$`H
+L$pH+D$hHL$@HL$ L
+D$@HD$@HD$ E3D$@H
+D$XHD$pHD$hH
+D$`H9D$hH
+L$HHD$pH
+D$@HL$ L
+t$hH;D$ps
+T$xHD$8HD$hH
+D$0H9D$8s*H
+D$ E3T$HH
+D$0HL$hL
+t$@H;D$HsD$@H
+L$ DD$hH
+L$xDT$@H
+D$83
+H#D$8
+T$8HD$ E3
+D$@3
+D$03L$ L
+L$09
+|$0csm
+D$XHD$@H
+D$XH9D$@t
+D$@HD$(-
+D$hID$8HD$pH
+D$ HD$ E3
+D$XHD$PHD$`HD$0H
+D$8HD$0HD$`H9D$0t!H
+D$8HL$0H+
+L$DDT$pHL$0H+
+D$@HD$8L
+T$0f
+T$03
+<v~H
+D$8HL$8H+
+L$@H+
+pqTX
+L$ HD$XHD$pH
+L$HE3
+L$HLD$dH
+D$hHD$XHD$pH
+T$PHD$@D
+T$8HL$ L
+D$`HL$pHD$ H
+D$4HD$pHD$5HD$pHD$hH
+L$pHD$hH
+D$ 3D$pHD$pHD$pHD$pHD$pHD$hHD$xH
+D$8fD$pHD$:H
+D$:fD$pHL$pfL$pHD$hH
+L$pfD$pHD$pHD$pHD$pH
+L$pfD$pHD$hHD$xH
+L$xHD$0H
+H9D$pr
+H9D$xrD$@H
+H+D$@H;D$8w
+L$@HD$HH
+T$HHD$ HD$ H
+D$8HL$8HD$ HD$ H
+D$8HL$8H
+D$ s
+D$HHD$pL
+L$HHD$HHL$8H
+T$h3D$xH
+T$HHD$0H
+D$8HD$@L
+D$0HD$ H
+D$ HH9D$ t0H
+L$0HL$0HD$H3
+D$X3
+D$@HD$ A
+D$h3
+D$HH9D$ t1H
+D$(ID$XH9D$(tBH
+p0R^G'
+L$0HD$ E3HcD$`H
+9D$`sD$ E3D$HH
+D$ AD$ E3D$ E3
+D$ E3L$ L
+H9D$ t
+D$ P
+D$ WD$@H
+L$8HD$ H
+L$8H9
+T$ HL$PHL$PH
+T$(L
+D$ HL$ HD$PHL$PHD$PHD$0H
+T$0HD$PHD$0H
+D$ `T$HH
+L$PLD$@H
+L$0H|$0UrD$8HL$0HD$8H
+D$ yD$ L
+T$Pf
+|$8@sbH
+D$ V
+|$8@s[
+_tQHL$8L
+D$ _
+,uQHL$8L
+D$ b
+D$HH9D$@t'H
+|$@HD$ A
+L$ LD$hH
+D$`HD$hHL$hL
+D$HHT$`H
+D$0HD$HH
+D$0HT$xH
+D$HHD$PHD$0H
+L$0H9AD$0HD$0HL$0H9D$8HL$HH
+D$8HL$PH
+D$ Z
+D$ ]
+D$ `D$HH
+D$p9D$0
+D$ .T$8HD$ L
+D$8HD$P3
+D$0HcD$0Hk
+HcL$0Hk
+D$pI
+D$ 7
+T$pHL$pH
+L$pHL$pH
+D$`HD$8HL$8H+
+H9D$@u
+D$@HL$hf
+D$HHD$ UHcD$0Hk
+D$xHD$PH
+D$ UD$pH
+D$xHc
+D$T9D$@
+t6HcD$@H
+<HcD$@H
+D$PHcD$PH
+s!HcD$P
+HcL$Pf
+L$HHT$`H
+<$-t
+<$.t
+<$_t
+D$hAT$hH
+D$`HkD$8
+HkD$8
+L$HLD$HHD$HH
+L$HLD$HHD$HHD$HH
+L$HLD$HHD$@H
+D$HH9D$ s'
+L$0HL$ L
+D$`H9D$H
+L$`H+D$PHD$pH
+D$PH9D$@rf
+D$(p
+D$8HD$(w
+L$PHD$8H
+D$0HD$hHD$`H9D$htL$HHD$HHD$ H
+D$XHD$@HD$0H9D$(r
+L$XH9
+D$0H9D$(sL$XHD$xI
+D$`HD$@H9D$`u
+D$HH9D$ht(H
+D$0HD$HHD$!HL$PH
+D$(I
+D$ E3H9D$psD$xHD$hH
+T$ #
+T$8HL$ DD$0H
+T$1H
+T$<H
+D$4Hc
+D$XH9D$`s
+9D$Tr
+L$`HH9D$@v
+D$`H9D$hs
+D$4HD$@H
+L$ DD$(L
+L$ DD$ L
+L$8A
+L$0LT$8HD$0H
+H9D$ uD$PH
+T$PfT$PH
+HiL$
+L$PH9D$PHD$PHD$PHD$PHD$PH
+HiD$
+HiD$H
+L$0H9D$0HL$8HD$0H
+D$ HD$09D$<t:HD$0HD$09D$<t:HD$0HD$09D$<t:HD$0HHcD$PH
+yHcD$PH
+HcL$PH
+HcD$`H
+*HcD$`H
+D$@HcD$`H
+D$0'
+D$ *
+D$ 0
+D$ 9
+D$ <
+D$0C
+D$ F
+D$ K
+D$0Q
+D$ T
+D$THD$hHD$XH
+tsHc
+D$|Hc
+L$xD
+D$|H
+L$ LD$ A
+D$0&
+D$ (
+D$ ,
+D$01
+D$`HD$hHD$hH
+|$\PtmD$pH
+9D$ u
+|$ $w
+D$ E3H9D$psD$xH
+L$0f
+=Sj*
+=7j*
+L$ H+L$@H
+l$@H
+H+E0H
+E H9E
+MPH+
+D$H3H+D$PH
+D$`3D$hH
+D$@H9D$8t
+D$p3
+L$pH+
+H+E(H
+E8H9
+MHH+
+D$p3H+D$HHD$PH
+D$XH9
+L$hH+
+L$(H+9D$ u
+l$ Hl$ HD$ H
+l$ H
+H9D$8v#H
+D$`3D$ H
+L$HHD$0HT$pH
+L$,L
+D$HD
+D$8HL$ L
+D$8HD$0HD$@H
+T$0H3D$0HD$0H
+D$@I
+L$$H
+L$ 9H
+D$8HD$ E3D$ E3
+usHk
+L$8HD$hH
+H9D$htD$2H
+L$(H9
+L$(HD$HH
+t_Hk
+D$XHD$0HD$XH9D$0t$HD$`H
+T$0H3D$ H
+psY2
+H9D$@t:HL$`HD$0H9D$Ht:HD$0H
+WuHA
+L$0I
+D$hI
+L$xL
+p(UP
+|-&u
+p[WPN
+L$xDL$`HL$ LD$PH
+D$`I
+p(V6
+D$ HD$0HD$0H
+D$8H9D$(t
+L$HHD$8HD$HI
+L$pH3D$0H
+D$8H9D$ t<H
+t'HcD$ H
+D$$HcD$ H
+L$(HD$0HD$@Hc
+L$@HD$@HD$0H
+D$HH9D$0D$ H
+T$8HD$XH
+T$PHD$@H
+D$@HD$ H
+L$$L
+#D$H;D$Hu
+D$0%
+#D$(
+D$$L
+D$(9D$ t
+T$ HT$(H
+#D$H
+D$ HT$PH
+D$@HcD$(H
+9D$$~
+D$8HD$$9D$
+D$0HD$0HD$PH
+D$(%HcD$$H
+H#D$H
+H#D$ H
+0t2H
+L$ LD$ L
+D$XP
+D$XpH
+D$YA
+D$YaL$PH
+D$THD$`H
+D$pH9D$`tAH
+D$`HD$ZP
+D$ZpHD$hH
+D$hHD$hHD$hH
+D$pH9
+|$hd|IHD$hHD$pH9D$hH
+L$pA|$p-u
+H+D$`H
+|$p-u
+HcL$DH
+L$pDT$hHD$ D
+L$ DHcD$HH
+L$LLD$0HD$0HD$0H
+HcL$PHL$0H+
+T$`HD$0HD$8H|$8d|4
+D$8HD$8HD$8H
+L$`E3
+|$`-u|$`-u
+D$p9D$$u]H
+HcL$(H
+;D$p|
+HcD$0L
+L$XE3
+|$X-u
+D$DHD$PHD$xH
+L$XD
+9D$D}
+9D$D|QH
+D$lHL$XD
+L$ LH9D$xsD$pH
+D$8Hk
+H9D$xv
+HcL$HH
+L$ fDD$8H
+H#D$X
+L$ LD$ E3D$ E3L$ L
+|$T&
+D$ LD$ L
+L$ LD$hHD$xH
+D$hHD$hH
+L$ AL$@H
+D$ DD$0H
+L$pf
+D$@HD$@HD$@H
+L$ A
+D$ HT$PHD$ E3D$0HD$0H
+L$@LD$ H
+L$@f
+D$ HL$`H
+L$hHD$xH
+D$D9D$@}M
+HcD$@
+D$HLD$ H
+d$xHD$XH
+D$`HD$DHD$0H
+D$ HD$0HL$0H
+D$ %D$ H
+H9D$0uL$@H;
+L$HH;
+D$8HL$hH
+D$8HL$pH
+T$PHT$@3T$pH
+T$xHD$0H
+T$0HD$XH
+L$DL
+T$HHD$p3
+L$PLD$XH9D$Pw
+L$ LD$ E3D$ E3
+D$xHD$@HD$@H
+D$@HD$ E3D$8HD$pH
+L$8fD$@HD$0HD$0HD$0H
+L$ LD$xH
+D$xHD$@HD$8HD$0HD$HH
+L$0fD$@H
+D$2HD$HH
+D$8HD$hH
+L$@fD$8H
+D$0*
+D$1?
+D$|HD$hH
+H9D$ht
+H9D$X
+L$`H+
+D$ u
+H9D$`t
+D$XHD$PH
+L$hH+D$ u
+L$ LH9D$Hv
+T$XHD$0HD$8H
+H9D$8t2H
+:u1H
+L$8H+D$THD$XH
+D$xH9D$hu(
+L$hHL$xH+
+D$`HD$8H
+:u2H
+D$8HT$HH
+D$ HL$pHD$ W
+L$pHD$pH
+L$pHL$pHL$pH
+D$(g
+T$HHL$pHL$@H
+L$pHL$HH
+D$4HL$pHD$ W
+T$8HD$0HD$0HD$0H
+t$HiD$
+T$ HD$ H
+D$(AD$0H
+D$8AD$PHD$PH
+L$PHT$0H
+T$ f
+}"Hc
+D$XH9D$Pw
+L$PH|$PArO
+|$PZwH
+|$ParO
+|$PzwH
+L$PHL$ L
+9D$,u
+D$ HH9D$ thH
+D$(3k
+T$p9
+L$$H9D$ wB
+L$xHk
+T$$L
+T$xf
+D$FH
+9D$ w(
+L$XH3
+D$hH9D$X
+D$hH9D$XrT$`H
+T$`H#D$x
+H#D$p
+|$@	u
+D$ @
+T$@3
+L$ LD$PH
+D$8HD$ DL$0H9L$0H
+L$@H9
+L$xH+L$hL
+T$XHD$hH
+D$2=H
+T$2HH9D$Hu&
+L$HH+D$HH
+T$|HD$@HL$HH+
+D$`HD$PH
+T$@L
+D$PJ
+H;D$Xs!
+D$(<
+L$ AL$pH
+T$XHL$XH
+D$ Q
+D$ X
+D$ 1D$0HD$8H
+D$8HD$ <
+D$8HT$XH
+D$ BD$hHD$HH
+D$ BD$hH
+D$8HD$8HD$@H
+D$Hf
+D$8HD$0HD$@L
+D$8HD$8HcD$8HcT$8H
+D$XH9D$8
+D$8E3
+9D$`|XH
+9D$@L$HH
+HcL$ H
+kD$ @
+D$HH9D$8
+kD$ @L$@H
+T$8H+
+HHcD$PH
+9D$PsD$ E3
+D$H%
+D$$A
+D$ ^D$ _D$ `
+9D$P
+HcD$PHL$xHL$xH
+T$`f
+D$@HD$0HH9H tD$0H
+H9H(tD$0H
+H9H0tD$0H
+H9H8tD$0H
+H9H@tD$0H
+H9HHtD$0H
+H9HhtD$0H
+H9HptD$0H
+H9HxtD$0HD$0HD$0H
+D$0HD$ Q
+D$8HD$ WD$IH
+D$JH
+D$ AD$8H
+D$@3D$8H
+|$8H
+D$8HL$`H
+0|.H
+;u/H
+D$ HD$0HD$0HD$0HH9HXtD$0H
+H9H`t
+D$0HD$ `
+|$8HD$@HD$AH
+D$8HL$HH
+D$ U
+T$`HD$HH
+L$xHD$xHL$pH
+D$0HD$ A
+D$H3
+D$@HD$0HD$0HD$0HD$0HD$0HD$0HD$0HD$0HD$0HD$ E3L$0H
+D$0HD$@H
+D$8HD$HH
+D$:HD$HH
+L$:f
+D$@HD$0HL$@fD$0HD$0H
+L$ LD$D
+t>HcD$0H
+HcD$0HL$pL
+D$\HD$PHD$@H
+HcD$ Hk
+T$@H9L
+(t/HcD$ Hk
+t/HcD$ Hk
+D$@HL$PH9D$PHD$PHD$PHD$PHD$PHD$PHD$PHD$PHD$PHHcD$0Hk
+T$PH9L
+(tmHcD$0Hk
+HcD$0
+ufHcD$0Hk
+L$PHHcD$0Hk
+tQHcD$0Hk
+H9D$0uH9D$
+D$HH9D$ u
+H9D$ tD$@H
+T$PHT$<H
+T$PHL$0H
+T$PHL$0HL$0;A
+D$ "
+D$<HD$HH
+L$8H3D$ H
+L$ ;
+D$H9D$(
+D$$HcD$$Hk
+L$@HHcD$$Hk
+T$8fL$8HL$8H
+D$HHT$HH
+T$PLD$ #
+T$PHT$PHD$0Hc@
+T$PHD$0H
+L$0;A
+T$PHD$ 3
+T$@HT$@HD$(3
+$kD$
+$HcL$
+D$P%
+D$$9D$Pt1L$0H
+L$(;
+D$H9D$$
+D$ HcD$ Hk
+L$@Hu!HcD$ Hk
+D$ HT$HH
+D$XH9D$PuD$ H
+D$XH9D$ t:H
+D$XH9D$ u
+D$PH9D$ tKH
+p;Y>u
+D$XH9D$Pu
+D$PH9D$ t?H
+D$@=
+L$H#
+D$@f
+D$xHD$HH
+D$HHD$4HD$X3
+|$8	vD$HH
+D$HHH9D$P
+H9D$PsD$HHD$0HD$HHD$XH
+D$HH9D$Xr
+D$xHL$HfD$HHD$4HD$X3
+|$8	v
+L$HfL$HfD$HHH9D$P
+H9D$PsL$HfD$HH
+D$0HL$0fD$HH
+D$@HD$HHD$`3L$`H
+D$h3L$hH
+|$<	vD$0HD$@H
+H9D$@
+H9D$@sD$0HD$8HD$0HD$XH
+D$0H9D$Xr
+L$ LL$0fD$0H
+|$<	v
+L$0fL$0fD$0H
+H9D$@sL$0fD$0H
+D$8HL$8fD$0H
+HcD$@H9D$ E3
+L$`I
+L$PI
+T$HHL$ L
+L$PIL$ L
+L$XLL$PIL$ L
+L$XLL$ LD$XH
+D$`HD$hHD$ E3D$0H
+H9D$0
+H9D$0wD$PP
+L$0HL$ LD$HHD$hH
+L$hLH9D$0shHD$0HD$0HL$(H
+L$ AD$0H
+zt:H
+D$\HL$(H
+L$\L
+D$0HD$HHD$0H
+D$0H9D$PPL$0HL$ LD$XH
+zt3H
+D$lH
+HcD$LH
+D$L9D$P}HHcD$PH
+D$XHD$pH
+D$ LD$0HD$xH
+D$xHD$@H
+D$ E3D$0HD$pHD$@H
+l$0HD$ L
+L$ +
+D$$9D$(
+D$p9D$@|
+JHcD$pL
+HcD$ H=
+T$`HD$hH
+T$hHD$0H
+L$0LT$8HT$PHD$ E3
+hHcD$pH
+9D$psD$ E3
+L$<D
+|$pHL$HH3
+D$QHH9D$H
+D$RH
+D$THHcL$@
+D$p9D$@|:HL$p+
+D$xHcD$xH
+D$@9D$X}C
+HcL$XHcT$X
+D$x9D$\}&HcD$\
+D$@9D$l}7
+HcL$l
+HcD$hH
+L$HHHcD$@HD$`HcD$`H;
+}OHcD$`
+D$|HHcD$|H;HcD$hH
+L$HHD$dHcD$dH;
+}EHcD$d
+HcT$dHD9=LT$HHT$HHD$HH
+D$T3
+T$tHD$8H
+D$0H9D$(
+|$pH
+L$ LD$hHD$PH9D$H
+D$XH9D$8srH
+D$PH9D$HsfH
+D$HHD$8H
+L$DD
+D$@HD$hH
+D$@9D$Ds!HD$hH
+D$XH9D$P
+D$`H9D$8
+D$XH9D$PsuH
+D$@HD$@f
+L$HD
+D$DHD$pH
+D$D9D$Hs!HD$pH
+D$pH9D$X
+D$xHD$xH9D$HssH
+D$pH9D$XsgHD$XH
+D$Pf
+L$HfD$HH
+L$@fL$HH+
+D$(U
+D$T9D$D
+L$T+
+D$H3D$X3D$h3D$@H
+L$ DD$X3D$h3
+D$PH9D$Xu
+|$`-t
+|$`-u
+L$ DD$ E3D$ E3
+D$0HD$00H
+L$ DD$xH
+D$xHD$xH
+D$xHT$0HD$@H
+L$`H;
+D$hH9D$@u
+;r:HD$63D$@H
+;D$Lw
+D$@E3
+D$@HD$0HD$@DD$@H
+L$8HD$8H
+L$\3
+D$89D$lv
+L$8+
+D$p9D$<}
+L$<+
+HcL$<H
+L$tH;D$8w#
+L$tH
+H9D$`v8
+T$`H+L$`H
+T$TH
+D$49D$HD$49D$Xsx
+9D$xs
+D$xHT$0H
+T$DHD$PH
+D$H9D$,
+D$L9D$4t]
+|$$stV
+T$hD
+|$$stb
+D$$D
+|$$su!H
+8ss2H
+D$8&
+D$(9
++D$LD$XH
+9D$4v
+|$0sv$H
+L$$+
+9D$8s
+9D$@s
+L$T#
+L$\#
+D$(9D$,t
+D$0-
+D$0 D$@H
+D$X%
+D$ a
+D$ c
+D$ d
+T$ LD$pH
+L$ LL$HHL$PH
+D$x%
+D$x%D$8H
+9D$xr:HD$8H
+D$@HT$@HD$ LT$@H
+D$4-
+L$Hf
+L$Lf
+L$4f
+T$@3D$XH
+D$ E3L$@H
+HcD$0H9D$8H
+D$@HcD$0H
+D$ E3H9D$PsD$XH
+D$hHD$pHD$0H
+D$0H9T$0f
+L$0HD$HHD$HH
+D$ AT$4H
+HcD$0HD$HH
+D$@HD$0HL$PH
+D$p%
+D$p%D$0HL$PH
+L$XHD$`H
+D$8HL$hHD$8HD$0HD$pH
+D$89D$<u
+D$DHD$XH
+D$8HL$hHD$8HD$4HD$pH
+D$DHL$0H9
+D$8HT$8H
+D$@H9D$Hu
+T$HHT$HHHHcD$PH
+9D$Ps
+D$ E3D$ H
+D$`H9D$h
+D$0HL$`HL$(H
+D$hH9D$(wCH
+L$(HT$hHL$hH+9D$ t`HD$0HD$ H
+D$ E3D$XHL$XH+
+T$XHD$HH
+D$HH9D$@vjH
+L$HHD$@H9D$HsFH
+D$HH9D$@wjH
+L$HHD$XH9D$HwFH
+D$@H9D$8vFH
+D$HH9D$8s
+D$8H9D$@uL$8H
+D$8H9D$@sjH
+D$8H9D$@rjH
+D$PH9D$8vFH
+L$8HL$8H+
+T$XH+
+D$8H9D$Ps.HcD$0H
+L$8HD$XH9D$HsD$XH9D$Hs.HcD$0H
+L$XHD$8H9D$Ps
+D$PHcD$0H
+D$xHD$@HD$8HD$0HD$HHD$@H
+D$1HD$HH
+D$8HD$hHD$8H
+D$`H|$  }%HcD$ H
+|$8 sL$`H3
+D$XHD$ f
+D$XHD$pHoD$ f
+oD$ f
+D$0f
+oD$0f
+H+L$XH;
++D$DoD$ f
+oD$ fD$hH
+H+D$X
+L$DH
+T$8HD$ E3D$@H
+D$@H9
+~CHc
+9D$p}
+D$t
+tAHcD$TH
+9D$P~!
+D$`HcD$`H
+tAHcD$`H
+D$ E3T$hHT$hH
+L$ LD$ E3D$LH
+L$ LD$ E3D$lHD$0H
+D$`E3
+t>HcD$@H
+HcL$0L
+HcD$4
+D$ p
+HcD$8
+D$$HD$0=D$ E3
+T$XHD$ E3
+D$`HD$XHD$0HD$PHD$DH
+D$2H
+L$D+D$hH
+D$8HD$@HD$HH
+L$ +D$HH
+D$$HD$ E3
+D$`HD$XHD$xH
+D$0HD$PHD$DH
+L$D+D$pHD$hH
+D$ HD$ HD$XHD$HL
+D$0H9D$Hu9T$HH
+L$0HL$(H
+D$ HL$0H
+L$ LD$@H
+L$`LD$h3
+L$LH
+D$xHD$XH
+#HcD$0H
+YHcD$0H
+5HcD$0H9
+"HcD$0LHcD$0H
+L$xH3
+D$XfHcD$4H
+H9D$hs
+D$xHD$XHD$0H
+H9D$0wD$\"L$0H
+L$0LT$8HT$PHL$PHD$ E3
+L$(H;
+D$H3D$X3D$h3
+D$HHc
+L$HHD$HHD$0H
+D$PH9D$0
+D$0HL$8H
+D$ )
+L$0HD$0HD$0HL$@HD$@H
+D$8HL$xD
+D$`AL$ D
+D$0HL$xDT$hH
+L$pL
+~;E3
+L$0LT$8HT$@H
+D$pAD$@H
+D$IH
+H;D$PsjH
+L$LA
+D$xH9D$8u
+D$@HD$XH9D$@D$@H
+L$HfD$JH
+L$JfD$@H
+H;D$XstH
+L$0fD$LH
+L$LfD$@H
+L$PA
+L$0fL$0fL$0fH9D$0u
+L$0fL$0fL$0H+
+D$xH9D$8r
+;D$@u
+D$EH
+9D$Lt
+=HcD$LH
+XHcD$`H
+9D$`sD$ E3D$ E3D$HHD$ E3D$ E3
+D$03D$4A
+D$@HD$4H
+D$43
+HcL$8H
+|$Pmu#
+tBHcD$83
+@HcD$83
+ot$ H
+ffffff
+fffffff
+t'H;
+L$ H#D$0H9D$ t
+HcD$(H@CH9D$0r5H
+H9D$0v
+?H9D$0sZH
+L$ H#H+D$h
+L$ H#D$PH
+D$ H9D$Pu
+L$X#D$ H
+L$ 9
+L$$9H
+L$ fD
+f9D$ u
+|$ @u
+D$-H
+D$"%
+D$!H;
+L$xH+
+D$.H
+D$$%
+D$!H9
+D$!H+
+D$/H
+H9D$(s
+D$4HcD$4H
+D$ LD$0HT$pH
+L$8HL$HHL$PH
+L$ LD$ E3D$XH
+D$`HD$xHD$XH
+L$L+D$pH
+~!Hc
+HcD$\H
+tAHcD$\H
+tAHcD$XH
+D$@HD$2H
+D$6H
+D$8f
+T$ HT$`H
+D$ =
+$u-3
+D$("
+D$(!
+L$hH3
+\$ L
+D$HH%
+ZD$@D$@H
+D$ %@
+D$h%D$h%
+L$`#
+T$4#
+D$49D$8u
+L$ DD$ DD$ D
+}0Hc
+T$ 9D$XH
+D$hHT$PH
+D$P-
+/D$(v
+L$!D
+XD$(
+D$xHD$ D
+L$ DD$hHD$hHD$@H
+L$`AL$hHL$hHL$hHL$hHL$hHL$hHL$hHL$hHL$hH
+L$PH#
+T$$#
+D$6%
+D$V%
+/D$Pv
+D$V3
+D$ HD$&%
+D$&%
+%	K'
+%wH'
+%iH'
+%[H'
+%MH'
+%?H'
+%1H'
+%#H'
+D$0Hc@<H
+$s1H
+H9D$8r H
+H9D$8sD$0H
+D$8H$Hc@<H
+D$pf
+tD$pf
+pD$@
+oD$@f
+tD$@f
+oD$ fD$0H
+:cD$ @
+T$8HD$xf
+nD$xf
+pD$0
+tD$0f
+tD$Pf
+oD$
+D$ HoD$ f
+L$x;
+D$@HD$Xf
+D$PH%
+uD$0f
+VD$0f
+oD$ fD$PH
+L$X;D$PH
+L$X;ffff
+fffff
+ob0f
+obpf
+veL;
+vKfffff
+https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ
+cmd.exe
+/c msg * Hello there, Hacker
+open
+Alert
+The goal was never here to begin with.
+This is our world now. The world of the electron and the switch; the beauty of the baud
+That was a complete waste of time.
+Nothing to see here, move along.
+You are likely somewhat close.
+My crime is that of curiosity. I am a hacker, and this is my manifesto
+No seriously, i hope it can not be bruteforced
+The cake is a lie.
+We appreciate your efforts, but due to a strategic realignment, the project's scope has been expanded.
+These are not the droids you're looking for.
+The princess is in another castle.
+A strange game. The only winning move is not to play
+Sorry, this was just the decoy.
+This was a side quest. The main story is elsewhere.
+Good effort!
+Sandboxes hate this one weird trick
+I hope you are not trying to bruteforce this
+You've been redirected. Please try another server.
+Something went wrong!
+invalid argument
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xmemory
+state
+input
+position
+transitions
+correct!
+wrong!
+usage: ./ntfsm <password>
+to reset the binary in case of weird behavior: ./ntfsm -r
+input 16 characters
+Error: BCryptOpenAlgorithmProvider failed with status: %x
+Error: BCryptSetProperty failed with status: %x
+Error: Could not open SHA256 provider.
+Error: Could not create hash.
+Error: Could not hash data.
+Error: Could not finalize hash.
+Error: BCryptGenerateSymmetricKey failed with status: %x
+Error: Encryptor not initialized.
+Error: Ciphertext is too small to contain an IV.
+Error: BCryptDecrypt (getting size) failed with status: %x
+Error: BCryptDecrypt (actual) failed with status: %x
+Your reward: %s
+Unknown exception
+bad array new length
+ITERATOR LIST CORRUPTED!
+string too long
+cannot seek value-initialized vector iterator
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector
+cannot seek invalidated vector iterator
+cannot seek vector iterator before begin
+cannot seek vector iterator after end
+null pointer cannot point to a block of non-zero size
+vector too long
+vector iterators in range are from different containers
+vector iterator range transposed
+bad allocation
+bad function call
+regex_error(error_collate): The expression contained an invalid collating element name.
+regex_error(error_ctype): The expression contained an invalid character class name.
+regex_error(error_escape): The expression contained an invalid escaped character, or a trailing escape.
+regex_error(error_backref): The expression contained an invalid back reference.
+regex_error(error_brack): The expression contained mismatched [ and ].
+regex_error(error_paren): The expression contained mismatched ( and ).
+regex_error(error_brace): The expression contained mismatched { and }.
+regex_error(error_badbrace): The expression contained an invalid range in a {} expression.
+regex_error(error_range): The expression contained an invalid character range, such as [b-a] in most encodings.
+regex_error(error_space): There was insufficient memory to convert the expression into a finite state machine.
+regex_error(error_badrepeat): One of *?+{ was not preceded by a valid regular expression.
+regex_error(error_complexity): The complexity of an attempted match against a regular expression exceeded a pre-set level.
+regex_error(error_stack): There was insufficient memory to determine whether the regular expression could match the specified character sequence.
+regex_error(error_parse)
+regex_error(error_syntax)
+regex_error
+D:\a\_work\1\s\src\vctools\crt\vcruntime\src\eh\std_type_info.cpp
+D:\a\_work\1\s\src\vctools\crt\vcruntime\src\internal\per_thread_data.cpp
+bad exception
+__based(
+__cdecl
+__pascal
+__stdcall
+__thiscall
+__fastcall
+__vectorcall
+__clrcall
+__eabi
+__swift_1
+__swift_2
+__swift_3
+__ptr64
+__restrict
+__unaligned
+restrict(
+new
+delete
+operator
+`vftable'
+`vbtable'
+`vcall'
+`typeof'
+`local static guard'
+`string'
+`vbase destructor'
+`vector deleting destructor'
+`default constructor closure'
+`scalar deleting destructor'
+`vector constructor iterator'
+`vector destructor iterator'
+`vector vbase constructor iterator'
+`virtual displacement map'
+`eh vector constructor iterator'
+`eh vector destructor iterator'
+`eh vector vbase constructor iterator'
+`copy constructor closure'
+`udt returning'
+`RTTI
+`local vftable'
+`local vftable constructor closure'
+new[]
+delete[]
+`omni callsig'
+`placement delete closure'
+`placement delete[] closure'
+`managed vector constructor iterator'
+`managed vector destructor iterator'
+`eh vector copy constructor iterator'
+`eh vector vbase copy constructor iterator'
+`dynamic initializer for '
+`dynamic atexit destructor for '
+`vector copy constructor iterator'
+`vector vbase copy constructor iterator'
+`managed vector copy constructor iterator'
+`local static thread guard'
+operator ""
+operator co_await
+operator<=>
+Type Descriptor'
+Base Class Descriptor at (
+Base Class Array'
+Class Hierarchy Descriptor'
+Complete Object Locator'
+`anonymous namespace'
+CV:
+template-parameter-
+`template-parameter-
+generic-type-
+`generic-type-
+`non-type-template-parameter
+??_C
+NULL
+`template-type-parameter-
+`generic-class-parameter-
+`generic-method-parameter-
+nullptr
+lambda
+void
+`template-parameter
+`vtordispex{
+`vtordisp{
+`adjustor{
+`local static destructor helper'
+`template static data member constructor helper'
+`template static data member destructor helper'
+static
+virtual
+private:
+protected:
+public:
+[thunk]:
+extern "C"
+char
+short
+int
+long
+unsigned
+volatile
+std::nullptr_t
+<ellipsis>
+,...
+,<ellipsis>
+noexcept
+float
+double
+bool
+__int8
+__int16
+__int32
+__int64
+__int128
+<unknown>
+char8_t
+char16_t
+char32_t
+wchar_t
+auto
+decltype(auto)
+this
+__w64
+UNKNOWN
+signed
+const
+`unknown ecsu'
+union
+struct
+class
+coclass
+cointerface
+enum
+cli::array<
+cli::pin_ptr<
+{flat}
+{for
+??
+Cannot access value of empty optional
+D:\a\_work\1\s\binaries\amd64ret\inc\optional
+FlsAlloc
+FlsFree
+FlsGetValue
+FlsSetValue
+InitializeCriticalSectionEx
+CorExitProcess
+<program name unknown>
+minkernel\crts\ucrt\src\appcrt\misc\dbgrpt.cpp
+minkernel\crts\ucrt\src\appcrt\stdio\_file.cpp
+(null)
+minkernel\crts\ucrt\inc\corecrt_internal_stdio_output.h
+Free
+Normal
+Ignore
+Client
+Client hook allocation failure at file %hs line %d.
+Client hook allocation failure.
+Error: memory allocation: bad memory block type.
+Client hook re-allocation failure at file %hs line %d.
+Client hook re-allocation failure.
+Memory allocated at %hs(%d).
+The Block at 0x%p was allocated by aligned routines, use _aligned_realloc()
+Error: possible heap corruption at or near 0x%p
+The Block at 0x%p was allocated by aligned routines, use _aligned_free()
+Client hook free failure.
+HEAP CORRUPTION DETECTED: before %hs block (#%d) at 0x%p.
+CRT detected that the application wrote to memory before start of heap buffer.
+HEAP CORRUPTION DETECTED: after %hs block (#%d) at 0x%p.
+CRT detected that the application wrote to memory after end of heap buffer.
+DAMAGED
+HEAP CORRUPTION DETECTED: on top of Free block at 0x%p.
+CRT detected that the application wrote to a heap buffer that was freed.
+%hs located at 0x%p is %Iu bytes long.
+Cycle in block list detected while processing block located at 0x%p.
+Heap validation failed.
+Bad memory block found at 0x%p.
+%.2X
+Data: <%s> %s
+Dumping objects ->
+#File Error#(%d) :
+%hs(%d) :
+{%ld}
+client block at 0x%p, subtype %x, %Iu bytes long.
+normal block at 0x%p, %Iu bytes long.
+crt block at 0x%p, subtype %x, %Iu bytes long.
+Object dump complete.
+Detected memory leaks!
+%Id bytes in %Id %hs Blocks.
+Largest number used: %Id bytes.
+Total allocations: %Id bytes.
+The block at 0x%p was not allocated by _aligned routines, use realloc()
+Damage before 0x%p which was allocated by aligned routine
+The block at 0x%p was not allocated by _aligned routines, use free()
+minkernel\crts\ucrt\src\appcrt\startup\argv_parsing.cpp
+minkernel\crts\ucrt\src\desktopcrt\env\environment_initialization.cpp
+!"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+minkernel\crts\ucrt\src\appcrt\locale\wsetlocale.cpp
+minkernel\crts\ucrt\src\appcrt\startup\onexit.cpp
+minkernel\crts\ucrt\src\appcrt\internal\per_thread_data.cpp
+Sunday
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+January
+February
+March
+April
+June
+July
+August
+September
+October
+November
+December
+MM/dd/yy
+dddd, MMMM dd, yyyy
+HH:mm:ss
+Second Chance Assertion Failed: File
+<file unknown>
+, Line
+_CrtDbgReport: String too long or IO Error
+Assertion failed:
+Assertion failed!
+%s(%d) : %s
+_CrtDbgReport: String too long or Invalid characters in String
+minkernel\crts\ucrt\src\appcrt\misc\signal.cpp
+AreFileApisANSI
+CompareStringEx
+EnumSystemLocalesEx
+GetActiveWindow
+GetDateFormatEx
+GetTempPath2W
+GetEnabledXStateFeatures
+GetLastActivePopup
+GetLocaleInfoEx
+GetProcessWindowStation
+GetSystemTimePreciseAsFileTime
+GetTimeFormatEx
+GetUserDefaultLocaleName
+GetUserObjectInformationW
+GetXStateFeaturesMask
+IsValidLocaleName
+LCMapStringEx
+LCIDToLocaleName
+LocaleNameToLCID
+LocateXStateFeature
+MessageBoxA
+MessageBoxW
+RoInitialize
+RoUninitialize
+AppPolicyGetProcessTerminationMethod
+AppPolicyGetThreadInitializationType
+AppPolicyGetShowDeveloperDiagnostic
+AppPolicyGetWindowingModel
+SetThreadStackGuarantee
+SystemFunction036
+NAN(SNAN)
+nan(snan)
+NAN(IND)
+nan(ind)
+e+000
+minkernel\crts\ucrt\src\appcrt\stdio\_sftbuf.cpp
+minkernel\crts\ucrt\inc\corecrt_internal_win32_buffer.h
+minkernel\crts\ucrt\src\appcrt\startup\argv_wildcards.cpp
+X71A
+h71A
+x71A
+minkernel\crts\ucrt\src\appcrt\mbstring\mbctype.cpp
+minkernel\crts\ucrt\src\desktopcrt\env\get_environment_from_os.cpp
+minkernel\crts\ucrt\src\desktopcrt\env\setenv.cpp
+minkernel\crts\ucrt\src\appcrt\lowio\osfinfo.cpp
+minkernel\crts\ucrt\src\appcrt\locale\initctype.cpp
+minkernel\crts\ucrt\src\appcrt\locale\initmon.cpp
+minkernel\crts\ucrt\src\appcrt\locale\initnum.cpp
+minkernel\crts\ucrt\src\appcrt\locale\inittime.cpp
+!"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+!"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+minkernel\crts\ucrt\src\appcrt\locale\getstringtypea.cpp
+PW1A
+hW1A
+(X1A
+@X1A
+hX1A
+Y1A
+HY1A
+hY1A
+(Z1A
+HZ1A
+[1A
+H[1A
+p[1A
+H\1A
+h\1A
+(]1A
+`]1A
+8^1A
+x^1A
+(_1A
+P_1A
+x_1A
+H`1A
+p`1A
+(a1A
+8a1A
+Ha1A
+`a1A
+0b1A
+@b1A
+`b1A
+d8L2
+[aOni*{
+@2&@
+"RP(
+eLK(w
+FEMh
+h0'D
+owM&
+~ $s%r
+@b;zO]
+$qE}
+;*xh
+["93
+iu+-,
+\lo}
+obwQ4
+&Sgw
+R	E]
+?nz(
+=87M
+v2!L.2
+cQr
+X/4B
+k=yI
+^<V7w
+W&|.
+1#INF
+1#QNAN
+1#SNAN
+1#IND
+minkernel\crts\ucrt\src\appcrt\locale\lcmapstringa.cpp
+minkernel\crts\ucrt\src\appcrt\locale\getlocaleinfoa.cpp
+minkernel\crts\ucrt\src\appcrt\stdio\stream.cpp
+minkernel\crts\ucrt\src\appcrt\lowio\read.cpp
+UUUUUU
+TUUUU
+#Ib?
+minkernel\crts\ucrt\src\appcrt\stdio\_getbuf.cpp
+minkernel\crts\ucrt\src\appcrt\locale\comparestringa.cpp
+=imb;D
+=W>6
+:		r
+>[^j
+>Kb|
++>De
+1<.	/>:
+11Y@
+/>58d%
+MJ$>
+>cQ6
+!>6'Y
+>jtm}S
+>77:
+)>6{1n
+r	Vr.>T
++f)>0'
+Lj[;>
+3>fvw
+;H9>&X
+*StO9>T
+.>Tu
+.(!>
+n03>Pu
+/>	V
+S9>H
+x.&>
+K~Je#>!
+-/!>
+(>aI
+=cQ6
++M<7>
+*>f[
+o ->
+l(>>
+c(>\,
+ET5>
+;>9l
+mG4>
+bp(=>?g
+36,>
+37>k
+~X3>
+6>J`
+?>!T
+BC?>6t9^	c:>
+8'>0
+'._M
+=4<,
+BF>^G
+K&>.yC
+'L>[
+.xJ>Hf
+y\PD>!
+|b=})>
+c [1>H'
+dL?>
+uzKs@>
+3>N;kU
+kE>fvw
+eF>t
+L>ev
+A>pP&
+V6E>`"(5
+,=>B
+">}t
+0iN>/
++h->|
+@>%>b
+?qBJ
+l@6
+?-hk
+OZQ%
+-)4d
+?:kP<
+?UUUUUU
+?f`Y4
+?QY^&
+?U)#
+?ysB
+?$G4
+?30]
+?7zQ6$
+logf
+log10f
+log10
+sinh
+cosh
+tanh
+asin
+acos
+atan
+atan2
+sqrt
+ceil
+floor
+fabs
+modf
+ldexp
+_cabs
+_hypot
+fmod
+frexp
+_logb
+_nextafter
+RSDSG~M|
+C:\Users\flare\Desktop\challenge\main.pdb
+HJ'2
+Hz'2
+H:(2
+H:)2
+Hr)2
+H**2
+H6,2
+@632
+@Z32
+@"52
+HJ52
+Hv52
+@J62
+H"72
+HN72
+(7J2
+4J1A
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+2J1A
+.?AVexception@std@@
+.?AVbad_array_new_length@std@@
+.?AVbad_alloc@std@@
+.?AVruntime_error@std@@
+.?AVinvalid_argument@std@@
+.?AVlogic_error@std@@
+.?AVlength_error@std@@
+.?AVout_of_range@std@@
+.?AVoverflow_error@std@@
+.?AVbad_function_call@std@@
+.?AVregex_error@std@@
+.?AVbad_exception@std@@
+.?AVtype_info@@
+.?AVDNameNode@@
+.?AVcharNode@@
+.?AVpcharNode@@
+.?AVpDNameNode@@
+.?AVDNameStatusNode@@
+.?AVpairNode@@
+CreateFileA
+ReadFile
+WriteFile
+CloseHandle
+WaitForSingleObject
+SleepEx
+Sleep
+CreateProcessA
+GetModuleFileNameA
+KERNEL32.dll
+ExitWindowsEx
+USER32.dll
+ShellExecuteA
+SHELL32.dll
+BCryptOpenAlgorithmProvider
+BCryptSetProperty
+BCryptCloseAlgorithmProvider
+BCryptGenerateSymmetricKey
+BCryptDecrypt
+BCryptCreateHash
+BCryptHashData
+BCryptFinishHash
+BCryptDestroyHash
+bcrypt.dll
+EnterCriticalSection
+LeaveCriticalSection
+DeleteCriticalSection
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+UnhandledExceptionFilter
+SetUnhandledExceptionFilter
+GetCurrentProcess
+TerminateProcess
+IsProcessorFeaturePresent
+QueryPerformanceCounter
+GetCurrentProcessId
+GetCurrentThreadId
+GetSystemTimeAsFileTime
+InitializeSListHead
+IsDebuggerPresent
+GetStartupInfoW
+GetModuleHandleW
+RtlPcToFileHeader
+RaiseException
+RtlUnwindEx
+InterlockedPushEntrySList
+InterlockedFlushSList
+GetLastError
+SetLastError
+EncodePointer
+InitializeCriticalSectionAndSpinCount
+TlsAlloc
+TlsGetValue
+TlsSetValue
+TlsFree
+FreeLibrary
+GetProcAddress
+LoadLibraryExW
+ExitProcess
+GetModuleHandleExW
+GetModuleFileNameW
+HeapAlloc
+HeapSize
+HeapValidate
+GetSystemInfo
+GetStdHandle
+GetCommandLineA
+GetCommandLineW
+GetCurrentThread
+GetFileType
+OutputDebugStringW
+WriteConsoleW
+SetConsoleCtrlHandler
+GetTempPathW
+GetDateFormatW
+GetTimeFormatW
+CompareStringW
+LCMapStringW
+GetLocaleInfoW
+IsValidLocale
+GetUserDefaultLCID
+EnumSystemLocalesW
+HeapFree
+HeapReAlloc
+HeapQueryInformation
+GetProcessHeap
+FindClose
+FindFirstFileExW
+FindNextFileW
+IsValidCodePage
+GetACP
+GetOEMCP
+GetCPInfo
+MultiByteToWideChar
+WideCharToMultiByte
+GetEnvironmentStringsW
+FreeEnvironmentStringsW
+SetEnvironmentVariableW
+SetStdHandle
+GetStringTypeW
+FlushFileBuffers
+GetConsoleOutputCP
+GetConsoleMode
+GetFileSizeEx
+SetFilePointerEx
+ReadConsoleW
+CreateFileW
+RtlUnwind
+[32m[1m================================================ 16-bit ================================================[0m
+eThe cake is a lie.
+eAlert
+dAlert
+eThat was a complete waste of time.
+.Alert
+.You are likely somewhat close.
+dThe cake is a lie.
+eThe princess is in another castle.
+eThe goal was never here to begin with.
+eSandboxes hate this one weird trick
+eA strange game. The only winning move is not to play
+eThis is our world now. The world of the electron and the switch; the beauty of the baud
+eYou are likely somewhat close.
+eWe appreciate your efforts, but due to a strategic realignment, the project's scope has been expanded.
+eSorry, this was just the decoy.
+eNo seriously, i hope it can not be bruteforced
+eGood effort!
+eThis was a side quest. The main story is elsewhere.
+.The princess is in another castle.
+eNothing to see here, move along.
+.Nothing to see here, move along.
+eThese are not the droids you're looking for.
+eI hope you are not trying to bruteforce this
+eMy crime is that of curiosity. I am a hacker, and this is my manifesto
+eYou've been redirected. Please try another server.
+.The goal was never here to begin with.
+.This is our world now. The world of the electron and the switch; the beauty of the baud
+.Good effort!
+dYou are likely somewhat close.
+.The cake is a lie.
+.Sandboxes hate this one weird trick
+dGood effort!
+"invalid argument"
+.These are not the droids you're looking for.
+.A strange game. The only winning move is not to play
+.This was a side quest. The main story is elsewhere.
+.That was a complete waste of time.
+ChainingModeCBC
+ChainingMode
+SHA256
+.We appreciate your efforts, but due to a strategic realignment, the project's scope has been expanded.
+"ITERATOR LIST CORRUPTED!"
+"cannot seek value-initialized vector iterator"
+"cannot seek invalidated vector iterator"
+"cannot seek vector iterator before begin"
+"cannot seek vector iterator after end"
+"null pointer cannot point to a block of non-zero size"
+"vector iterators in range are from different containers"
+"vector iterator range transposed"
+to->_What == nullptr && to->_DoFree == false
+D:\a\_work\1\s\src\vctools\crt\vcruntime\src\eh\std_exception.cpp
+"Cannot access value of empty optional"
+api-ms-win-core-fibers-l1-1-1
+api-ms-win-core-synch-l1-2-0
+kernel32
+api-ms-
+cached_handle == INVALID_HANDLE_VALUE
+D:\a\_work\1\s\src\vctools\crt\vcruntime\src\internal\winapi_downlevel.cpp
+cached_handle == new_handle
+cached_fp == invalid_function_sentinel()
+cached_fp == new_fp
+mscoree.dll
+Warning
+Error
+Assertion Failed
+For information on how your program can cause an assertion
+failure, see the Visual C++ documentation on asserts.
+Debug %ls!
+Program: %hs%ls%ls%hs%ls%hs%ls%hs%ls%ls%hs%ls
+(Press Retry to debug the application)
+Program: %ls%ls%ls%ls%ls%ls%ls%ls%ls%ls%ls%ls
+("The hook function is not in the list!", 0)
+mode == _CRT_RPTHOOK_INSTALL || mode == _CRT_RPTHOOK_REMOVE
+common_set_report_hook
+new_hook != nullptr
+common_message_window
+traits::tcscpy_s(program_name, (sizeof(*__countof_helper(program_name)) + 0), get_program_name_unknown_text(Character()))
+Expression:
+Line:
+File:
+Module:
+(*_errno())
+wcscpy_s(message_buffer, 4096, L"_CrtDbgReport: String too long or IO Error")
+Microsoft Visual C++ Runtime Library
+public_stream != nullptr
+_get_stream_buffer_pointers
+( (_Stream.is_string_backed()) || (fn = _fileno(_Stream.public_stream()), ((_textmode_safe(fn) == __crt_lowio_text_mode::ansi) && !_tm_unicode_safe(fn))))
+minkernel\crts\ucrt\inc\corecrt_internal_stdio.h
+__acrt_stdio_char_traits<char>::validate_stream_is_ansi_if_required
+minkernel\crts\ucrt\inc\corecrt_internal_strtox.h
+stream != nullptr
+minkernel\crts\ucrt\src\appcrt\stdio\output.cpp
+common_vfprintf
+format != nullptr
+common_vsprintf
+buffer_count == 0 || buffer != nullptr
+common_vsprintf_s
+buffer != nullptr && buffer_count > 0
+("Buffer too small", 0)
+common_vsnprintf_s
+_format_it != nullptr
+__crt_stdio_output::output_processor<wchar_t,class __crt_stdio_output::string_output_adapter<wchar_t>,class __crt_stdio_output::positional_parameter_base<wchar_t,class __crt_stdio_output::string_output_adapter<wchar_t> > >::process
+("Incorrect format specifier", 0)
+__crt_stdio_output::output_processor<char,class __crt_stdio_output::string_output_adapter<char>,class __crt_stdio_output::positional_parameter_base<char,class __crt_stdio_output::string_output_adapter<char> > >::process
+__crt_stdio_output::output_processor<wchar_t,class __crt_stdio_output::string_output_adapter<wchar_t>,class __crt_stdio_output::standard_base<wchar_t,class __crt_stdio_output::string_output_adapter<wchar_t> > >::process
+__crt_stdio_output::output_processor<char,class __crt_stdio_output::string_output_adapter<char>,class __crt_stdio_output::standard_base<char,class __crt_stdio_output::string_output_adapter<char> > >::process
+__crt_stdio_output::output_processor<wchar_t,class __crt_stdio_output::stream_output_adapter<wchar_t>,class __crt_stdio_output::positional_parameter_base<wchar_t,class __crt_stdio_output::stream_output_adapter<wchar_t> > >::process
+__crt_stdio_output::output_processor<char,class __crt_stdio_output::stream_output_adapter<char>,class __crt_stdio_output::positional_parameter_base<char,class __crt_stdio_output::stream_output_adapter<char> > >::process
+__crt_stdio_output::output_processor<wchar_t,class __crt_stdio_output::stream_output_adapter<wchar_t>,class __crt_stdio_output::format_validation_base<wchar_t,class __crt_stdio_output::stream_output_adapter<wchar_t> > >::process
+__crt_stdio_output::output_processor<char,class __crt_stdio_output::stream_output_adapter<char>,class __crt_stdio_output::format_validation_base<char,class __crt_stdio_output::stream_output_adapter<char> > >::process
+__crt_stdio_output::output_processor<wchar_t,class __crt_stdio_output::stream_output_adapter<wchar_t>,class __crt_stdio_output::standard_base<wchar_t,class __crt_stdio_output::stream_output_adapter<wchar_t> > >::process
+__crt_stdio_output::output_processor<char,class __crt_stdio_output::stream_output_adapter<char>,class __crt_stdio_output::standard_base<char,class __crt_stdio_output::stream_output_adapter<char> > >::process
+("N length modifier not specifier", false)
+__crt_stdio_output::output_processor<wchar_t,class __crt_stdio_output::string_output_adapter<wchar_t>,class __crt_stdio_output::positional_parameter_base<wchar_t,class __crt_stdio_output::string_output_adapter<wchar_t> > >::state_case_size
+_length == length_modifier::none
+state_case_normal_common()
+__crt_stdio_output::output_processor<wchar_t,class __crt_stdio_output::string_output_adapter<wchar_t>,class __crt_stdio_output::positional_parameter_base<wchar_t,class __crt_stdio_output::string_output_adapter<wchar_t> > >::state_case_normal
+_type_index >= 0 && *end_pointer == '$' && _type_index < _ARGMAX
+__crt_stdio_output::positional_parameter_base<wchar_t,class __crt_stdio_output::string_output_adapter<wchar_t> >::validate_and_update_state_at_beginning_of_format_character
+("Missing position in the format string", 0)
+__crt_stdio_output::positional_parameter_base<wchar_t,class __crt_stdio_output::string_output_adapter<wchar_t> >::validate_and_update_state_at_end_of_format_string
+__crt_stdio_output::output_processor<char,class __crt_stdio_output::string_output_adapter<char>,class __crt_stdio_output::positional_parameter_base<char,class __crt_stdio_output::string_output_adapter<char> > >::state_case_size
+__crt_stdio_output::output_processor<char,class __crt_stdio_output::string_output_adapter<char>,class __crt_stdio_output::positional_parameter_base<char,class __crt_stdio_output::string_output_adapter<char> > >::state_case_normal
+__crt_stdio_output::positional_parameter_base<char,class __crt_stdio_output::string_output_adapter<char> >::validate_and_update_state_at_beginning_of_format_character
+__crt_stdio_output::positional_parameter_base<char,class __crt_stdio_output::string_output_adapter<char> >::validate_and_update_state_at_end_of_format_string
+__crt_stdio_output::output_processor<wchar_t,class __crt_stdio_output::string_output_adapter<wchar_t>,class __crt_stdio_output::standard_base<wchar_t,class __crt_stdio_output::string_output_adapter<wchar_t> > >::state_case_size
+__crt_stdio_output::output_processor<wchar_t,class __crt_stdio_output::string_output_adapter<wchar_t>,class __crt_stdio_output::standard_base<wchar_t,class __crt_stdio_output::string_output_adapter<wchar_t> > >::state_case_normal
+_context != nullptr
+__crt_stdio_output::string_output_adapter<wchar_t>::validate
+__crt_stdio_output::output_processor<char,class __crt_stdio_output::string_output_adapter<char>,class __crt_stdio_output::standard_base<char,class __crt_stdio_output::string_output_adapter<char> > >::state_case_size
+__crt_stdio_output::output_processor<char,class __crt_stdio_output::string_output_adapter<char>,class __crt_stdio_output::standard_base<char,class __crt_stdio_output::string_output_adapter<char> > >::state_case_normal
+__crt_stdio_output::string_output_adapter<char>::validate
+__crt_stdio_output::output_processor<wchar_t,class __crt_stdio_output::stream_output_adapter<wchar_t>,class __crt_stdio_output::positional_parameter_base<wchar_t,class __crt_stdio_output::stream_output_adapter<wchar_t> > >::state_case_size
+__crt_stdio_output::output_processor<wchar_t,class __crt_stdio_output::stream_output_adapter<wchar_t>,class __crt_stdio_output::positional_parameter_base<wchar_t,class __crt_stdio_output::stream_output_adapter<wchar_t> > >::state_case_normal
+__crt_stdio_output::positional_parameter_base<wchar_t,class __crt_stdio_output::stream_output_adapter<wchar_t> >::validate_and_update_state_at_beginning_of_format_character
+__crt_stdio_output::positional_parameter_base<wchar_t,class __crt_stdio_output::stream_output_adapter<wchar_t> >::validate_and_update_state_at_end_of_format_string
+__crt_stdio_output::output_processor<char,class __crt_stdio_output::stream_output_adapter<char>,class __crt_stdio_output::positional_parameter_base<char,class __crt_stdio_output::stream_output_adapter<char> > >::state_case_size
+__crt_stdio_output::output_processor<char,class __crt_stdio_output::stream_output_adapter<char>,class __crt_stdio_output::positional_parameter_base<char,class __crt_stdio_output::stream_output_adapter<char> > >::state_case_normal
+__crt_stdio_output::positional_parameter_base<char,class __crt_stdio_output::stream_output_adapter<char> >::validate_and_update_state_at_beginning_of_format_character
+__crt_stdio_output::positional_parameter_base<char,class __crt_stdio_output::stream_output_adapter<char> >::validate_and_update_state_at_end_of_format_string
+__crt_stdio_output::output_processor<wchar_t,class __crt_stdio_output::stream_output_adapter<wchar_t>,class __crt_stdio_output::format_validation_base<wchar_t,class __crt_stdio_output::stream_output_adapter<wchar_t> > >::state_case_size
+__crt_stdio_output::output_processor<wchar_t,class __crt_stdio_output::stream_output_adapter<wchar_t>,class __crt_stdio_output::format_validation_base<wchar_t,class __crt_stdio_output::stream_output_adapter<wchar_t> > >::state_case_normal
+_state == state::normal || _state == state::type
+__crt_stdio_output::format_validation_base<wchar_t,class __crt_stdio_output::stream_output_adapter<wchar_t> >::validate_and_update_state_at_end_of_format_string
+__crt_stdio_output::output_processor<char,class __crt_stdio_output::stream_output_adapter<char>,class __crt_stdio_output::format_validation_base<char,class __crt_stdio_output::stream_output_adapter<char> > >::state_case_size
+__crt_stdio_output::output_processor<char,class __crt_stdio_output::stream_output_adapter<char>,class __crt_stdio_output::format_validation_base<char,class __crt_stdio_output::stream_output_adapter<char> > >::state_case_normal
+__crt_stdio_output::format_validation_base<char,class __crt_stdio_output::stream_output_adapter<char> >::validate_and_update_state_at_end_of_format_string
+__crt_stdio_output::output_processor<wchar_t,class __crt_stdio_output::stream_output_adapter<wchar_t>,class __crt_stdio_output::standard_base<wchar_t,class __crt_stdio_output::stream_output_adapter<wchar_t> > >::state_case_size
+__crt_stdio_output::output_processor<wchar_t,class __crt_stdio_output::stream_output_adapter<wchar_t>,class __crt_stdio_output::standard_base<wchar_t,class __crt_stdio_output::stream_output_adapter<wchar_t> > >::state_case_normal
+_stream.valid()
+__crt_stdio_output::stream_output_adapter<wchar_t>::validate
+__crt_stdio_output::output_processor<char,class __crt_stdio_output::stream_output_adapter<char>,class __crt_stdio_output::standard_base<char,class __crt_stdio_output::stream_output_adapter<char> > >::state_case_size
+__crt_stdio_output::output_processor<char,class __crt_stdio_output::stream_output_adapter<char>,class __crt_stdio_output::standard_base<char,class __crt_stdio_output::stream_output_adapter<char> > >::state_case_normal
+__crt_stdio_output::stream_output_adapter<char>::validate
+("'n' format specifier disabled", 0)
+__crt_stdio_output::output_processor<wchar_t,class __crt_stdio_output::string_output_adapter<wchar_t>,class __crt_stdio_output::positional_parameter_base<wchar_t,class __crt_stdio_output::string_output_adapter<wchar_t> > >::type_case_n
+("Invalid integer length modifier", 0)
+precision_index >= 0 && *end_pointer == '$' && precision_index < _ARGMAX
+__crt_stdio_output::positional_parameter_base<wchar_t,class __crt_stdio_output::string_output_adapter<wchar_t> >::update_precision
+width_index >= 0 && *end_pointer == '$' && width_index < _ARGMAX
+__crt_stdio_output::positional_parameter_base<wchar_t,class __crt_stdio_output::string_output_adapter<wchar_t> >::update_field_width
+__crt_stdio_output::format_validation_base<wchar_t,class __crt_stdio_output::string_output_adapter<wchar_t> >::validate_and_update_state_at_end_of_format_string
+__crt_stdio_output::output_processor<char,class __crt_stdio_output::string_output_adapter<char>,class __crt_stdio_output::positional_parameter_base<char,class __crt_stdio_output::string_output_adapter<char> > >::type_case_n
+__crt_stdio_output::positional_parameter_base<char,class __crt_stdio_output::string_output_adapter<char> >::update_precision
+__crt_stdio_output::positional_parameter_base<char,class __crt_stdio_output::string_output_adapter<char> >::update_field_width
+__crt_stdio_output::format_validation_base<char,class __crt_stdio_output::string_output_adapter<char> >::validate_and_update_state_at_end_of_format_string
+__crt_stdio_output::output_processor<wchar_t,class __crt_stdio_output::string_output_adapter<wchar_t>,class __crt_stdio_output::standard_base<wchar_t,class __crt_stdio_output::string_output_adapter<wchar_t> > >::type_case_n
+__crt_stdio_output::output_processor<char,class __crt_stdio_output::string_output_adapter<char>,class __crt_stdio_output::standard_base<char,class __crt_stdio_output::string_output_adapter<char> > >::type_case_n
+__crt_stdio_output::output_processor<wchar_t,class __crt_stdio_output::stream_output_adapter<wchar_t>,class __crt_stdio_output::positional_parameter_base<wchar_t,class __crt_stdio_output::stream_output_adapter<wchar_t> > >::type_case_n
+__crt_stdio_output::positional_parameter_base<wchar_t,class __crt_stdio_output::stream_output_adapter<wchar_t> >::update_precision
+__crt_stdio_output::positional_parameter_base<wchar_t,class __crt_stdio_output::stream_output_adapter<wchar_t> >::update_field_width
+__crt_stdio_output::output_processor<char,class __crt_stdio_output::stream_output_adapter<char>,class __crt_stdio_output::positional_parameter_base<char,class __crt_stdio_output::stream_output_adapter<char> > >::type_case_n
+__crt_stdio_output::positional_parameter_base<char,class __crt_stdio_output::stream_output_adapter<char> >::update_precision
+__crt_stdio_output::positional_parameter_base<char,class __crt_stdio_output::stream_output_adapter<char> >::update_field_width
+__crt_stdio_output::output_processor<wchar_t,class __crt_stdio_output::stream_output_adapter<wchar_t>,class __crt_stdio_output::format_validation_base<wchar_t,class __crt_stdio_output::stream_output_adapter<wchar_t> > >::type_case_n
+__crt_stdio_output::output_processor<char,class __crt_stdio_output::stream_output_adapter<char>,class __crt_stdio_output::format_validation_base<char,class __crt_stdio_output::stream_output_adapter<char> > >::type_case_n
+__crt_stdio_output::output_processor<wchar_t,class __crt_stdio_output::stream_output_adapter<wchar_t>,class __crt_stdio_output::standard_base<wchar_t,class __crt_stdio_output::stream_output_adapter<wchar_t> > >::type_case_n
+__crt_stdio_output::output_processor<char,class __crt_stdio_output::stream_output_adapter<char>,class __crt_stdio_output::standard_base<char,class __crt_stdio_output::stream_output_adapter<char> > >::type_case_n
+is_positional_parameter_reappearance_consistent( parameter, actual_type, format_type, length )
+__crt_stdio_output::positional_parameter_base<wchar_t,class __crt_stdio_output::string_output_adapter<wchar_t> >::validate_and_store_parameter_data
+_type_index >= 0 && _type_index < _ARGMAX
+__crt_stdio_output::positional_parameter_base<wchar_t,class __crt_stdio_output::string_output_adapter<wchar_t> >::validate_state_for_type_case_a
+_format_char != '\0'
+__crt_stdio_output::output_processor<char,class __crt_stdio_output::string_output_adapter<char>,class __crt_stdio_output::positional_parameter_base<char,class __crt_stdio_output::string_output_adapter<char> > >::state_case_normal_tchar
+__crt_stdio_output::positional_parameter_base<char,class __crt_stdio_output::string_output_adapter<char> >::validate_and_store_parameter_data
+__crt_stdio_output::positional_parameter_base<char,class __crt_stdio_output::string_output_adapter<char> >::validate_state_for_type_case_a
+__crt_stdio_output::output_processor<char,class __crt_stdio_output::string_output_adapter<char>,class __crt_stdio_output::standard_base<char,class __crt_stdio_output::string_output_adapter<char> > >::state_case_normal_tchar
+__crt_stdio_output::positional_parameter_base<wchar_t,class __crt_stdio_output::stream_output_adapter<wchar_t> >::validate_and_store_parameter_data
+__crt_stdio_output::positional_parameter_base<wchar_t,class __crt_stdio_output::stream_output_adapter<wchar_t> >::validate_state_for_type_case_a
+__crt_stdio_output::output_processor<char,class __crt_stdio_output::stream_output_adapter<char>,class __crt_stdio_output::positional_parameter_base<char,class __crt_stdio_output::stream_output_adapter<char> > >::state_case_normal_tchar
+__crt_stdio_output::positional_parameter_base<char,class __crt_stdio_output::stream_output_adapter<char> >::validate_and_store_parameter_data
+__crt_stdio_output::positional_parameter_base<char,class __crt_stdio_output::stream_output_adapter<char> >::validate_state_for_type_case_a
+__crt_stdio_output::output_processor<char,class __crt_stdio_output::stream_output_adapter<char>,class __crt_stdio_output::format_validation_base<char,class __crt_stdio_output::stream_output_adapter<char> > >::state_case_normal_tchar
+__crt_stdio_output::output_processor<char,class __crt_stdio_output::stream_output_adapter<char>,class __crt_stdio_output::standard_base<char,class __crt_stdio_output::stream_output_adapter<char> > >::state_case_normal_tchar
+__crt_stdio_output::positional_parameter_base<wchar_t,class __crt_stdio_output::string_output_adapter<wchar_t> >::extract_argument_from_va_list
+__crt_stdio_output::output_processor<wchar_t,class __crt_stdio_output::string_output_adapter<wchar_t>,class __crt_stdio_output::positional_parameter_base<wchar_t,class __crt_stdio_output::string_output_adapter<wchar_t> > >::type_case_integer
+__crt_stdio_output::positional_parameter_base<char,class __crt_stdio_output::string_output_adapter<char> >::extract_argument_from_va_list
+__crt_stdio_output::output_processor<char,class __crt_stdio_output::string_output_adapter<char>,class __crt_stdio_output::positional_parameter_base<char,class __crt_stdio_output::string_output_adapter<char> > >::type_case_integer
+__crt_stdio_output::output_processor<wchar_t,class __crt_stdio_output::string_output_adapter<wchar_t>,class __crt_stdio_output::standard_base<wchar_t,class __crt_stdio_output::string_output_adapter<wchar_t> > >::type_case_integer
+__crt_stdio_output::output_processor<char,class __crt_stdio_output::string_output_adapter<char>,class __crt_stdio_output::standard_base<char,class __crt_stdio_output::string_output_adapter<char> > >::type_case_integer
+__crt_stdio_output::positional_parameter_base<wchar_t,class __crt_stdio_output::stream_output_adapter<wchar_t> >::extract_argument_from_va_list
+__crt_stdio_output::output_processor<wchar_t,class __crt_stdio_output::stream_output_adapter<wchar_t>,class __crt_stdio_output::positional_parameter_base<wchar_t,class __crt_stdio_output::stream_output_adapter<wchar_t> > >::type_case_integer
+__crt_stdio_output::positional_parameter_base<char,class __crt_stdio_output::stream_output_adapter<char> >::extract_argument_from_va_list
+__crt_stdio_output::output_processor<char,class __crt_stdio_output::stream_output_adapter<char>,class __crt_stdio_output::positional_parameter_base<char,class __crt_stdio_output::stream_output_adapter<char> > >::type_case_integer
+__crt_stdio_output::output_processor<wchar_t,class __crt_stdio_output::stream_output_adapter<wchar_t>,class __crt_stdio_output::format_validation_base<wchar_t,class __crt_stdio_output::stream_output_adapter<wchar_t> > >::type_case_integer
+__crt_stdio_output::output_processor<char,class __crt_stdio_output::stream_output_adapter<char>,class __crt_stdio_output::format_validation_base<char,class __crt_stdio_output::stream_output_adapter<char> > >::type_case_integer
+__crt_stdio_output::output_processor<wchar_t,class __crt_stdio_output::stream_output_adapter<wchar_t>,class __crt_stdio_output::standard_base<wchar_t,class __crt_stdio_output::stream_output_adapter<wchar_t> > >::type_case_integer
+__crt_stdio_output::output_processor<char,class __crt_stdio_output::stream_output_adapter<char>,class __crt_stdio_output::standard_base<char,class __crt_stdio_output::stream_output_adapter<char> > >::type_case_integer
+__crt_stdio_output::output_processor<wchar_t,class __crt_stdio_output::string_output_adapter<wchar_t>,class __crt_stdio_output::format_validation_base<wchar_t,class __crt_stdio_output::string_output_adapter<wchar_t> > >::process
+__crt_stdio_output::output_processor<char,class __crt_stdio_output::string_output_adapter<char>,class __crt_stdio_output::format_validation_base<char,class __crt_stdio_output::string_output_adapter<char> > >::process
+__crt_stdio_output::output_processor<wchar_t,class __crt_stdio_output::string_output_adapter<wchar_t>,class __crt_stdio_output::format_validation_base<wchar_t,class __crt_stdio_output::string_output_adapter<wchar_t> > >::state_case_size
+__crt_stdio_output::output_processor<wchar_t,class __crt_stdio_output::string_output_adapter<wchar_t>,class __crt_stdio_output::format_validation_base<wchar_t,class __crt_stdio_output::string_output_adapter<wchar_t> > >::state_case_normal
+__crt_stdio_output::output_processor<char,class __crt_stdio_output::string_output_adapter<char>,class __crt_stdio_output::format_validation_base<char,class __crt_stdio_output::string_output_adapter<char> > >::state_case_size
+__crt_stdio_output::output_processor<char,class __crt_stdio_output::string_output_adapter<char>,class __crt_stdio_output::format_validation_base<char,class __crt_stdio_output::string_output_adapter<char> > >::state_case_normal
+__crt_stdio_output::output_processor<wchar_t,class __crt_stdio_output::string_output_adapter<wchar_t>,class __crt_stdio_output::format_validation_base<wchar_t,class __crt_stdio_output::string_output_adapter<wchar_t> > >::type_case_n
+__crt_stdio_output::output_processor<char,class __crt_stdio_output::string_output_adapter<char>,class __crt_stdio_output::format_validation_base<char,class __crt_stdio_output::string_output_adapter<char> > >::type_case_n
+__crt_stdio_output::output_processor<char,class __crt_stdio_output::string_output_adapter<char>,class __crt_stdio_output::format_validation_base<char,class __crt_stdio_output::string_output_adapter<char> > >::state_case_normal_tchar
+base == 0 || (2 <= base && base <= 36)
+__crt_strtox::parse_integer
+__crt_stdio_output::output_processor<wchar_t,class __crt_stdio_output::string_output_adapter<wchar_t>,class __crt_stdio_output::format_validation_base<wchar_t,class __crt_stdio_output::string_output_adapter<wchar_t> > >::type_case_integer
+__crt_stdio_output::output_processor<char,class __crt_stdio_output::string_output_adapter<char>,class __crt_stdio_output::format_validation_base<char,class __crt_stdio_output::string_output_adapter<char> > >::type_case_integer
+c == '\0' || *_p == c
+__crt_strtox::c_string_character_source<char>::unget
+_p != nullptr
+__crt_strtox::c_string_character_source<char>::validate
+__crt_strtox::c_string_character_source<wchar_t>::unget
+__crt_strtox::c_string_character_source<wchar_t>::validate
+new_handler == 0
+minkernel\crts\ucrt\src\appcrt\heap\new_handler.cpp
+_CrtCheckMemory()
+minkernel\crts\ucrt\src\appcrt\heap\debug_heap.cpp
+_CrtIsValidHeapPointer(block)
+old_head->_line_number == line_number_for_ignore_blocks && old_head->_request_number == request_number_for_ignore_blocks
+reallocation_is_allowed || (!reallocation_is_allowed && new_head == old_head)
+__acrt_last_block == old_head
+__acrt_first_block == old_head
+block != nullptr
+_expand_dbg
+is_block_type_valid(header->_block_use)
+header->_line_number == line_number_for_ignore_blocks && header->_request_number == request_number_for_ignore_blocks
+header->_block_use == block_use || header->_block_use == _CRT_BLOCK && block_use == _NORMAL_BLOCK
+__acrt_last_block == header
+__acrt_first_block == header
+_msize_dbg
+new_bits == _CRTDBG_REPORT_FLAG || new_bits_have_only_valid_flags
+_CrtSetDbgFlag
+callback != nullptr
+_CrtDoForAllClientObjects
+state != nullptr
+_CrtMemCheckpoint
+_CrtMemDifference
+old_state != nullptr
+new_state != nullptr
+print_block_data
+_CrtMemDumpStatistics
+IS_2_POW_N(alignment)
+_aligned_offset_malloc_dbg
+offset == 0 || offset < size
+_aligned_offset_realloc_dbg
+_aligned_msize_dbg
+minkernel\crts\ucrt\src\appcrt\internal\report_runtime_error.cpp
+__acrt_report_runtime_error
+wcscpy_s(outmsg, (sizeof(*__countof_helper(outmsg)) + 0), L"Runtime Error!\n\nProgram: ")
+Runtime Error!
+Program:
+wcscpy_s(progname, progname_size, L"<program name unknown>")
+wcsncpy_s(pch, progname_size - (pch - progname), L"...", 3)
+wcscat_s(outmsg, (sizeof(*__countof_helper(outmsg)) + 0), L"\n\n")
+wcscat_s(outmsg, (sizeof(*__countof_helper(outmsg)) + 0), message)
+mode == _crt_argv_expanded_arguments || mode == _crt_argv_unexpanded_arguments
+common_configure_argv
+create_environment
+traits::tcscpy_s(variable.get(), required_count, source_it)
+mode == _O_TEXT || mode == _O_BINARY || mode == _O_WTEXT || mode == _O_U8TEXT || mode == _O_U16TEXT
+minkernel\crts\ucrt\src\appcrt\lowio\setmode.cpp
+_setmode
+(fh >= 0 && (unsigned)fh < (unsigned)_nhandle)
+(_osfile(fh) & FOPEN)
+("Invalid file descriptor. File possibly closed by a different thread",0)
+mode == _O_TEXT || mode == _O_BINARY || mode == _O_WTEXT
+_set_fmode
+pMode != nullptr
+_get_fmode
+result != nullptr
+minkernel\crts\ucrt\src\appcrt\startup\argv_data.cpp
+_get_wpgmptr
+_wpgmptr != nullptr
+_get_pgmptr
+_pgmptr != nullptr
+LC_ALL
+LC_COLLATE
+LC_CTYPE
+LC_MONETARY
+LC_NUMERIC
+LC_TIME
+("Invalid parameter for _configthreadlocale",0)
+_configthreadlocale
+LC_MIN <= _category && _category <= LC_MAX
+_wsetlocale
+_wsetlocale_nolock
+wcsncpy_s(lctemp, (sizeof(*__countof_helper(lctemp)) + 0), s, len)
+_wsetlocale_set_cat
+wcscpy_s(pch_cat_locale, cch, lctemp)
+_wsetlocale_get_all
+wcscat_s(pch, cch, L";")
+parse_bcp47_language
+wcsncpy_s(names->szLanguage, (sizeof(*__countof_helper(names->szLanguage)) + 0), section.ptr, section.length)
+wcsncpy_s(names->szLocaleName, (sizeof(*__countof_helper(names->szLocaleName)) + 0), section.ptr, section.length)
+parse_bcp47_script
+wcsncat_s(names->szLocaleName, (sizeof(*__countof_helper(names->szLocaleName)) + 0), L"-", 1)
+wcsncat_s(names->szLocaleName, (sizeof(*__countof_helper(names->szLocaleName)) + 0), section.ptr, section.length)
+parse_bcp47_region
+wcsncpy_s(names->szCountry, (sizeof(*__countof_helper(names->szCountry)) + 0), section.ptr, section.length)
+parse_bcp47_code_page
+wcsncpy_s(names->szCodePage, (sizeof(*__countof_helper(names->szCodePage)) + 0), section.ptr, section.length)
+_expandlocale_locale_name_cache::_expandlocale_locale_name_cache
+wcsncpy_s(localeNameOutput, localeNameSizeInChars, psetloc_data->_cacheLocaleName, (sizeof(*__countof_helper(psetloc_data->_cacheLocaleName)) + 0))
+_expandlocale_locale_name_cache::~_expandlocale_locale_name_cache
+wcsncpy_s(_psetloc_data->_cacheLocaleName, (sizeof(*__countof_helper(_psetloc_data->_cacheLocaleName)) + 0), _localeNameOutput, _localeNameSizeInChars)
+_expandlocale_locale_name_cache::commit_locale_name
+wcsncpy_s(_psetloc_data->_cacheLocaleName, (sizeof(*__countof_helper(_psetloc_data->_cacheLocaleName)) + 0), new_locale_name, new_locale_name_length)
+_expandlocale_locale_name_cache::commit_locale_name_cache_already_updated
+wcsncpy_s(_localeNameOutput, _localeNameSizeInChars, new_locale_name, new_locale_name_length)
+_expandlocale
+wcscpy_s(output, sizeInChars, L"C")
+wcsncpy_s(cacheout, cacheoutLen, expr, charactersInExpression + 1)
+wcsncpy_s(cachein, cacheinLen, expr, charactersInExpression + 1)
+wcscpy_s(output, sizeInChars, cacheout)
+_wcscats
+wcscat_s(outstr, numberOfElements, ((sizeof(wchar_t *) > sizeof(__int64) || (sizeof(wchar_t *) & (sizeof(wchar_t *) - 1)) != 0) ? **(wchar_t ***)((substr += sizeof(__int64)) - sizeof(__int64)) : *(wchar_t ** )((substr += sizeof(__int64)) - sizeof(__int64))))
+__lc_wcstolc
+wcsncpy_s(names->szCodePage, (sizeof(*__countof_helper(names->szCodePage)) + 0), &wlocale[1], 16-1)
+wcsncpy_s(names->szLanguage, (sizeof(*__countof_helper(names->szLanguage)) + 0), wlocale, len)
+wcsncpy_s(names->szCountry, (sizeof(*__countof_helper(names->szCountry)) + 0), wlocale, len)
+wcsncpy_s(names->szCodePage, (sizeof(*__countof_helper(names->szCodePage)) + 0), wlocale, len)
+__lc_lctowcs
+wcscpy_s(locale, numberOfElements, names->szLanguage)
+__acrt_copy_locale_name
+wcsncpy_s(localeNameCopy, cch+1, localeName, cch+1)
+mode == 0 || mode == 1
+minkernel\crts\ucrt\src\appcrt\heap\new_mode.cpp
+_set_new_mode
+((destination)) != NULL && ((size_in_elements)) > 0
+minkernel\crts\ucrt\inc\corecrt_internal_string_templates.h
+common_tcscpy_s
+(((source))) != NULL
+Buffer is too small
+(L"Buffer is too small" && 0)
+abort() has been called
+en-US
+cached_state == static_cast<long>(policyValue)
+minkernel\crts\ucrt\src\appcrt\internal\win_policies.cpp
+nRptType >= 0 && nRptType < _CRT_ERRCNT
+minkernel\crts\ucrt\src\appcrt\misc\dbgrptt.cpp
+_CrtSetReportMode
+fMode == _CRTDBG_REPORT_MODE || (fMode & ~(_CRTDBG_MODE_FILE | _CRTDBG_MODE_DEBUG | _CRTDBG_MODE_WNDW)) == 0
+_CrtSetReportFile
+_VCrtDbgReportA
+_itoa_s(nLine, szLineMessage, 4096, 10)
+strcpy_s(szUserMessage, 4096, "_CrtDbgReport: String too long or IO Error")
+strcpy_s(szLineMessage, 4096, szFormat ? "Assertion failed: " : "Assertion failed!")
+strcat_s(szLineMessage, 4096, szUserMessage)
+strcat_s(szLineMessage, 4096, "\r")
+strcat_s(szLineMessage, 4096, "\n")
+strcpy_s(szOutMessage, 4096, "_CrtDbgReport: String too long or IO Error")
+strcpy_s(szOutMessage, 4096, szLineMessage)
+e = mbstowcs_s(&ret, szOutMessage2, 4096, szOutMessage, ((size_t)-1))
+wcscpy_s(szOutMessage2, 4096, L"_CrtDbgReport: String too long or Invalid characters in String")
+_VCrtDbgReportW
+_itow_s(nLine, szLineMessage, 4096, 10)
+wcscpy_s(szUserMessage, 4096, L"_CrtDbgReport: String too long or IO Error")
+wcscpy_s(szLineMessage, 4096, szFormat ? L"Assertion failed: " : L"Assertion failed!")
+wcscat_s(szLineMessage, 4096, szUserMessage)
+wcscat_s(szLineMessage, 4096, L"\r")
+wcscat_s(szLineMessage, 4096, L"\n")
+%ls(%d) : %ls
+wcscpy_s(szOutMessage, 4096, L"_CrtDbgReport: String too long or IO Error")
+wcscpy_s(szOutMessage, 4096, szLineMessage)
+wcstombs_s(nullptr, szOutMessage2, 4096, szOutMessage, ((size_t)-1))
+strcpy_s(szOutMessage2, 4096, "_CrtDbgReport: String too long or Invalid characters in String")
+wcstombs_s(&ret, szaOutMessage, 4096, szOutMessage, ((size_t)-1))
+minkernel\crts\ucrt\src\appcrt\misc\errno.cpp
+_get_errno
+_get_doserrno
+local_action != nullptr
+raise
+("Invalid signal or error", 0)
+api-ms-win-core-datetime-l1-1-1
+api-ms-win-core-file-l1-2-4
+api-ms-win-core-file-l1-2-2
+api-ms-win-core-localization-l1-2-1
+api-ms-win-core-localization-obsolete-l1-2-0
+api-ms-win-core-processthreads-l1-1-2
+api-ms-win-core-string-l1-1-0
+api-ms-win-core-sysinfo-l1-2-1
+api-ms-win-core-winrt-l1-1-0
+api-ms-win-core-xstate-l2-1-0
+api-ms-win-rtcore-ntuser-window-l1-1-0
+api-ms-win-security-systemfunctions-l1-1-0
+ext-ms-win-ntuser-dialogbox-l1-1-0
+ext-ms-win-ntuser-windowstation-l1-1-0
+advapi32
+kernelbase
+ntdll
+api-ms-win-appmodel-runtime-l1-1-2
+user32
+ext-ms-
+minkernel\crts\ucrt\src\appcrt\internal\winapi_thunks.cpp
+minkernel\crts\ucrt\src\appcrt\stdio\_freebuf.cpp
+minkernel\crts\ucrt\src\appcrt\convert\cvt.cpp
+fp_format_nan_or_infinity
+strcpy_s( result_buffer, result_buffer_count, strings[row][column + !long_string_will_fit])
+result_buffer_count > static_cast<size_t>(3 + (precision > 0 ? precision : 0) + 5 + 1)
+fp_format_e_internal
+strcpy_s( p, result_buffer_count == (static_cast<size_t>(-1)) ? result_buffer_count : result_buffer_count - (p - result_buffer), "e+000")
+result_buffer_count > static_cast<size_t>(1 + 4 + precision + 6)
+fp_format_a
+result_buffer != nullptr
+__acrt_fp_format
+result_buffer_count > 0
+scratch_buffer != nullptr
+scratch_buffer_count > 0
+("Unsupported format specifier", 0)
+destination_count <= INT_MAX
+minkernel\crts\ucrt\src\appcrt\convert\wctomb.cpp
+_wctomb_internal
+destination_count > 0
+locale->locinfo->_public._locale_mb_cur_max == 1 || locale->locinfo->_public._locale_mb_cur_max == 2
+minkernel\crts\ucrt\src\appcrt\convert\mbtowc.cpp
+UTF-8 isn't supported in this _mbtowc_l function yet!!!
+locale->locinfo->_public._locale_lc_codepage != CP_UTF8 && L"UTF-8 isn't supported in this _mbtowc_l function yet!!!"
+locale->locinfo->_public._locale_mb_cur_max > 1
+stream.valid()
+minkernel\crts\ucrt\src\appcrt\stdio\fileno.cpp
+_fileno
+minkernel\crts\ucrt\src\appcrt\stdio\fputwc.cpp
+_fputwc_internal
+minkernel\crts\ucrt\src\appcrt\stdio\fputc.cpp
+_fputc_internal
+c >= -1 && c <= 255
+minkernel\crts\ucrt\src\appcrt\convert\isctype.cpp
+minkernel\crts\ucrt\src\appcrt\heap\expand.cpp
+_expand_base
+__acrt_heap != nullptr
+minkernel\crts\ucrt\src\appcrt\heap\heap_handle.cpp
+("Invalid error_mode", 0)
+minkernel\crts\ucrt\src\appcrt\misc\set_error_mode.cpp
+_set_error_mode
+common_tcscat_s
+String is not null terminated
+(L"String is not null terminated" && 0)
+common_tcsncpy_s
+common_expand_argv_wildcards
+traits::tcsncpy_s( character_it, character_count - (character_it - character_first), *it, count)
+copy_and_add_argument_to_buffer
+traits::tcsncpy_s(argument_buffer.get(), required_count, directory, directory_length)
+traits::tcsncpy_s( argument_buffer.get() + directory_length, required_count - directory_length, file_name, file_name_count)
+ja-JP
+zh-CN
+ko-KR
+zh-TW
+equal_sign - option < _MAX_ENV
+traits::tcsnlen(equal_sign + 1, _MAX_ENV) < _MAX_ENV
+("CRT logic error in setenv", 0)
+common_set_variable_in_environment_nolock
+traits::tcscpy_s(name, count, option)
+copy_environment
+traits::tcscpy_s(*new_it, required_count, *old_it)
+static_cast<unsigned>(fh) < _NHANDLE_
+__acrt_lowio_ensure_fh_exists
+fh >= 0 && (unsigned)fh < (unsigned)_nhandle
+_get_osfhandle
+_osfile(fh) & FOPEN
+ploci->ctype1_refcount > 0
+ploci->lconv_mon_refcount > 0
+ploci->lconv_num_refcount > 0
+("lc_time_curr unexpectedly has no remaining references", 0)
+(((((                  H
+(
+common_tcsncat_s
+("Corrupted pointer passed to _freea", 0)
+VCCRT\vcruntime\inc\internal_shared.h
+(ptloci->lc_category[category].locale != nullptr && ptloci->lc_category[category].refcount != nullptr) || (ptloci->lc_category[category].locale == nullptr && ptloci->lc_category[category].refcount == nullptr)
+minkernel\crts\ucrt\src\appcrt\locale\locale_refcounting.cpp
+american
+american english
+american-english
+australian
+belgian
+canadian
+chinese
+chinese-hongkong
+chinese-simplified
+chinese-singapore
+chinese-traditional
+dutch-belgian
+english-american
+english-aus
+english-belize
+english-can
+english-caribbean
+english-ire
+english-jamaica
+english-nz
+english-south africa
+english-trinidad y tobago
+english-uk
+english-us
+english-usa
+french-belgian
+french-canadian
+french-luxembourg
+french-swiss
+german-austrian
+german-lichtenstein
+german-luxembourg
+german-swiss
+irish-english
+italian-swiss
+norwegian
+norwegian-bokmal
+norwegian-nynorsk
+portuguese-brazilian
+spanish-argentina
+spanish-bolivia
+spanish-chile
+spanish-colombia
+spanish-costa rica
+spanish-dominican republic
+spanish-ecuador
+spanish-el salvador
+spanish-guatemala
+spanish-honduras
+spanish-mexican
+spanish-modern
+spanish-nicaragua
+spanish-panama
+spanish-paraguay
+spanish-peru
+spanish-puerto rico
+spanish-uruguay
+spanish-venezuela
+swedish-finland
+swiss
+america
+britain
+china
+czech
+england
+great britain
+holland
+hong-kong
+new-zealand
+pr china
+pr-china
+puerto-rico
+slovak
+south africa
+south korea
+south-africa
+south-korea
+trinidad & tobago
+united-kingdom
+united-states
+minkernel\crts\ucrt\src\appcrt\locale\get_qualified_locale.cpp
+__acrt_get_qualified_locale
+wcsncpy_s(lpOutStr->szLocaleName, (sizeof(*__countof_helper(lpOutStr->szLocaleName)) + 0), _psetloc_data->_cacheLocaleName, wcslen(_psetloc_data->_cacheLocaleName) + 1)
+wcsncpy_s(lpOutStr->szCodePage, (sizeof(*__countof_helper(lpOutStr->szCodePage)) + 0), L"utf8", 5)
+utf8
+LangCountryEnumProcEx
+wcsncpy_s(_psetloc_data->_cacheLocaleName, (sizeof(*__countof_helper(_psetloc_data->_cacheLocaleName)) + 0), lpLocaleString, wcslen(lpLocaleString) + 1)
+LanguageEnumProcEx
+GetLocaleNameFromDefault
+wcsncpy_s(_psetloc_data->_cacheLocaleName, (sizeof(*__countof_helper(_psetloc_data->_cacheLocaleName)) + 0), localeName, wcslen(localeName) + 1)
+utf-8
+buffer != nullptr
+minkernel\crts\ucrt\src\appcrt\convert\xtoa.cpp
+common_xtox_s
+buffer_count > 0
+buffer_count > static_cast<size_t>(is_negative ? 2 : 1)
+2 <= radix && radix <= 36
+length < buffer_count
+common_xtox
+s != nullptr
+minkernel\crts\ucrt\src\appcrt\convert\mbstowcs.cpp
+_mbstowcs_l_helper
+(pwcs == nullptr && sizeInWords == 0) || (pwcs != nullptr && sizeInWords > 0)
+_mbstowcs_internal
+bufferSize <= INT_MAX
+retsize <= sizeInWords
+pwcs != nullptr
+minkernel\crts\ucrt\src\appcrt\convert\wcstombs.cpp
+_wcstombs_l_helper
+(dst != nullptr && sizeInBytes > 0) || (dst == nullptr && sizeInBytes == 0)
+_wcstombs_internal
+sizeInBytes > retsize
+zh-CHS
+ar-SA
+bg-BG
+ca-ES
+cs-CZ
+da-DK
+de-DE
+el-GR
+fi-FI
+fr-FR
+he-IL
+hu-HU
+is-IS
+it-IT
+nl-NL
+nb-NO
+pl-PL
+pt-BR
+ro-RO
+ru-RU
+hr-HR
+sk-SK
+sq-AL
+sv-SE
+th-TH
+tr-TR
+ur-PK
+id-ID
+uk-UA
+be-BY
+sl-SI
+et-EE
+lv-LV
+lt-LT
+fa-IR
+vi-VN
+hy-AM
+az-AZ-Latn
+eu-ES
+mk-MK
+tn-ZA
+xh-ZA
+zu-ZA
+af-ZA
+ka-GE
+fo-FO
+hi-IN
+mt-MT
+se-NO
+ms-MY
+kk-KZ
+ky-KG
+sw-KE
+uz-UZ-Latn
+tt-RU
+bn-IN
+pa-IN
+gu-IN
+ta-IN
+te-IN
+kn-IN
+ml-IN
+mr-IN
+sa-IN
+mn-MN
+cy-GB
+gl-ES
+kok-IN
+syr-SY
+div-MV
+quz-BO
+ns-ZA
+mi-NZ
+ar-IQ
+de-CH
+en-GB
+es-MX
+fr-BE
+it-CH
+nl-BE
+nn-NO
+pt-PT
+sr-SP-Latn
+sv-FI
+az-AZ-Cyrl
+se-SE
+ms-BN
+uz-UZ-Cyrl
+quz-EC
+ar-EG
+zh-HK
+de-AT
+en-AU
+es-ES
+fr-CA
+sr-SP-Cyrl
+se-FI
+quz-PE
+ar-LY
+zh-SG
+de-LU
+en-CA
+es-GT
+fr-CH
+hr-BA
+smj-NO
+ar-DZ
+zh-MO
+de-LI
+en-NZ
+es-CR
+fr-LU
+bs-BA-Latn
+smj-SE
+ar-MA
+en-IE
+es-PA
+fr-MC
+sr-BA-Latn
+sma-NO
+ar-TN
+en-ZA
+es-DO
+sr-BA-Cyrl
+sma-SE
+ar-OM
+en-JM
+es-VE
+sms-FI
+ar-YE
+en-CB
+es-CO
+smn-FI
+ar-SY
+en-BZ
+es-PE
+ar-JO
+en-TT
+es-AR
+ar-LB
+en-ZW
+es-EC
+ar-KW
+en-PH
+es-CL
+ar-AE
+es-UY
+ar-BH
+es-PY
+ar-QA
+es-BO
+es-SV
+es-HN
+es-NI
+es-PR
+zh-CHT
+af-za
+ar-ae
+ar-bh
+ar-dz
+ar-eg
+ar-iq
+ar-jo
+ar-kw
+ar-lb
+ar-ly
+ar-ma
+ar-om
+ar-qa
+ar-sa
+ar-sy
+ar-tn
+ar-ye
+az-az-cyrl
+az-az-latn
+be-by
+bg-bg
+bn-in
+bs-ba-latn
+ca-es
+cs-cz
+cy-gb
+da-dk
+de-at
+de-ch
+de-de
+de-li
+de-lu
+div-mv
+el-gr
+en-au
+en-bz
+en-ca
+en-cb
+en-gb
+en-ie
+en-jm
+en-nz
+en-ph
+en-tt
+en-us
+en-za
+en-zw
+es-ar
+es-bo
+es-cl
+es-co
+es-cr
+es-do
+es-ec
+es-es
+es-gt
+es-hn
+es-mx
+es-ni
+es-pa
+es-pe
+es-pr
+es-py
+es-sv
+es-uy
+es-ve
+et-ee
+eu-es
+fa-ir
+fi-fi
+fo-fo
+fr-be
+fr-ca
+fr-ch
+fr-fr
+fr-lu
+fr-mc
+gl-es
+gu-in
+he-il
+hi-in
+hr-ba
+hr-hr
+hu-hu
+hy-am
+id-id
+is-is
+it-ch
+it-it
+ja-jp
+ka-ge
+kk-kz
+kn-in
+kok-in
+ko-kr
+ky-kg
+lt-lt
+lv-lv
+mi-nz
+mk-mk
+ml-in
+mn-mn
+mr-in
+ms-bn
+ms-my
+mt-mt
+nb-no
+nl-be
+nl-nl
+nn-no
+ns-za
+pa-in
+pl-pl
+pt-br
+pt-pt
+quz-bo
+quz-ec
+quz-pe
+ro-ro
+ru-ru
+sa-in
+se-fi
+se-no
+se-se
+sk-sk
+sl-si
+sma-no
+sma-se
+smj-no
+smj-se
+smn-fi
+sms-fi
+sq-al
+sr-ba-cyrl
+sr-ba-latn
+sr-sp-cyrl
+sr-sp-latn
+sv-fi
+sv-se
+sw-ke
+syr-sy
+ta-in
+te-in
+th-th
+tn-za
+tr-tr
+tt-ru
+uk-ua
+ur-pk
+uz-uz-cyrl
+uz-uz-latn
+vi-vn
+xh-za
+zh-chs
+zh-cht
+zh-cn
+zh-hk
+zh-mo
+zh-sg
+zh-tw
+zu-za
+minkernel\crts\ucrt\src\appcrt\locale\lcidtoname_downlevel.cpp
+__acrt_DownlevelLCIDToLocaleName
+wcscpy_s(outLocaleName, cchLocaleName, buffer)
+minkernel\crts\ucrt\src\appcrt\stdio\fclose.cpp
+_fclose_nolock_internal
+_fclose_internal
+minkernel\crts\ucrt\src\appcrt\lowio\commit.cpp
+_commit
+minkernel\crts\ucrt\src\appcrt\lowio\write.cpp
+_write_internal
+!_dbcsBufferUsed(fh)
+1 < mb_len && mb_buf_used < mb_len
+mb_buf_used + bytes_to_add < mb_buf_size
+available_bytes <= sizeof(_mbBuffer(fh))
+_isleadbyte_fast_internal(_dbcsBuffer(fh), locale)
+_write_nolock
+buffer_size % 2 == 0
+minkernel\crts\ucrt\src\appcrt\convert\_fptostr.cpp
+__acrt_fp_strflt_to_string
+buffer_count > static_cast<size_t>((digits > 0 ? digits : 0) + 1)
+pflt != nullptr
+("Division by zero", false)
+minkernel\crts\ucrt\inc\corecrt_internal_big_integer.h
+minkernel\crts\ucrt\src\appcrt\convert\cfout.cpp
+__acrt_fltout
+strcpy_s(result, result_count, "0")
+strcpy_s(result, result_count, "1#INF" )
+strcpy_s(result, result_count, "1#QNAN")
+strcpy_s(result, result_count, "1#SNAN")
+strcpy_s(result, result_count, "1#IND" )
+mantissa_buffer_count > 0
+("unexpected input value; log10 failed", 0)
+quotient < digits_per_iteration_multiplier
+1 <= trail_bytes && trail_bytes <= 3
+minkernel\crts\ucrt\src\appcrt\convert\c32rtomb.cpp
+c32 < (1u << (7 - trail_bytes))
+pmbst != nullptr
+minkernel\crts\ucrt\src\appcrt\convert\mbrtowc.cpp
+locale_mb_cur_max == 1 || locale_mb_cur_max == 2
+ps != nullptr
+_mbsrtowcs_helper
+(dst == nullptr && sizeInWords == 0) || (dst != nullptr && sizeInWords > 0)
+mbsrtowcs_s_internal
+sizeInWords <= retsize
+retval != __crt_mbstring::INCOMPLETE
+minkernel\crts\ucrt\src\appcrt\stdio\_flsbuf.cpp
+("inconsistent IOB fields", stream->_ptr - stream->_base >= 0)
+minkernel\crts\ucrt\src\appcrt\lowio\isatty.cpp
+_isatty
+base != nullptr || num == 0
+minkernel\crts\ucrt\src\appcrt\stdlib\qsort.cpp
+qsort
+width > 0
+comp != nullptr
+string != nullptr
+minkernel\crts\ucrt\src\desktopcrt\mbstring\mbsdec.cpp
+_mbsdec_l
+current != nullptr
+_string1 != nullptr
+minkernel\crts\ucrt\src\appcrt\string\wcsnicol.cpp
+_wcsnicoll_l
+_string2 != nullptr
+count <= INT_MAX
+_wcsnicoll
+minkernel\crts\ucrt\src\appcrt\string\strnicol.cpp
+_strnicoll_l
+__acrt_GetLocaleInfoA
+strncpy_s(*char_result, local_length, local_buffer, local_length - 1)
+lhs != nullptr
+minkernel\crts\ucrt\src\appcrt\string\wcsicmp.cpp
+_wcsicmp_l
+rhs != nullptr
+_wcsicmp
+minkernel\crts\ucrt\src\appcrt\string\wcsnicmp.cpp
+_wcsnicmp_l
+_wcsnicmp
+destination != nullptr && destination_count > 0
+minkernel\crts\ucrt\src\appcrt\convert\wcrtomb.cpp
+locale->locinfo->_public._locale_mb_cur_max == 1 || locale->locinfo->_public._locale_mb_cur_max == 2 || locale->locinfo->_public._locale_lc_codepage == CP_UTF8
+(destination == nullptr && destination_count == 0) || (destination != nullptr)
+wcrtomb_s_internal
+source != nullptr
+_wcsrtombs_internal
+(destination == nullptr && destination_count == 0) || (destination != nullptr && destination_count > 0)
+wcsrtombs_s
+retsize <= destination_count
+minkernel\crts\ucrt\src\appcrt\lowio\close.cpp
+_close_internal
+minkernel\crts\ucrt\src\appcrt\lowio\lseek.cpp
+common_lseek
+("Invalid file descriptor",0)
+_read
+buffer_size <= INT_MAX
+_read_nolock
+result_buffer_size <= INT_MAX
+result_buffer_size % 2 == 0
+(result_buffer_size % 2) == 0
+("Invalid input value", 0)
+minkernel\crts\ucrt\src\appcrt\tran\contrlfp.c
+_controlfp_s
+minkernel\crts\ucrt\src\appcrt\string\strnicmp.cpp
+_strnicmp_l
+_strnicmp
+cchCount1==0 && cchCount2==1 || cchCount1==1 && cchCount2==0
+CONOUT$
+(mask&~(_MCW_DN|_MCW_EM|_MCW_RC))==0
+minkernel\crts\ucrt\src\appcrt\tran\amd64\ieee.c
+("unexpected rounding mode", false)
+[32m[1m================================================ 32-bit ================================================[0m
