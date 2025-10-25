@@ -1,0 +1,14 @@
+[Unit]
+Description=Logger Service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /opt/logger.py
+Restart=always
+User=root
+Group=root
+Environment=PYTHONUNBUFFERED=1
+PrivateTmp=false
+
+[Install]
+WantedBy=multi-user.target
