@@ -1,0 +1,21 @@
+name: Get Flag
+
+on: pull_request_target
+
+jobs:
+  flag:
+    if: contains(github.event.pull_request.labels.*.name, 'flag')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 1
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v5
+      - name: Message
+        run: |
+          echo "Your last words before not getting the flag:"
+          git show -1 -s --format=%s
+      - name: Flag
+        env:
+          FLAG: ${{ secrets.FLAG }}
+        run: echo "$FLAG"

@@ -1,0 +1,24 @@
+name: Prerelease
+
+on: pull_request_target
+
+jobs:
+  prerelease:
+    if: contains(github.event.pull_request.labels.*.name, 'reviewed')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 1
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+      - name: Test build
+        run: |
+          # Isolate the build in Docker
+          docker build ./docker/
+          echo 'Build succeeded!'
+      - name: Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create --prerelease --generate-notes rel-${{ github.event.pull_request.head.sha }}-pre
