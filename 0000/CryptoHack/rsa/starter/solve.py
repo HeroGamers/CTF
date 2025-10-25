@@ -1,0 +1,63 @@
+from Crypto.Util.number import inverse, bytes_to_long
+from Crypto.Hash import SHA256
+from pathlib import Path
+
+e = 65537
+
+# Modular Exponentiation
+
+#solution to 101^17 mod 22663
+result = pow(101, 17, 22663)
+print(result) # 19906
+
+# Public Keys
+
+# "Encrypt" the number 12 using the exponent e=65537 and the primes p=17 and q=23. What number do you get as the ciphertext?
+p = 17
+q = 23
+n = p * q
+ciphertext = pow(12, e, n)
+print(ciphertext) # 301
+ 
+
+# Euler's Totient 
+
+p = 857504083339712752489993810777
+q = 1029224947942998075080348647219
+n = p * q
+phi_n = (p - 1) * (q - 1)
+print(phi_n) # 882564595536224140639625987657529300394956519977044270821168
+
+# Private Keys
+# In RSA, the private key is the modular multiplicative inverse of the exponent e modulo ϕ(N), Euler's totient of N.
+
+p = 857504083339712752489993810777
+q = 1029224947942998075080348647219 
+n = p * q
+phi_n = (p - 1) * (q - 1)
+d = inverse(e, phi_n)
+print(d) # 121832886702415731577073962957377780195510499965398469843281
+
+# RSA Decryption 
+
+n = 882564595536224140639625987659416029426239230804614613279163
+c = 77578995801157823671636298847186723593814843845525223303932
+m = pow(c, d, n) # using private key d from above
+print(m) # 13371337
+
+# RSA Signatures
+
+current_dir = Path(__file__).parent
+# Find the file that starts with "private_" and ends with ".key"
+private_key_file = next(current_dir.glob("private_*.key"))
+with open(private_key_file, "r") as f:
+    private_key = f.read().strip()
+n, d = private_key.split("\n")
+n = int(n.split("=")[1])
+d = int(d.split("=")[1])
+
+# sign the message "crypto{Immut4ble_m3ssag1ng}"
+message = "crypto{Immut4ble_m3ssag1ng}"
+h = SHA256.new(message.encode()).digest()
+r = pow(bytes_to_long(h), d, n)
+print(r) # 13480738404590090803339831649238454376183189744970683129909766078877706583282422686710545217275797376709672358894231550335007974983458408620258478729775647818876610072903021235573923300070103666940534047644900475773318682585772698155617451477448441198150710420818995347235921111812068656782998168064960965451719491072569057636701190429760047193261886092862024118487826452766513533860734724124228305158914225250488399673645732882077575252662461860972889771112594906884441454355959482925283992539925713424132009768721389828848907099772040836383856524605008942907083490383109757406940540866978237471686296661685839083475
